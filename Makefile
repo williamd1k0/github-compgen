@@ -1,9 +1,5 @@
 space := ${eval} ${eval}
 comma := ,
-define nl
-
-
-endef
 _title_ := GitHub Compgen
 _description_ := A list of all commands available in the GitHub Actions image (ubuntu-latest).
 _repo_url_ := https://github.com/williamd1k0/github-compgen

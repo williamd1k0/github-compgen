@@ -1,7 +1,8 @@
-# Compgen
+# GitHub Compgen
 A list of all commands available in the GitHub Actions image (ubuntu-latest).
 
 ## Available Commands
+
 - !
 - .
 - 2to3-2.7
