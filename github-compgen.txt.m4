@@ -7,11 +7,14 @@ define(`_foreach', `ifelse(`$2', `()', `',
   `define(`$1', _arg1$2)$3`'$0(`$1', (shift$2), `$3')')')
 divert`'dnl
 dnl
-`#' _title_
-_description_
+=: title _title_
+=: description _description_
+
+## Source-code:
+=> _repo_url_
 
 ## Available Commands
 
 foreach(`_cmd_', (_commands_),`dnl
-- _cmd_
+_cmd_
 ')dnl
