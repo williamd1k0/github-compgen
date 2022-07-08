@@ -12,3 +12,5 @@ jobs:
     - run: make sources README.md github-compgen.txt
     - uses: zwaldowski/git-commit-action@v1
     - uses: ad-m/github-push-action@master
+      with:
+        branch: ${{ github.ref }}
