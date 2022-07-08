@@ -13,8 +13,15 @@ dnl
 ## Source-code:
 => _repo_url_
 
+## Available PATHs
+
+foreach(`_path_', (_paths_),`dnl
+_path_
+')dnl
+
 ## Available Commands
 
 foreach(`_cmd_', (_commands_),`dnl
-_cmd_
+define(`_cmd_full_', esyscmd(printf "%s" $(which _cmd_ 2>/dev/null)))dnl
+ifelse(_cmd_full_,,, _cmd_ -> _cmd_full_)dnl
 ')dnl
