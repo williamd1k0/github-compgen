@@ -1,5 +1,5 @@
 # GitHub Compgen
-A list of all commands available in the GitHub Actions image (ubuntu-latest).
+A list of all commands available in the GitHub Actions image (ubuntu-20.04).
 
 ## Available PATHs
 

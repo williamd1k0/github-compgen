@@ -1,5 +1,5 @@
 =: title GitHub Compgen
-=: description A list of all commands available in the GitHub Actions image (ubuntu-latest).
+=: description A list of all commands available in the GitHub Actions image (ubuntu-20.04).
 
 ## Source-code:
 => https://github.com/williamd1k0/github-compgen
