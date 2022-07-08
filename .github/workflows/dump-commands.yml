@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: make commands.txt
-    - run: make README.md
+    - run: make sources README.md github-compgen.txt
     - uses: zwaldowski/git-commit-action@v1
     - uses: ad-m/github-push-action@master

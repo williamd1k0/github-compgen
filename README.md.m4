@@ -13,7 +13,7 @@ _description_
 ## Available PATHs
 
 foreach(`_path_', (_paths_),`dnl
-_path_
+- _path_
 ')dnl
 
 ## Available Commands
