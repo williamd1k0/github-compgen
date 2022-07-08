@@ -21,7 +21,9 @@ _path_
 
 ## Available Commands
 
+define(`_NL_',`
+')dnl
 foreach(`_cmd_', (_commands_),`dnl
 define(`_cmd_full_', esyscmd(printf "%s" $(which _cmd_ 2>/dev/null)))dnl
-ifelse(_cmd_full_,,, _cmd_ -> _cmd_full_)dnl
+ifelse(_cmd_full_,,,_cmd_ -> _cmd_full_`'_NL_)dnl
 ')dnl
