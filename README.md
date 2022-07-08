@@ -1,2915 +1,2380 @@
 # GitHub Compgen
 A list of all commands available in the GitHub Actions image (ubuntu-latest).
 
+## Available PATHs
+
+- /bin
+- /home/linuxbrew/.linuxbrew/bin
+- /home/linuxbrew/.linuxbrew/sbin
+- /home/runner/.cargo/bin
+- /home/runner/.config/composer/vendor/bin
+- /home/runner/.dotnet/tools
+- /home/runner/.local/bin
+- /opt/pipx_bin
+- /sbin
+- /snap/bin
+- /usr/bin
+- /usr/games
+- /usr/local/.ghcup/bin
+- /usr/local/bin
+- /usr/local/games
+- /usr/local/sbin
+- /usr/sbin
+
 ## Available Commands
 
-- !
-- .
-- 2to3-2.7
-- 7z
-- 7za
-- 7zr
-- :
-- FileCheck-10
-- FileCheck-11
-- FileCheck-12
-- GET
-- HEAD
-- ModemManager
-- NF
-- POST
-- R
-- Rscript
-- VGAuthService
-- Xvfb
-- [
-- [[
-- ]]
-- a2disconf
-- a2dismod
-- a2dissite
-- a2enconf
-- a2enmod
-- a2ensite
-- a2query
-- aa-enabled
-- aa-exec
-- aa-remove-unknown
-- aa-status
-- aa-teardown
-- ab
-- accessdb
-- aclocal
-- aclocal-1.16
-- acpidbg
-- activate-global-python-argcomplete
-- add-apt-repository
-- add-shell
-- addgnupghome
-- addgroup
-- addpart
-- addr2line
-- adduser
-- agetty
-- al
-- al2
-- alias
-- aliyun
-- animate
-- animate-im6
-- animate-im6.q16
-- ansible
-- ansible-config
-- ansible-connection
-- ansible-console
-- ansible-doc
-- ansible-galaxy
-- ansible-inventory
-- ansible-playbook
-- ansible-pull
-- ansible-test
-- ansible-vault
-- ant
-- anthoscli
-- apache2
-- apache2ctl
-- apachectl
-- apparmor_parser
-- apparmor_status
-- appletviewer
-- applygnupgdefaults
-- apport-bug
-- apport-cli
-- apport-collect
-- apport-unpack
-- appres
-- aprofutil
-- apropos
-- apt
-- apt-add-repository
-- apt-cache
-- apt-cdrom
-- apt-config
-- apt-extracttemplates
-- apt-fast
-- apt-ftparchive
-- apt-get
-- apt-key
-- apt-mark
-- apt-sortpkgs
-- ar
-- arch
-- aria2c
-- arp
-- arpd
-- arptables
-- arptables-nft
-- arptables-nft-restore
-- arptables-nft-save
-- arptables-restore
-- arptables-save
-- as
-- asan_symbolize-10
-- asan_symbolize-11
-- asan_symbolize-12
-- asp-state4
-- aspell-autobuildhash
-- at
-- atd
-- atq
-- atrm
-- autoconf
-- autoheader
-- autom4te
-- automake
-- automake-1.16
-- automat-visualize3
-- autoreconf
-- autoscan
-- autoupdate
-- awk
-- aws
-- aws_completer
-- az
-- azcopy
-- azcopy10
-- b2sum
-- badblocks
-- base32
-- base64
-- basename
-- bash
-- bashbug
-- batch
-- bazel
-- bazelisk
-- bc
-- bcache-super-show
-- bcp
-- bg
-- bicep
-- bin-proxy
-- bind
-- bindgen
-- biosdecode
-- bison
-- bison.yacc
-- blkdeactivate
-- blkdiscard
-- blkid
-- blkzone
-- blockdev
-- boltctl
-- bootctl
-- bpftool
-- bq
-- break
-- brew
-- bridge
-- brotli
-- browse
-- bsd-from
-- bsd-write
-- bsondump
-- btrfs
-- btrfs-convert
-- btrfs-find-root
-- btrfs-image
-- btrfs-map-logical
-- btrfs-select-super
-- btrfsck
-- btrfstune
-- bugpoint-10
-- bugpoint-11
-- bugpoint-12
-- buildah
-- builtin
-- bundle2.7
-- bundler2.7
-- bunzip2
-- busctl
-- busybox
-- byobu
-- byobu-config
-- byobu-ctrl-a
-- byobu-disable
-- byobu-disable-prompt
-- byobu-enable
-- byobu-enable-prompt
-- byobu-export
-- byobu-janitor
-- byobu-keybindings
-- byobu-launch
-- byobu-launcher
-- byobu-launcher-install
-- byobu-launcher-uninstall
-- byobu-layout
-- byobu-prompt
-- byobu-quiet
-- byobu-reconnect-sockets
-- byobu-screen
-- byobu-select-backend
-- byobu-select-profile
-- byobu-select-session
-- byobu-shell
-- byobu-silent
-- byobu-status
-- byobu-status-detail
-- byobu-tmux
-- byobu-ugraph
-- byobu-ulevel
-- bzcat
-- bzcmp
-- bzdiff
-- bzegrep
-- bzexe
-- bzfgrep
-- bzgrep
-- bzip2
-- bzip2recover
-- bzless
-- bzmore
-- c++
-- c++filt
-- c-index-test-10
-- c-index-test-11
-- c-index-test-12
-- c89
-- c89-gcc
-- c99
-- c99-gcc
-- c_rehash
-- cabal
-- cabal-3.6.2.0
-- cache_check
-- cache_dump
-- cache_metadata_size
-- cache_repair
-- cache_restore
-- cache_writeback
-- cal
-- calendar
-- caller
-- capsh
-- captoinfo
-- cargo
-- cargo-audit
-- cargo-clippy
-- cargo-fmt
-- cargo-miri
-- cargo-outdated
-- case
-- caspol
-- cat
-- catchsegv
-- catman
-- cautious-launcher
-- cbindgen
-- cc
-- ccache-swig
-- ccache-swig4.0
-- cccheck
-- ccmake
-- ccrewrite
-- cd
-- cert-sync
-- cert2spc
-- certmgr
-- cfdisk
-- cftp3
-- cgclassify
-- cgclear
-- cgconfigparser
-- cgcreate
-- cgdelete
-- cgdisk
-- cgexec
-- cgget
-- cgrulesengd
-- cgset
-- cgsnapshot
-- chacl
-- chage
-- chardet3
-- chardetect3
-- chattr
-- chcon
-- chcpu
-- check-language-support
-- check_forensic
-- checkgid
-- chfn
-- chgpasswd
-- chgrp
-- chktrust
-- chmem
-- chmod
-- choom
-- chown
-- chpasswd
-- chromedriver
-- chromium
-- chromium-browser
-- chronyc
-- chronyd
-- chroot
-- chrpath
-- chrt
-- chsh
-- chvt
-- cifs.idmap
-- cifs.upcall
-- cifscreds
-- cifsiostat
-- ckbcomp
-- ckeygen3
-- cksum
-- clang
-- clang++
-- clang++-10
-- clang++-11
-- clang++-12
-- clang-10
-- clang-11
-- clang-12
-- clang-apply-replacements-10
-- clang-apply-replacements-11
-- clang-apply-replacements-12
-- clang-change-namespace-10
-- clang-change-namespace-11
-- clang-change-namespace-12
-- clang-check-10
-- clang-check-11
-- clang-check-12
-- clang-cl-10
-- clang-cl-11
-- clang-cl-12
-- clang-cpp-10
-- clang-cpp-11
-- clang-cpp-12
-- clang-doc-10
-- clang-doc-11
-- clang-doc-12
-- clang-extdef-mapping-10
-- clang-extdef-mapping-11
-- clang-extdef-mapping-12
-- clang-format
-- clang-format-10
-- clang-format-11
-- clang-format-12
-- clang-format-diff-10
-- clang-format-diff-11
-- clang-format-diff-12
-- clang-import-test-10
-- clang-include-fixer-10
-- clang-include-fixer-11
-- clang-include-fixer-12
-- clang-move-10
-- clang-move-11
-- clang-move-12
-- clang-offload-bundler-10
-- clang-offload-bundler-11
-- clang-offload-bundler-12
-- clang-offload-wrapper-10
-- clang-offload-wrapper-11
-- clang-offload-wrapper-12
-- clang-query-10
-- clang-query-11
-- clang-query-12
-- clang-refactor-10
-- clang-refactor-11
-- clang-refactor-12
-- clang-rename-10
-- clang-rename-11
-- clang-rename-12
-- clang-reorder-fields-10
-- clang-reorder-fields-11
-- clang-reorder-fields-12
-- clang-scan-deps-10
-- clang-scan-deps-11
-- clang-scan-deps-12
-- clang-tidy
-- clang-tidy-10
-- clang-tidy-11
-- clang-tidy-12
-- clang-tidy-diff-10.py
-- clang-tidy-diff-11.py
-- clang-tidy-diff-12.py
-- clear
-- clear_console
-- clhsdb
-- cli
-- cli-al
-- cli-csc
-- cli-gacutil
-- cli-ildasm
-- cli-resgen
-- cli-sn
-- clippy-driver
-- cloud-id
-- cloud-init
-- cloud-init-per
-- clusterdb
-- cmake
-- cmake-gui
-- cmp
-- codepage
-- col
-- col1
-- col2
-- col3
-- col4
-- col5
-- col6
-- col7
-- col8
-- col9
-- colcrt
-- colrm
-- column
-- comm
-- command
-- commander
-- compare
-- compare-im6
-- compare-im6.q16
-- compel
-- compgen
-- complete
-- compopt
-- compose
-- composer
-- composite
-- composite-im6
-- composite-im6.q16
-- conch3
-- conda
-- conjure
-- conjure-im6
-- conjure-im6.q16
-- conmon
-- containerd
-- containerd-shim
-- containerd-shim-runc-v1
-- containerd-shim-runc-v2
-- containerd-stress
-- continue
-- convert
-- convert-im6
-- convert-im6.q16
-- coproc
-- corelist
-- corepack
-- count-10
-- count-11
-- count-12
-- cp
-- cpack
-- cpan
-- cpan5.30-x86_64-linux-gnu
-- cpgr
-- cpio
-- cpp
-- cpp-10
-- cpp-9
-- cppw
-- cpu_sup
-- cpupower
-- createdb
-- createlang
-- createuser
-- crit
-- criu
-- criu-ns
-- crlupdate
-- cron
-- crontab
-- crun
-- cryptdisks_start
-- cryptdisks_stop
-- cryptsetup
-- cryptsetup-reencrypt
-- csc
-- csharp
-- csi
-- csplit
-- ct_run
-- ctail
-- ctest
-- ctr
-- ctrlaltdel
-- ctstat
-- curl
-- cut
-- cvtsudoers
-- dash
-- date
-- dbsessmgr4
-- dbus-cleanup-sockets
-- dbus-daemon
-- dbus-monitor
-- dbus-run-session
-- dbus-send
-- dbus-update-activation-environment
-- dbus-uuidgen
-- dbxtool
-- dd
-- deallocvt
-- deb-systemd-helper
-- deb-systemd-invoke
-- debconf
-- debconf-apt-progress
-- debconf-communicate
-- debconf-copydb
-- debconf-escape
-- debconf-set-selections
-- debconf-show
-- debian-distro-info
-- debugedit
-- debugfs
-- declare
-- delgroup
-- delpart
-- deluser
-- delv
-- depmod
-- derb
-- devlink
-- df
-- dfu-tool
-- dh_autotools-dev_restoreconfig
-- dh_autotools-dev_updateconfig
-- dh_bash-completion
-- dh_installtex
-- dh_perl_openssl
-- dh_python2
-- dhclient
-- dhclient-script
-- diagtool-10
-- diagtool-11
-- diagtool-12
-- dialyzer
-- diff
-- diff3
-- dig
-- dir
-- dircolors
-- dirmngr
-- dirmngr-client
-- dirname
-- dirs
-- disco
-- disown
-- display
-- display-im6
-- display-im6.q16
-- distro-info
-- dmcs
-- dmesg
-- dmeventd
-- dmidecode
-- dmsetup
-- dmstats
-- dnsdomainname
-- dnsmasq
-- do
-- do-release-upgrade
-- docker
-- docker-compose
-- docker-credential-ecr-login
-- docker-credential-gcloud
-- docker-init
-- docker-proxy
-- dockerd
-- domainname
-- done
-- dosfsck
-- dosfslabel
-- dotenv
-- dotnet
-- dpkg
-- dpkg-architecture
-- dpkg-buildflags
-- dpkg-buildpackage
-- dpkg-checkbuilddeps
-- dpkg-deb
-- dpkg-distaddfile
-- dpkg-
-- dpkg-genbuildinfo
-- dpkg-genchanges
-- dpkg-gencontrol
-- dpkg-gensymbols
-- dpkg-maintscript-helper
-- dpkg-mergechangelogs
-- dpkg-name
-- dpkg-parsechangelog
-- dpkg-preconfigure
-- dpkg-query
-- dpkg-reconfigure
-- dpkg-scanpackages
-- dpkg-scansources
-- dpkg-shlibdeps
-- dpkg-source
-- dpkg-split
-- dpkg-statoverride
-- dpkg-trigger
-- dpkg-vendor
-- dropdb
-- droplang
-- dropuser
-- dsymutil-10
-- dsymutil-11
-- dsymutil-12
-- dtd2rng
-- dtd2xsd
-- du
-- dumpe2fs
-- dumpkeys
-- dwp
-- e2freefrag
-- e2fsck
-- e2image
-- e2label
-- e2mmpstatus
-- e2scrub
-- e2scrub_all
-- e2undo
-- e4crypt
-- e4defrag
-- eatmydata
-- ebtables
-- ebtables-nft
-- ebtables-nft-restore
-- ebtables-nft-save
-- ebtables-restore
-- ebtables-save
-- ec2metadata
-- echo
-- ed
-- edit
-- editor
-- editres
-- efibootdump
-- efibootmgr
-- egrep
-- eject
-- elfedit
-- elif
-- else
-- enable
-- enc2xs
-- encguess
-- encode_keychange
-- env
-- env_parallel
-- env_parallel.bash
-- env_parallel.csh
-- env_parallel.fish
-- env_parallel.ksh
-- env_parallel.pdksh
-- env_parallel.tcsh
-- env_parallel.zsh
-- envsubst
-- ephemeral-disk-warning
-- epmd
-- eqn
-- era_check
-- era_dump
-- era_invalidate
-- era_restore
-- erb
-- erb2.7
-- erl
-- erl_call
-- erlc
-- esac
-- escapesrc
-- escript
-- ethtool
-- etop
-- eval
-- ex
-- exec
-- exit
-- expand
-- expiry
-- export
-- expr
-- extcheck
-- f77
-- f95
-- factor
-- faillock
-- faillog
-- faked-sysv
-- faked-tcp
-- fakeroot
-- fakeroot-sysv
-- fakeroot-tcp
-- fallocate
-- false
-- fastlane
-- fatlabel
-- fc
-- fc-cache
-- fc-cat
-- fc-conflist
-- fc-list
-- fc-match
-- fc-pattern
-- fc-query
-- fc-scan
-- fc-validate
-- fcgistarter
-- fdformat
-- fdisk
-- fg
-- fgconsole
-- fgrep
-- fi
-- file
-- filefrag
-- finalrd
-- fincore
-- find
-- find-all-symbols-10
-- find-all-symbols-11
-- find-all-symbols-12
-- findfs
-- findmnt
-- firefox
-- fixparts
-- fixproc
-- flex
-- flex++
-- flock
-- fmt
-- fold
-- for
-- free
-- from
-- fsadm
-- fsck
-- fsck.btrfs
-- fsck.cramfs
-- fsck.ext2
-- fsck.ext3
-- fsck.ext4
-- fsck.fat
-- fsck.minix
-- fsck.msdos
-- fsck.vfat
-- fsck.xfs
-- fsfreeze
-- fstab-decode
-- fstrim
-- ftp
-- function
-- funzip
-- fuse-overlayfs
-- fuser
-- fusermount
-- fusermount3
-- fwupdagent
-- fwupdate
-- fwupdmgr
-- fwupdtool
-- g++
-- g++-10
-- g++-9
-- gacutil
-- gapplication
-- gawk
-- gcc
-- gcc-10
-- gcc-9
-- gcc-ar
-- gcc-ar-10
-- gcc-ar-9
-- gcc-nm
-- gcc-nm-10
-- gcc-nm-9
-- gcc-ranlib
-- gcc-ranlib-10
-- gcc-ranlib-9
-- gcloud
-- gcov
-- gcov-10
-- gcov-9
-- gcov-dump
-- gcov-dump-10
-- gcov-dump-9
-- gcov-tool
-- gcov-tool-10
-- gcov-tool-9
-- gdbus
-- gdbus-codegen
-- gdisk
-- gdk-pixbuf-csource
-- gdk-pixbuf-pixdata
-- gdk-pixbuf-thumbnailer
-- geckodriver
-- gem
-- gem2.7
-- genbrk
-- gencat
-- genccode
-- gencfu
-- gencmn
-- gencnval
-- gendict
-- gendiff
-- genl
-- gennorm2
-- genrb
-- gensprep
-- genxs
-- geqn
-- getcap
-- getcifsacl
-- getconf
-- getent
-- getfacl
-- getkeycodes
-- getopt
-- getopts
-- getpcaps
-- gettext
-- gettext.sh
-- getty
-- gfortran
-- gfortran-10
-- gfortran-9
-- gh
-- ghc
-- ghc-9.0
-- ghc-9.0.2
-- ghc-9.2
-- ghc-9.2.3
-- ghc-pkg
-- ghc-pkg-9.0
-- ghc-pkg-9.0.2
-- ghc-pkg-9.2
-- ghc-pkg-9.2.3
-- ghci
-- ghci-9.0
-- ghci-9.0.2
-- ghci-9.2
-- ghci-9.2.3
-- ghcup
-- ginstall-info
-- gio
-- gio-querymodules
-- git
-- git-clang-format-10
-- git-clang-format-11
-- git-clang-format-12
-- git-credential-gcloud.sh
-- git-ftp
-- git-lfs
-- git-receive-pack
-- git-shell
-- git-upload-archive
-- git-upload-pack
-- glib-compile-resources
-- glib-compile-schemas
-- glib-genmarshal
-- glib-gettextize
-- glib-mkenums
-- gnome-www-browser
-- go
-- gobject-query
-- gofmt
-- gold
-- google-chrome
-- google-chrome-stable
-- gpasswd
-- gpg
-- gpg-agent
-- gpg-connect-agent
-- gpg-wks-server
-- gpg-zip
-- gpg2
-- gpgcompose
-- gpgconf
-- gpgparsemail
-- gpgsm
-- gpgsplit
-- gpgtar
-- gpgv
-- gpic
-- gprof
-- gradle
-- grep
-- gresource
-- groff
-- grog
-- grops
-- grotty
-- groupadd
-- groupdel
-- groupmems
-- groupmod
-- groups
-- growpart
-- grpck
-- grpconv
-- grpunconv
-- grub-bios-setup
-- grub-editenv
-- grub-file
-- grub-fstest
-- grub-glue-efi
-- grub-install
-- grub-kbdcomp
-- grub-macbless
-- grub-menulst2cfg
-- grub-mkconfig
-- grub-mkdevicemap
-- grub-mkfont
-- grub-mkimage
-- grub-mklayout
-- grub-mknetdir
-- grub-mkpasswd-pbkdf2
-- grub-mkrelpath
-- grub-mkrescue
-- grub-mkstandalone
-- grub-mount
-- grub-ntldr-img
-- grub-probe
-- grub-reboot
-- grub-render-label
-- grub-script-check
-- grub-set-default
-- grub-syslinux2cfg
-- grunt
-- gsettings
-- gsl-config
-- gsutil
-- gtbl
-- gtester
-- gtester-report
-- gtk-update-icon-cache
-- gulp
-- gunzip
-- gzexe
-- gzip
-- h2ph
-- h2xs
-- hackfmt
-- haddock
-- haddock-9.0
-- haddock-9.0.2
-- haddock-9.2
-- haddock-9.2.3
-- halt
-- hash
-- haveged
-- hd
-- hdparm
-- head
-- heart
-- helm
-- help
-- helpztags
-- heroku
-- hexdump
-- hg
-- hg-ssh
-- hh_client
-- hh_parse
-- hh_server
-- hhvm
-- history
-- hmaptool-10
-- hmaptool-11
-- hmaptool-12
-- host
-- hostid
-- hostname
-- hostnamectl
-- hp2ps
-- hp2ps-9.0
-- hp2ps-9.0.2
-- hp2ps-9.2
-- hp2ps-9.2.3
-- hpc
-- hpc-9.0
-- hpc-9.0.2
-- hpc-9.2
-- hpc-9.2.3
-- hsc2hs
-- hsc2hs-9.0
-- hsc2hs-9.0.2
-- hsc2hs-9.2
-- hsc2hs-9.2.3
-- hsdb
-- htcacheclean
-- htdbm
-- htdigest
-- htop
-- htpasswd
-- httpcfg
-- httpclient
-- httxt2dbm
-- hub
-- hv_fcopy_daemon
-- hv_get_dhcp_info
-- hv_get_dns_info
-- hv_kvp_daemon
-- hv_set_ifconfig
-- hv_vss_daemon
-- hwasan_symbolize-10
-- hwasan_symbolize-11
-- hwasan_symbolize-12
-- hwclock
-- hwe-support-status
-- i386
-- ibd2sdi
-- iceauth
-- iconv
-- iconvconfig
-- icuinfo
-- icupkg
-- id
-- identify
-- identify-im6
-- identify-im6.q16
-- idlj
-- if
-- ifconfig
-- ifnames
-- ikdasm
-- ilasm
-- illinkanalyzer
-- import
-- import-im6
-- import-im6.q16
-- in
-- indexer
-- indextool
-- info
-- infobrowser
-- infocmp
-- infotocap
-- init
-- innochecksum
-- insmod
-- install
-- install-info
-- install_compass
-- installkernel
-- installvst
-- instmodsh
-- integritysetup
-- invoke-rc.d
-- ionice
-- iostat
-- ip
-- ip6tables
-- ip6tables-apply
-- ip6tables-legacy
-- ip6tables-legacy-restore
-- ip6tables-legacy-save
-- ip6tables-nft
-- ip6tables-nft-restore
-- ip6tables-nft-save
-- ip6tables-restore
-- ip6tables-restore-translate
-- ip6tables-save
-- ip6tables-translate
-- ipcmk
-- ipcrm
-- ipcs
-- ipmaddr
-- iptables
-- iptables-apply
-- iptables-legacy
-- iptables-legacy-restore
-- iptables-legacy-save
-- iptables-nft
-- iptables-nft-restore
-- iptables-nft-save
-- iptables-restore
-- iptables-restore-translate
-- iptables-save
-- iptables-translate
-- iptables-xml
-- iptunnel
-- irb
-- irb2.7
-- irqbalance
-- irqbalance-ui
-- ischroot
-- iscsi-iname
-- iscsi_discovery
-- iscsiadm
-- iscsid
-- iscsistart
-- isosize
-- ispell-autobuildhash
-- ispell-wrapper
-- isql
-- iusql
-- jaotc
-- jar
-- jarsigner
-- java
-- javac
-- javadoc
-- javah
-- javap
-- jcmd
-- jconsole
-- jdb
-- jdeprscan
-- jdeps
-- jexec
-- jfr
-- jhat
-- jhsdb
-- jimage
-- jinfo
-- jjs
-- jlink
-- jmap
-- jmod
-- jobs
-- join
-- journalctl
-- jpackage
-- jps
-- jq
-- jrunscript
-- jsadebugd
-- jshell
-- json_pp
-- json_xs
-- jsondiff
-- jsonpatch
-- jsonpatch-jsondiff
-- jsonpointer
-- jsonschema
-- jspawnhelper
-- jstack
-- jstat
-- jstatd
-- julia
-- kapt
-- kbd_mode
-- kbdinfo
-- kbdrate
-- kbxutil
-- keep-one-running
-- kernel-install
-- key.dns_resolver
-- keyctl
-- keyring
-- keytool
-- kill
-- killall
-- killall5
-- kind
-- kmod
-- kmodsign
-- kotlin
-- kotlin-dce-js
-- kotlinc
-- kotlinc-js
-- kotlinc-jvm
-- kpartx
-- kubectl
-- kustomize
-- landscape-sysinfo
-- last
-- lastb
-- lastlog
-- lc
-- lcf
-- ld
-- ld.bfd
-- ld.gold
-- ld.lld-10
-- ld.lld-11
-- ld.lld-12
-- ld64.lld-10
-- ld64.lld-11
-- ld64.lld-12
-- ld64.lld.darwinnew-12
-- ldattach
-- ldconfig
-- ldconfig.real
-- ldd
-- lein
-- lerna
-- less
-- lessecho
-- lessfile
-- lesskey
-- lesspipe
-- let
-- lex
-- lexgrog
-- libnetcfg
-- libpng-config
-- libpng16-config
-- libtoolize
-- libwmf-config
-- link
-- linux-boot-prober
-- linux-check-removal
-- linux-update-symlinks
-- linux-version
-- linux32
-- linux64
-- listres
-- llc-10
-- llc-11
-- llc-12
-- lld-10
-- lld-11
-- lld-12
-- lld-link-10
-- lld-link-11
-- lld-link-12
-- lldb-11
-- lldb-argdumper-11
-- lldb-instr-11
-- lldb-server-11
-- lldb-vscode-11
-- lli-10
-- lli-11
-- lli-12
-- lli-child-target-10
-- lli-child-target-11
-- lli-child-target-12
-- llvm-PerfectShuffle-10
-- llvm-PerfectShuffle-11
-- llvm-PerfectShuffle-12
-- llvm-addr2line-10
-- llvm-addr2line-11
-- llvm-addr2line-12
-- llvm-ar-10
-- llvm-ar-11
-- llvm-ar-12
-- llvm-as-10
-- llvm-as-11
-- llvm-as-12
-- llvm-bcanalyzer-10
-- llvm-bcanalyzer-11
-- llvm-bcanalyzer-12
-- llvm-bitcode-strip-12
-- llvm-c-test-10
-- llvm-c-test-11
-- llvm-c-test-12
-- llvm-cat-10
-- llvm-cat-11
-- llvm-cat-12
-- llvm-cfi-verify-10
-- llvm-cfi-verify-11
-- llvm-cfi-verify-12
-- llvm-config-10
-- llvm-config-11
-- llvm-config-12
-- llvm-cov-10
-- llvm-cov-11
-- llvm-cov-12
-- llvm-cvtres-10
-- llvm-cvtres-11
-- llvm-cvtres-12
-- llvm-cxxdump-10
-- llvm-cxxdump-11
-- llvm-cxxdump-12
-- llvm-cxxfilt-10
-- llvm-cxxfilt-11
-- llvm-cxxfilt-12
-- llvm-cxxmap-10
-- llvm-cxxmap-11
-- llvm-cxxmap-12
-- llvm-diff-10
-- llvm-diff-11
-- llvm-diff-12
-- llvm-dis-10
-- llvm-dis-11
-- llvm-dis-12
-- llvm-dlltool-10
-- llvm-dlltool-11
-- llvm-dlltool-12
-- llvm-dwarfdump-10
-- llvm-dwarfdump-11
-- llvm-dwarfdump-12
-- llvm-dwp-10
-- llvm-dwp-11
-- llvm-dwp-12
-- llvm-elfabi-10
-- llvm-elfabi-11
-- llvm-elfabi-12
-- llvm-exegesis-10
-- llvm-exegesis-11
-- llvm-exegesis-12
-- llvm-extract-10
-- llvm-extract-11
-- llvm-extract-12
-- llvm-gsymutil-11
-- llvm-gsymutil-12
-- llvm-ifs-10
-- llvm-ifs-11
-- llvm-ifs-12
-- llvm-install-name-tool-10
-- llvm-install-name-tool-11
-- llvm-install-name-tool-12
-- llvm-jitlink-10
-- llvm-jitlink-11
-- llvm-jitlink-12
-- llvm-jitlink-executor-12
-- llvm-lib-10
-- llvm-lib-11
-- llvm-lib-12
-- llvm-libtool-darwin-12
-- llvm-link-10
-- llvm-link-11
-- llvm-link-12
-- llvm-lipo-10
-- llvm-lipo-11
-- llvm-lipo-12
-- llvm-lto-10
-- llvm-lto-11
-- llvm-lto-12
-- llvm-lto2-10
-- llvm-lto2-11
-- llvm-lto2-12
-- llvm-mc-10
-- llvm-mc-11
-- llvm-mc-12
-- llvm-mca-10
-- llvm-mca-11
-- llvm-mca-12
-- llvm-ml-11
-- llvm-ml-12
-- llvm-modextract-10
-- llvm-modextract-11
-- llvm-modextract-12
-- llvm-mt-10
-- llvm-mt-11
-- llvm-mt-12
-- llvm-nm-10
-- llvm-nm-11
-- llvm-nm-12
-- llvm-objcopy-10
-- llvm-objcopy-11
-- llvm-objcopy-12
-- llvm-objdump-10
-- llvm-objdump-11
-- llvm-objdump-12
-- llvm-opt-report-10
-- llvm-opt-report-11
-- llvm-opt-report-12
-- llvm-pdbutil-10
-- llvm-pdbutil-11
-- llvm-pdbutil-12
-- llvm-profdata-10
-- llvm-profdata-11
-- llvm-profdata-12
-- llvm-profgen-12
-- llvm-ranlib-10
-- llvm-ranlib-11
-- llvm-ranlib-12
-- llvm-rc-10
-- llvm-rc-11
-- llvm-rc-12
-- llvm-readelf-10
-- llvm-readelf-11
-- llvm-readelf-12
-- llvm-readobj-10
-- llvm-readobj-11
-- llvm-readobj-12
-- llvm-reduce-10
-- llvm-reduce-11
-- llvm-reduce-12
-- llvm-rtdyld-10
-- llvm-rtdyld-11
-- llvm-rtdyld-12
-- llvm-size-10
-- llvm-size-11
-- llvm-size-12
-- llvm-split-10
-- llvm-split-11
-- llvm-split-12
-- llvm-stress-10
-- llvm-stress-11
-- llvm-stress-12
-- llvm-strings-10
-- llvm-strings-11
-- llvm-strings-12
-- llvm-strip-10
-- llvm-strip-11
-- llvm-strip-12
-- llvm-symbolizer-10
-- llvm-symbolizer-11
-- llvm-symbolizer-12
-- llvm-tblgen-10
-- llvm-tblgen-11
-- llvm-tblgen-12
-- llvm-undname-10
-- llvm-undname-11
-- llvm-undname-12
-- llvm-xray-10
-- llvm-xray-11
-- llvm-xray-12
-- ln
-- lnstat
-- loadkeys
-- loadunimap
-- local
-- locale
-- locale-check
-- locale-gen
-- localectl
-- localedef
-- logger
-- login
-- loginctl
-- logname
-- logout
-- logresolve
-- logrotate
-- logsave
-- look
-- lorder
-- losetup
-- lowntfs-3g
-- ls
-- lsattr
-- lsb_release
-- lsblk
-- lscgroup
-- lscpu
-- lshw
-- lsinitramfs
-- lsipc
-- lslocks
-- lslogins
-- lsmem
-- lsmod
-- lsns
-- lsof
-- lspci
-- lspgpot
-- lsscsi
-- lssubsys
-- lsusb
-- lsvmbus
-- lto-dump-10
-- ltrace
-- luit
-- luksformat
-- lvchange
-- lvconvert
-- lvcreate
-- lvdisplay
-- lvextend
-- lvm
-- lvmconfig
-- lvmdiskscan
-- lvmdump
-- lvmpolld
-- lvmsadc
-- lvmsar
-- lvreduce
-- lvremove
-- lvrename
-- lvresize
-- lvs
-- lvscan
-- lwp-download
-- lwp-dump
-- lwp-mirror
-- lwp-request
-- lxc
-- lxd
-- lxd.benchmark
-- lxd.buginfo
-- lxd.check-kernel
-- lxd.lxc
-- lxd.lxc-to-lxd
-- lxd.migrate
-- lz4
-- lz4c
-- lz4cat
-- lzcat
-- lzcmp
-- lzdiff
-- lzegrep
-- lzfgrep
-- lzgrep
-- lzless
-- lzma
-- lzmainfo
-- lzmore
-- m4
-- macpack
-- mailmail3
-- make
-- make-bcache
-- make-first-existing-target
-- make-ssl-cert
-- makecert
-- makeconv
-- makeinfo
-- man
-- man-recode
-- mandb
-- manifest
-- manpath
-- mapfile
-- mapscrn
-- mawk
-- mconfig
-- mcookie
-- mcs
-- md5sum
-- md5sum.textutils
-- mdadm
-- mdassembler
-- mdbrebase
-- mdig
-- mdmon
-- mdoc
-- mdoc-assemble
-- mdoc-export-html
-- mdoc-export-msxdoc
-- mdoc-update
-- mdoc-validate
-- mdvalidater
-- mediainfo
-- memsup
-- mesg
-- migrate-pubring-from-classic-gpg
-- mii-tool
-- mimeopen
-- mimetype
-- minikube
-- miniterm
-- mk_modmap
-- mkbundle
-- mkdir
-- mkdosfs
-- mke2fs
-- mkfifo
-- mkfs
-- mkfs.bfs
-- mkfs.btrfs
-- mkfs.cramfs
-- mkfs.ext2
-- mkfs.ext3
-- mkfs.ext4
-- mkfs.fat
-- mkfs.minix
-- mkfs.msdos
-- mkfs.ntfs
-- mkfs.vfat
-- mkfs.xfs
-- mkhomedir_helper
-- mkinitramfs
-- mklost+found
-- mknod
-- mkntfs
-- mksquashfs
-- mkswap
-- mktemp
-- mlock
-- mmcli
-- mod
-- modinfo
-- modprobe
-- modularize-10
-- modularize-11
-- modularize-12
-- mogrify
-- mogrify-im6
-- mogrify-im6.q16
-- mokutil
-- mongo
-- mongod
-- mongodump
-- mongoexport
-- mongofiles
-- mongoimport
-- mongorestore
-- mongos
-- mongosh
-- mongostat
-- mongotop
-- mono
-- mono-api-check
-- mono-api-html
-- mono-api-info
-- mono-cil-strip
-- mono-configuration-crypto
-- mono-csc
-- mono-find-provides
-- mono-find-requires
-- mono-hang-watchdog
-- mono-heapviz
-- mono-service
-- mono-sgen
-- mono-shlib-cop
-- mono-symbolicate
-- mono-test-install
-- mono-xmltool
-- mono-xsp4-admin
-- mono-xsp4-update
-- monodis
-- monodoc-http
-- monodocer
-- monodocs2html
-- monodocs2slashdoc
-- monolinker
-- monop
-- monop2
-- montage
-- montage-im6
-- montage-im6.q16
-- more
-- mount
-- mount.cifs
-- mount.fuse
-- mount.fuse3
-- mount.lowntfs-3g
-- mount.ntfs
-- mount.ntfs-3g
-- mount.vmhgfs
-- mountpoint
-- mozroots
-- mpathpersist
-- mprof-report
-- mpstat
-- msbuild
-- mt
-- mt-gnu
-- mtr
-- mtr-packet
-- mtrace
-- multipath
-- multipathd
-- mv
-- mvn
-- my_print_defaults
-- myisam_ftdump
-- myisamchk
-- myisamlog
-- myisampack
-- mysql
-- mysql_config
-- mysql_config_editor
-- mysql_migrate_keyring
-- mysql_secure_installation
-- mysql_ssl_rsa_setup
-- mysql_tzinfo_to_sql
-- mysql_upgrade
-- mysqladmin
-- mysqlanalyze
-- mysqlbinlog
-- mysqlcheck
-- mysqld
-- mysqld_multi
-- mysqld_safe
-- mysqldump
-- mysqldumpslow
-- mysqlimport
-- mysqloptimize
-- mysqlpump
-- mysqlrepair
-- mysqlreport
-- mysqlshow
-- mysqlslap
-- n
-- namei
-- nameif
-- nano
-- native2ascii
-- nawk
-- nbgv
-- nc
-- nc.openbsd
-- ncal
-- ncurses5-config
-- ncurses6-config
-- ncursesw5-config
-- ncursesw6-config
-- neqn
-- netcat
-- netkit-ftp
-- netlify
-- netplan
-- netstat
-- networkctl
-- networkd-dispatcher
-- newgidmap
-- newgrp
-- newman
-- newuidmap
-- newusers
-- nfnl_osf
-- ngettext
-- nginx
-- nice
-- niceload
-- nisdomainname
-- nl
-- nm
-- node
-- nohup
-- nologin
-- not-10
-- not-11
-- not-12
-- now
-- npm
-- nproc
-- npx
-- nroff
-- nsenter
-- nslookup
-- nstat
-- nsupdate
-- ntfs-3g
-- ntfs-3g.probe
-- ntfscat
-- ntfsclone
-- ntfscluster
-- ntfscmp
-- ntfscp
-- ntfsdecrypt
-- ntfsfallocate
-- ntfsfix
-- ntfsinfo
-- ntfslabel
-- ntfsls
-- ntfsmove
-- ntfsrecover
-- ntfsresize
-- ntfssecaudit
-- ntfstruncate
-- ntfsundelete
-- ntfsusermap
-- ntfswipe
-- ntl
-- nuget
-- numfmt
-- obj2yaml-10
-- obj2yaml-11
-- obj2yaml-12
-- objcopy
-- objdump
-- oc
-- od
-- odbcinst
-- oem-getlogs
-- on_ac_power
-- openssl
-- openvt
-- opt-10
-- opt-11
-- opt-12
-- oras
-- orbd
-- os-prober
-- osirrox
-- overlayroot-chroot
-- ownership
-- p11-kit
-- p7zip
-- pack200
-- packer
-- pager
-- pam-auth-update
-- pam_extrausers_chkpwd
-- pam_extrausers_update
-- pam_getenv
-- pam_tally
-- pam_tally2
-- pam_timestamp_check
-- paperconf
-- paperconfig
-- parallel
-- parcat
-- parcel
-- parted
-- partprobe
-- partx
-- pass
-- passwd
-- paste
-- pastebinit
-- patch
-- patchelf
-- pathchk
-- pbget
-- pbput
-- pbputs
-- pcre-config
-- pcre2-config
-- pdata_tools
-- pdb2
-- pdb2.7
-- pdb2mdb
-- pdb3
-- pdb3.8
-- pdftexi2dvi
-- pear
-- peardev
-- pecl
-- pedump
-- peekfd
-- perf
-- perl
-- perl5.30-x86_64-linux-gnu
-- perl5.30.0
-- perlbug
-- perldoc
-- perlivp
-- perlthanks
-- permview
-- perror
-- peverify
-- pftp
-- pg_archivecleanup
-- pg_backupcluster
-- pg_basebackup
-- pg_buildext
-- pg_config
-- pg_config.libpq-dev
-- pg_conftool
-- pg_createcluster
-- pg_ctlcluster
-- pg_dropcluster
-- pg_dump
-- pg_dumpall
-- pg_isready
-- pg_lsclusters
-- pg_receivewal
-- pg_receivexlog
-- pg_recvlogical
-- pg_renamecluster
-- pg_restore
-- pg_restorecluster
-- pg_updatedicts
-- pg_upgradecluster
-- pg_virtualenv
-- pgbench
-- pgrep
-- phantomjs
-- phar
-- phar.phar
-- phar.phar7.4
-- phar.phar8.0
-- phar.phar8.1
-- phar7.4
-- phar7.4.phar
-- phar8.0
-- phar8.0.phar
-- phar8.1
-- phar8.1.phar
-- php
-- php-cgi
-- php-cgi7.4
-- php-cgi8.0
-- php-cgi8.1
-- php-config
-- php-config7.4
-- php-config8.0
-- php-config8.1
-- php-fpm7.4
-- php-fpm8.0
-- php-fpm8.1
-- php7.4
-- php8.0
-- php8.1
-- phpdbg
-- phpdbg7.4
-- phpdbg8.0
-- phpdbg8.1
-- phpdismod
-- phpenmod
-- phpize
-- phpize7.4
-- phpize8.0
-- phpize8.1
-- phpquery
-- phpunit
-- pic
-- pico
-- piconv
-- pidof
-- pidstat
-- pigz
-- pinentry
-- pinentry-curses
-- ping
-- ping4
-- ping6
-- pinky
-- pip
-- pip3
-- pipx
-- pivot_root
-- pkaction
-- pkcheck
-- pkcon
-- pkexec
-- pkg-config
-- pkgdata
-- pkill
-- pkmon
-- pkttyagent
-- pl2pm
-- pldd
-- plipconfig
-- plymouth
-- plymouthd
-- pmap
-- pod2html
-- pod2man
-- pod2texi
-- pod2text
-- pod2usage
-- podchecker
-- podman
-- podman-remote
-- podselect
-- policytool
-- pollinate
-- popcon-largest-unused
-- popd
-- popularity-contest
-- poweroff
-- pp-trace-10
-- pp-trace-11
-- pp-trace-12
-- pr
-- preconv
-- print
-- printenv
-- printerbanner
-- printf
-- prlimit
-- prove
-- prtstat
-- ps
-- psfaddtable
-- psfgettable
-- psfstriptable
-- psfxtable
-- pslog
-- psql
-- pstree
-- pstree.x11
-- ptar
-- ptardiff
-- ptargrep
-- ptx
-- pulumi
-- pulumi-analyzer-policy
-- pulumi-analyzer-policy-python
-- pulumi-language-dotnet
-- pulumi-language-go
-- pulumi-language-java
-- pulumi-language-nodejs
-- pulumi-language-python
-- pulumi-language-python-exec
-- pulumi-language-yaml
-- pulumi-resource-pulumi-nodejs
-- pulumi-resource-pulumi-python
-- purge-old-kernels
-- pushd
-- pvchange
-- pvck
-- pvcreate
-- pvdisplay
-- pvmove
-- pvremove
-- pvresize
-- pvs
-- pvscan
-- pwck
-- pwconv
-- pwd
-- pwdx
-- pwsh
-- pwunconv
-- py3clean
-- py3compile
-- py3versions
-- pyclean
-- pycompile
-- pydoc2
-- pydoc2.7
-- pydoc3
-- pydoc3.8
-- pygettext2
-- pygettext2.7
-- pygettext3
-- pygettext3.8
-- pygmentize
-- pyhtmlizer3
-- pyjwt3
-- python
-- python-argcomplete-check-easy-install-script
-- python-argcomplete-tcsh
-- python2
-- python2.7
-- python3
-- python3-config
-- python3.8
-- python3.8-config
-- pyversions
-- pzstd
-- racc2.7
-- racc2y2.7
-- rake
-- ranlib
-- rarp
-- raw
-- rbash
-- rcp
-- rdma
-- rdoc
-- rdoc2.7
-- read
-- readarray
-- readelf
-- readlink
-- readonly
-- readprofile
-- realpath
-- rebar3
-- reboot
-- red
-- register-python-argcomplete
-- reindexdb
-- remove-default-ispell
-- remove-default-wordlist
-- remove-shell
-- rename.ul
-- renice
-- request-key
-- rescan-scsi-bus.sh
-- reset
-- resgen
-- resgen2
-- resize2fs
-- resizecons
-- resizepart
-- resolvectl
-- return
-- rev
-- rgrep
-- ri
-- ri2.7
-- rlogin
-- rls
-- rm
-- rmdir
-- rmic
-- rmid
-- rmiregistry
-- rmmod
-- rmt
-- rmt-tar
-- rnano
-- rotatelogs
-- rougify
-- route
-- routef
-- routel
-- rpcgen
-- rpm
-- rpm2archive
-- rpm2cpio
-- rpmbuild
-- rpmdb
-- rpmgraph
-- rpmkeys
-- rpmquery
-- rpmsign
-- rpmspec
-- rpmverify
-- rrsync
-- rsh
-- rsync
-- rsyslogd
-- rtacct
-- rtcwake
-- rtmon
-- rtstat
-- ruby
-- ruby2.7
-- run-clang-tidy
-- run-clang-tidy-10
-- run-clang-tidy-10.py
-- run-clang-tidy-11
-- run-clang-tidy-11.py
-- run-clang-tidy-12
-- run-clang-tidy-12.py
-- run-mailcap
-- run-one
-- run-one-constantly
-- run-one-until-failure
-- run-one-until-success
-- run-parts
-- run-this-one
-- run_erl
-- runc
-- runcon
-- runghc
-- runghc-9.0
-- runghc-9.0.2
-- runghc-9.2
-- runghc-9.2.3
-- runhaskell
-- runhaskell-9.0
-- runhaskell-9.0.2
-- runhaskell-9.2
-- runhaskell-9.2.3
-- runlevel
-- runuser
-- rust-gdb
-- rust-lldb
-- rustc
-- rustdoc
-- rustfmt
-- rustup
-- rview
-- rvim
-- sadf
-- sam
-- sancov-10
-- sancov-11
-- sancov-12
-- sanstats-10
-- sanstats-11
-- sanstats-12
-- sar
-- sar.sysstat
-- savelog
-- sbattach
-- sbkeysync
-- sbsiglist
-- sbsign
-- sbt
-- sbvarsign
-- sbverify
-- scan-build-10
-- scan-build-11
-- scan-build-12
-- scan-build-py-10
-- scan-build-py-11
-- scan-build-py-12
-- scan-view-10
-- scan-view-11
-- scan-view-12
-- schemagen
-- scp
-- screen
-- screendump
-- script
-- scriptreplay
-- scsi_logging_level
-- scsi_mandat
-- scsi_readcap
-- scsi_ready
-- scsi_satl
-- scsi_start
-- scsi_stop
-- scsi_temperature
-- sdiff
-- searchd
-- secutil
-- sed
-- see
-- select
-- select-default-ispell
-- select-default-iwrap
-- select-default-wordlist
-- select-editor
-- sem
-- sensible-browser
-- sensible-editor
-- sensible-pager
-- seq
-- serialver
-- servertool
-- service
-- session-manager-plugin
-- sessreg
-- set
-- setarch
-- setcap
-- setcifsacl
-- setfacl
-- setfont
-- setkeycodes
-- setleds
-- setlogcons
-- setmetamode
-- setpci
-- setpriv
-- setreg
-- setsid
-- setterm
-- setupcon
-- setvesablank
-- setvtrgb
-- setxkbmap
-- sfdisk
-- sftp
-- sg
-- sg_bg_ctl
-- sg_compare_and_write
-- sg_copy_results
-- sg_dd
-- sg_decode_sense
-- sg_emc_trespass
-- sg_format
-- sg_get_config
-- sg_get_lba_status
-- sg_ident
-- sg_inq
-- sg_logs
-- sg_luns
-- sg_map
-- sg_map26
-- sg_modes
-- sg_opcodes
-- sg_persist
-- sg_prevent
-- sg_raw
-- sg_rbuf
-- sg_rdac
-- sg_read
-- sg_read_attr
-- sg_read_block_limits
-- sg_read_buffer
-- sg_read_long
-- sg_readcap
-- sg_reassign
-- sg_referrals
-- sg_rep_zones
-- sg_requests
-- sg_reset
-- sg_reset_wp
-- sg_rmsn
-- sg_rtpg
-- sg_safte
-- sg_sanitize
-- sg_sat_identify
-- sg_sat_phy_event
-- sg_sat_read_gplog
-- sg_sat_set_features
-- sg_scan
-- sg_seek
-- sg_senddiag
-- sg_ses
-- sg_ses_microcode
-- sg_start
-- sg_stpg
-- sg_stream_ctl
-- sg_sync
-- sg_test_rwbuf
-- sg_timestamp
-- sg_turs
-- sg_unmap
-- sg_verify
-- sg_vpd
-- sg_wr_mode
-- sg_write_buffer
-- sg_write_long
-- sg_write_same
-- sg_write_verify
-- sg_write_x
-- sg_xcopy
-- sg_zone
-- sgdisk
-- sgen
-- sginfo
-- sgm_dd
-- sgp_dd
-- sh
-- sha1sum
-- sha224sum
-- sha256sum
-- sha384sum
-- sha512sum
-- shadowconfig
-- shasum
-- shellcheck
-- shift
-- shopt
-- showconsolefont
-- showkey
-- showrgb
-- shred
-- shtool
-- shtoolize
-- shuf
-- shutdown
-- signcode
-- size
-- skill
-- skopeo
-- slabtop
-- slattach
-- sleep
-- slirp4netns
-- slogin
-- smbinfo
-- sn
-- snap
-- snapctl
-- snapfuse
-- snice
-- snmp-bridge-mib
-- snmpbulkget
-- snmpbulkwalk
-- snmpcheck
-- snmpconf
-- snmpdelta
-- snmpdf
-- snmpget
-- snmpgetnext
-- snmpinform
-- snmpnetstat
-- snmpping
-- snmpps
-- snmpset
-- snmpstatus
-- snmptable
-- snmptest
-- snmptop
-- snmptranslate
-- snmptrap
-- snmpusm
-- snmpvacm
-- snmpwalk
-- soapsuds
-- soelim
-- sort
-- sos
-- sos-collector
-- sosreport
-- sotruss
-- source
-- spelldump
-- splain
-- split
-- split-file-12
-- split-logfile
-- splitfont
-- sprof
-- sql
-- sqlcmd
-- sqldiff
-- sqlite3
-- sqlmetal
-- sqlpackage
-- sqlsharp
-- ss
-- ssh
-- ssh-add
-- ssh-agent
-- ssh-argv0
-- ssh-copy-id
-- ssh-import-id
-- ssh-import-id-gh
-- ssh-import-id-lp
-- ssh-keygen
-- ssh-keyscan
-- sshd
-- sshpass
-- stack
-- start-stop-daemon
-- start_erl
-- stat
-- static-sh
-- stdbuf
-- strace
-- strace-log-merge
-- stream
-- stream-im6
-- stream-im6.q16
-- strings
-- strip
-- stty
-- su
-- sudo
-- sudoedit
-- sudoreplay
-- sulogin
-- sum
-- suspend
-- svcutil
-- svn
-- svnadmin
-- svnauthz
-- svnauthz-validate
-- svnbench
-- svndumpfilter
-- svnfsfs
-- svnlook
-- svnmucc
-- svnrdump
-- svnserve
-- svnsync
-- svnversion
-- swaplabel
-- swapoff
-- swapon
-- swift
-- swiftc
-- swig
-- swig4.0
-- switch_root
-- symcryptrun
-- sync
-- sysctl
-- systemctl
-- systemd
-- systemd-analyze
-- systemd-ask-password
-- systemd-cat
-- systemd-cgls
-- systemd-cgtop
-- systemd-delta
-- systemd-detect-virt
-- systemd-escape
-- systemd-hwdb
-- systemd-id128
-- systemd-inhibit
-- systemd-machine-id-setup
-- systemd-mount
-- systemd-notify
-- systemd-path
-- systemd-resolve
-- systemd-run
-- systemd-socket-activate
-- systemd-stdio-bridge
-- systemd-sysusers
-- systemd-tmpfiles
-- systemd-tty-ask-password-agent
-- systemd-umount
-- tabs
-- tac
-- tail
-- tapestat
-- tar
-- tarcat
-- taskset
-- tbl
-- tc
-- tclsh
-- tclsh8.6
-- tcpdump
-- tee
-- telinit
-- telnet
-- telnet.netkit
-- tempfile
-- terminal-notifier
-- terraform
-- test
-- texi2any
-- texi2dvi
-- texi2pdf
-- texindex
-- then
-- thin_check
-- thin_delta
-- thin_dump
-- thin_ls
-- thin_metadata_size
-- thin_repair
-- thin_restore
-- thin_rmap
-- thin_trim
-- tic
-- time
-- timedatectl
-- timeout
-- times
-- tipc
-- tkconch3
-- tload
-- tmux
-- tnameserv
-- to_erl
-- toe
-- top
-- touch
-- tput
-- tr
-- tracepath
-- traceroute6
-- traceroute6.iputils
-- trap
-- tree
-- trial3
-- troff
-- true
-- truncate
-- trust
-- tsc
-- tset
-- tsort
-- tsserver
-- tty
-- tune2fs
-- turbostat
-- twist3
-- twistd3
-- txixml2texi
-- type
-- typer
-- typeset
-- tzconfig
-- tzselect
-- ua
-- ubuntu-advantage
-- ubuntu-bug
-- ubuntu-core-launcher
-- ubuntu-distro-info
-- ubuntu-security-status
-- ucf
-- ucfq
-- ucfr
-- uconv
-- udevadm
-- udisksctl
-- ufw
-- ul
-- ulimit
-- umask
-- umount
-- umount.udisks2
-- unalias
-- uname
-- uncompress
-- unexpand
-- unicode_start
-- unicode_stop
-- uniq
-- unix_chkpwd
-- unix_update
-- unlink
-- unlz4
-- unlzma
-- unmkinitramfs
-- unpack200
-- unpigz
-- unset
-- unshare
-- unsquashfs
-- until
-- unxz
-- unzip
-- unzipsfx
-- unzstd
-- update-alternatives
-- update-binfmts
-- update-ca-certificates
-- update-default-aspell
-- update-default-ispell
-- update-default-wordlist
-- update-dictcommon-aspell
-- update-dictcommon-hunspell
-- update-fmtutil
-- update-grub
-- update-grub-gfxpayload
-- update-grub2
-- update-icon-caches
-- update-info-dir
-- update-initramfs
-- update-java-alternatives
-- update-language
-- update-language-dat
-- update-language-def
-- update-language-lua
-- update-locale
-- update-mime
-- update-mime-database
-- update-passwd
-- update-pciids
-- update-perl-sax-parsers
-- update-rc.d
-- update-secureboot-policy
-- update-texmf
-- update-texmf-config
-- update-tl-stacked-conffile
-- update-updmap
-- upgrade-from-grub-legacy
-- uptime
-- upx
-- upx-ucl
-- usb-devices
-- usb_modeswitch
-- usb_modeswitch_dispatcher
-- usbhid-dump
-- usbip
-- usbipd
-- usbreset
-- useradd
-- userdel
-- usermod
-- userpath
-- users
-- utmpdump
-- uuidd
-- uuidgen
-- uuidparse
-- vacuumdb
-- vacuumlo
-- validlocale
-- vbc
-- vc
-- vcpkg
-- vcs-run
-- vcstime
-- vdir
-- vercel
-- verify-uselistorder-10
-- verify-uselistorder-11
-- verify-uselistorder-12
-- veritysetup
-- vgcfgbackup
-- vgcfgrestore
-- vgchange
-- vgck
-- vgconvert
-- vgcreate
-- vgdisplay
-- vgexport
-- vgextend
-- vgimport
-- vgimportclone
-- vgmerge
-- vgmknodes
-- vgreduce
-- vgremove
-- vgrename
-- vgs
-- vgscan
-- vgsplit
-- vi
-- view
-- viewres
-- vigpg
-- vigr
-- vim
-- vim.basic
-- vim.tiny
-- vimdiff
-- vimtutor
-- vipw
-- visudo
-- vm-support
-- vmhgfs-fuse
-- vmstat
-- vmtoolsd
-- vmware-alias-import
-- vmware-checkvm
-- vmware-hgfsclient
-- vmware-namespace-cmd
-- vmware-rpctool
-- vmware-toolbox-cmd
-- vmware-vgauth-cmd
-- vmware-vmblock-fuse
-- vmware-xferlogs
-- volname
-- vpddecode
-- w
-- w.procps
-- waagent
-- waagent2.0
-- wait
-- wall
-- wasm-ld-10
-- wasm-ld-11
-- wasm-ld-12
-- watch
-- watchgnupg
-- wc
-- wdctl
-- webpack
-- webpack-cli
-- wget
-- whatis
-- whereis
-- which
-- while
-- whiptail
-- who
-- whoami
-- wifi-status
-- wipefs
-- wish
-- wish8.6
-- wordbreaker
-- write
-- wsdl
-- wsdl2
-- wsgen
-- wsimport
-- ww
-- x-www-browser
-- x86_64
-- x86_64-linux-gnu-addr2line
-- x86_64-linux-gnu-ar
-- x86_64-linux-gnu-as
-- x86_64-linux-gnu-c++filt
-- x86_64-linux-gnu-cpp
-- x86_64-linux-gnu-cpp-10
-- x86_64-linux-gnu-cpp-9
-- x86_64-linux-gnu-dwp
-- x86_64-linux-gnu-elfedit
-- x86_64-linux-gnu-g++
-- x86_64-linux-gnu-g++-10
-- x86_64-linux-gnu-g++-9
-- x86_64-linux-gnu-gcc
-- x86_64-linux-gnu-gcc-10
-- x86_64-linux-gnu-gcc-9
-- x86_64-linux-gnu-gcc-ar
-- x86_64-linux-gnu-gcc-ar-10
-- x86_64-linux-gnu-gcc-ar-9
-- x86_64-linux-gnu-gcc-nm
-- x86_64-linux-gnu-gcc-nm-10
-- x86_64-linux-gnu-gcc-nm-9
-- x86_64-linux-gnu-gcc-ranlib
-- x86_64-linux-gnu-gcc-ranlib-10
-- x86_64-linux-gnu-gcc-ranlib-9
-- x86_64-linux-gnu-gcov
-- x86_64-linux-gnu-gcov-10
-- x86_64-linux-gnu-gcov-9
-- x86_64-linux-gnu-gcov-dump
-- x86_64-linux-gnu-gcov-dump-10
-- x86_64-linux-gnu-gcov-dump-9
-- x86_64-linux-gnu-gcov-tool
-- x86_64-linux-gnu-gcov-tool-10
-- x86_64-linux-gnu-gcov-tool-9
-- x86_64-linux-gnu-gfortran
-- x86_64-linux-gnu-gfortran-10
-- x86_64-linux-gnu-gfortran-9
-- x86_64-linux-gnu-gold
-- x86_64-linux-gnu-gprof
-- x86_64-linux-gnu-ld
-- x86_64-linux-gnu-ld.bfd
-- x86_64-linux-gnu-ld.gold
-- x86_64-linux-gnu-lto-dump-10
-- x86_64-linux-gnu-nm
-- x86_64-linux-gnu-objcopy
-- x86_64-linux-gnu-objdump
-- x86_64-linux-gnu-pkg-config
-- x86_64-linux-gnu-python3-config
-- x86_64-linux-gnu-python3.8-config
-- x86_64-linux-gnu-ranlib
-- x86_64-linux-gnu-readelf
-- x86_64-linux-gnu-size
-- x86_64-linux-gnu-strings
-- x86_64-linux-gnu-strip
-- x86_64-pc-linux-gnu-pkg-config
-- x86_energy_perf_policy
-- xargs
-- xauth
-- xbuild
-- xcmsdb
-- xcodeproj
-- xcpretty
-- xcpretty-travis-formatter
-- xdg-desktop-icon
-- xdg-desktop-menu
-- xdg-email
-- xdg-icon-resource
-- xdg-mime
-- xdg-open
-- xdg-screensaver
-- xdg-settings
-- xdg-user-dir
-- xdg-user-dirs-update
-- xdpyinfo
-- xdriinfo
-- xev
-- xfd
-- xfontsel
-- xfs_admin
-- xfs_bmap
-- xfs_copy
-- xfs_db
-- xfs_estimate
-- xfs_freeze
-- xfs_fsr
-- xfs_growfs
-- xfs_info
-- xfs_io
-- xfs_logprint
-- xfs_mdrestore
-- xfs_metadump
-- xfs_mkfile
-- xfs_ncheck
-- xfs_quota
-- xfs_repair
-- xfs_rtcp
-- xfs_scrub
-- xfs_scrub_all
-- xfs_spaceman
-- xgamma
-- xhost
-- xjc
-- xkbbell
-- xkbcomp
-- xkbevd
-- xkbprint
-- xkbvleds
-- xkbwatch
-- xkeystone
-- xkill
-- xlsatoms
-- xlsclients
-- xlsfonts
-- xmessage
-- xml2-config
-- xmodmap
-- xorrecord
-- xorriso
-- xorrisofs
-- xprop
-- xrandr
-- xrdb
-- xrefresh
-- xsd
-- xset
-- xsetmode
-- xsetpointer
-- xsetroot
-- xsp4
-- xstdcmap
-- xsubpp
-- xtables-legacy-multi
-- xtables-monitor
-- xtables-nft-multi
-- xvfb-run
-- xvidtune
-- xvinfo
-- xwininfo
-- xxd
-- xz
-- xzcat
-- xzcmp
-- xzdiff
-- xzegrep
-- xzfgrep
-- xzgrep
-- xzless
-- xzmore
-- y2racc2.7
-- yacc
-- yaml-bench-10
-- yaml-bench-11
-- yaml-bench-12
-- yaml2obj-10
-- yaml2obj-11
-- yaml2obj-12
-- yamllint
-- yarn
-- yarnpkg
-- yes
-- ypdomainname
-- yq
-- zcat
-- zcmp
-- zdiff
-- zdump
-- zegrep
-- zerofree
-- zfgrep
-- zforce
-- zgrep
-- zic
-- zip
-- zipcloak
-- zipdetails
-- zipgrep
-- zipinfo
-- zipnote
-- zipsplit
-- zless
-- zmore
-- znew
-- zramctl
-- zstd
-- zstdcat
-- zstdgrep
-- zstdless
-- zstdmt
-- zsync
-- zsyncmake
-- {
-- }
+- 2to3-2.7 -> /usr/bin/2to3-2.7- 7z -> /usr/bin/7zdnl
+- 7za -> /usr/bin/7zadnl
+- 7zr -> /usr/bin/7zrdnl
+- FileCheck-10 -> /usr/bin/FileCheck-10- FileCheck-11 -> /usr/bin/FileCheck-11- FileCheck-12 -> /usr/bin/FileCheck-12- GET -> /usr/bin/GETdnl
+- HEAD -> /usr/bin/HEADdnl
+- ModemManager -> /usr/sbin/ModemManagerdnl
+- NF -> /usr/bin/NFdnl
+- POST -> /usr/bin/POSTdnl
+- R -> /usr/bin/Rdnl
+- Rscript -> /usr/bin/Rscriptdnl
+- VGAuthService -> /usr/bin/VGAuthServicednl
+- Xvfb -> /usr/bin/Xvfbdnl
+- [ -> /usr/bin/[- a2disconf -> /usr/sbin/a2disconfdnl
+- a2dismod -> /usr/sbin/a2dismoddnl
+- a2dissite -> /usr/sbin/a2dissitednl
+- a2enconf -> /usr/sbin/a2enconfdnl
+- a2enmod -> /usr/sbin/a2enmoddnl
+- a2ensite -> /usr/sbin/a2ensitednl
+- a2query -> /usr/sbin/a2querydnl
+- aa-enabled -> /usr/bin/aa-enableddnl
+- aa-exec -> /usr/bin/aa-execdnl
+- aa-remove-unknown -> /usr/sbin/aa-remove-unknowndnl
+- aa-status -> /usr/sbin/aa-statusdnl
+- aa-teardown -> /usr/sbin/aa-teardowndnl
+- ab -> /usr/bin/abdnl
+- accessdb -> /usr/sbin/accessdbdnl
+- aclocal -> /usr/bin/aclocaldnl
+- aclocal-1.16 -> /usr/bin/aclocal-1.16- acpidbg -> /usr/bin/acpidbgdnl
+- activate-global-python-argcomplete -> /usr/local/bin/activate-global-python-argcompletednl
+- add-apt-repository -> /usr/bin/add-apt-repositorydnl
+- add-shell -> /usr/sbin/add-shelldnl
+- addgnupghome -> /usr/sbin/addgnupghomednl
+- addgroup -> /usr/sbin/addgroupdnl
+- addpart -> /usr/bin/addpartdnl
+- addr2line -> /usr/bin/addr2linednl
+- adduser -> /usr/sbin/adduserdnl
+- agetty -> /usr/sbin/agettydnl
+- al -> /usr/bin/aldnl
+- al2 -> /usr/bin/al2dnl
+- aliyun -> /usr/local/bin/aliyundnl
+- animate -> /usr/bin/animatednl
+- animate-im6 -> /usr/bin/animate-im6dnl
+- animate-im6.q16 -> /usr/bin/animate-im6.q16dnl
+- ansible -> /opt/pipx_bin/ansiblednl
+- ansible-config -> /opt/pipx_bin/ansible-configdnl
+- ansible-connection -> /opt/pipx_bin/ansible-connectiondnl
+- ansible-console -> /opt/pipx_bin/ansible-consolednl
+- ansible-doc -> /opt/pipx_bin/ansible-docdnl
+- ansible-galaxy -> /opt/pipx_bin/ansible-galaxydnl
+- ansible-inventory -> /opt/pipx_bin/ansible-inventorydnl
+- ansible-playbook -> /opt/pipx_bin/ansible-playbookdnl
+- ansible-pull -> /opt/pipx_bin/ansible-pulldnl
+- ansible-test -> /opt/pipx_bin/ansible-testdnl
+- ansible-vault -> /opt/pipx_bin/ansible-vaultdnl
+- ant -> /usr/bin/antdnl
+- anthoscli -> /usr/bin/anthosclidnl
+- apache2 -> /usr/sbin/apache2dnl
+- apache2ctl -> /usr/sbin/apache2ctldnl
+- apachectl -> /usr/sbin/apachectldnl
+- apparmor_parser -> /usr/sbin/apparmor_parserdnl
+- apparmor_status -> /usr/sbin/apparmor_statusdnl
+- appletviewer -> /usr/bin/appletviewerdnl
+- applygnupgdefaults -> /usr/sbin/applygnupgdefaultsdnl
+- apport-bug -> /usr/bin/apport-bugdnl
+- apport-cli -> /usr/bin/apport-clidnl
+- apport-collect -> /usr/bin/apport-collectdnl
+- apport-unpack -> /usr/bin/apport-unpackdnl
+- appres -> /usr/bin/appresdnl
+- aprofutil -> /usr/bin/aprofutildnl
+- apropos -> /usr/bin/aproposdnl
+- apt -> /usr/bin/aptdnl
+- apt-add-repository -> /usr/bin/apt-add-repositorydnl
+- apt-cache -> /usr/bin/apt-cachednl
+- apt-cdrom -> /usr/bin/apt-cdromdnl
+- apt-config -> /usr/bin/apt-configdnl
+- apt-extracttemplates -> /usr/bin/apt-extracttemplatesdnl
+- apt-fast -> /usr/local/sbin/apt-fastdnl
+- apt-ftparchive -> /usr/bin/apt-ftparchivednl
+- apt-get -> /usr/bin/apt-getdnl
+- apt-key -> /usr/bin/apt-keydnl
+- apt-mark -> /usr/bin/apt-markdnl
+- apt-sortpkgs -> /usr/bin/apt-sortpkgsdnl
+- ar -> /usr/bin/ardnl
+- arch -> /usr/bin/archdnl
+- aria2c -> /usr/bin/aria2cdnl
+- arp -> /usr/sbin/arpdnl
+- arpd -> /usr/sbin/arpddnl
+- arptables -> /usr/sbin/arptablesdnl
+- arptables-nft -> /usr/sbin/arptables-nftdnl
+- arptables-nft-restore -> /usr/sbin/arptables-nft-restorednl
+- arptables-nft-save -> /usr/sbin/arptables-nft-savednl
+- arptables-restore -> /usr/sbin/arptables-restorednl
+- arptables-save -> /usr/sbin/arptables-savednl
+- as -> /usr/bin/asdnl
+- asan_symbolize-10 -> /usr/bin/asan_symbolize-10- asan_symbolize-11 -> /usr/bin/asan_symbolize-11- asan_symbolize-12 -> /usr/bin/asan_symbolize-12- asp-state4 -> /usr/bin/asp-state4dnl
+- aspell-autobuildhash -> /usr/sbin/aspell-autobuildhashdnl
+- at -> /usr/bin/atdnl
+- atd -> /usr/sbin/atddnl
+- atq -> /usr/bin/atqdnl
+- atrm -> /usr/bin/atrmdnl
+- autoconf -> /usr/bin/autoconfdnl
+- autoheader -> /usr/bin/autoheaderdnl
+- autom4te -> /usr/bin/autom4tednl
+- automake -> /usr/bin/automakednl
+- automake-1.16 -> /usr/bin/automake-1.16- automat-visualize3 -> /usr/bin/automat-visualize3dnl
+- autoreconf -> /usr/bin/autoreconfdnl
+- autoscan -> /usr/bin/autoscandnl
+- autoupdate -> /usr/bin/autoupdatednl
+- awk -> /usr/bin/awkdnl
+- aws -> /usr/local/bin/awsdnl
+- aws_completer -> /usr/local/bin/aws_completerdnl
+- az -> /usr/bin/azdnl
+- azcopy -> /usr/local/bin/azcopydnl
+- azcopy10 -> /usr/local/bin/azcopy10dnl
+- b2sum -> /usr/bin/b2sumdnl
+- badblocks -> /usr/sbin/badblocksdnl
+- base32 -> /usr/bin/base32dnl
+- base64 -> /usr/bin/base64dnl
+- basename -> /usr/bin/basenamednl
+- bash -> /usr/bin/bashdnl
+- bashbug -> /usr/bin/bashbugdnl
+- batch -> /usr/bin/batchdnl
+- bazel -> /usr/local/bin/bazeldnl
+- bazelisk -> /usr/local/bin/bazeliskdnl
+- bc -> /usr/bin/bcdnl
+- bcache-super-show -> /usr/sbin/bcache-super-showdnl
+- bcp -> /usr/local/bin/bcpdnl
+- bicep -> /usr/local/bin/bicepdnl
+- bin-proxy -> /usr/local/bin/bin-proxydnl
+- bindgen -> /home/runner/.cargo/bin/bindgendnl
+- biosdecode -> /usr/sbin/biosdecodednl
+- bison -> /usr/bin/bisondnl
+- bison.yacc -> /usr/bin/bison.yaccdnl
+- blkdeactivate -> /usr/sbin/blkdeactivatednl
+- blkdiscard -> /usr/sbin/blkdiscarddnl
+- blkid -> /usr/sbin/blkiddnl
+- blkzone -> /usr/sbin/blkzonednl
+- blockdev -> /usr/sbin/blockdevdnl
+- boltctl -> /usr/bin/boltctldnl
+- bootctl -> /usr/bin/bootctldnl
+- bpftool -> /usr/sbin/bpftooldnl
+- bq -> /usr/bin/bqdnl
+- brew -> /home/linuxbrew/.linuxbrew/bin/brewdnl
+- bridge -> /usr/sbin/bridgednl
+- brotli -> /usr/bin/brotlidnl
+- browse -> /usr/bin/browsednl
+- bsd-from -> /usr/bin/bsd-fromdnl
+- bsd-write -> /usr/bin/bsd-writednl
+- bsondump -> /usr/bin/bsondumpdnl
+- btrfs -> /usr/bin/btrfsdnl
+- btrfs-convert -> /usr/bin/btrfs-convertdnl
+- btrfs-find-root -> /usr/bin/btrfs-find-rootdnl
+- btrfs-image -> /usr/bin/btrfs-imagednl
+- btrfs-map-logical -> /usr/bin/btrfs-map-logicaldnl
+- btrfs-select-super -> /usr/bin/btrfs-select-superdnl
+- btrfsck -> /usr/bin/btrfsckdnl
+- btrfstune -> /usr/bin/btrfstunednl
+- bugpoint-10 -> /usr/bin/bugpoint-10- bugpoint-11 -> /usr/bin/bugpoint-11- bugpoint-12 -> /usr/bin/bugpoint-12- buildah -> /usr/bin/buildahdnl
+- bundle2.7 -> /usr/bin/bundle2.7- bundler2.7 -> /usr/bin/bundler2.7- bunzip2 -> /usr/bin/bunzip2dnl
+- busctl -> /usr/bin/busctldnl
+- busybox -> /usr/bin/busyboxdnl
+- byobu -> /usr/bin/byobudnl
+- byobu-config -> /usr/bin/byobu-configdnl
+- byobu-ctrl-a -> /usr/bin/byobu-ctrl-adnl
+- byobu-disable -> /usr/bin/byobu-disablednl
+- byobu-disable-prompt -> /usr/bin/byobu-disable-promptdnl
+- byobu-enable -> /usr/bin/byobu-enablednl
+- byobu-enable-prompt -> /usr/bin/byobu-enable-promptdnl
+- byobu-export -> /usr/bin/byobu-exportdnl
+- byobu-janitor -> /usr/bin/byobu-janitordnl
+- byobu-keybindings -> /usr/bin/byobu-keybindingsdnl
+- byobu-launch -> /usr/bin/byobu-launchdnl
+- byobu-launcher -> /usr/bin/byobu-launcherdnl
+- byobu-launcher-install -> /usr/bin/byobu-launcher-installdnl
+- byobu-launcher-uninstall -> /usr/bin/byobu-launcher-uninstalldnl
+- byobu-layout -> /usr/bin/byobu-layoutdnl
+- byobu-prompt -> /usr/bin/byobu-promptdnl
+- byobu-quiet -> /usr/bin/byobu-quietdnl
+- byobu-reconnect-sockets -> /usr/bin/byobu-reconnect-socketsdnl
+- byobu-screen -> /usr/bin/byobu-screendnl
+- byobu-select-backend -> /usr/bin/byobu-select-backenddnl
+- byobu-select-profile -> /usr/bin/byobu-select-profilednl
+- byobu-select-session -> /usr/bin/byobu-select-sessiondnl
+- byobu-shell -> /usr/bin/byobu-shelldnl
+- byobu-silent -> /usr/bin/byobu-silentdnl
+- byobu-status -> /usr/bin/byobu-statusdnl
+- byobu-status-detail -> /usr/bin/byobu-status-detaildnl
+- byobu-tmux -> /usr/bin/byobu-tmuxdnl
+- byobu-ugraph -> /usr/bin/byobu-ugraphdnl
+- byobu-ulevel -> /usr/bin/byobu-uleveldnl
+- bzcat -> /usr/bin/bzcatdnl
+- bzcmp -> /usr/bin/bzcmpdnl
+- bzdiff -> /usr/bin/bzdiffdnl
+- bzegrep -> /usr/bin/bzegrepdnl
+- bzexe -> /usr/bin/bzexednl
+- bzfgrep -> /usr/bin/bzfgrepdnl
+- bzgrep -> /usr/bin/bzgrepdnl
+- bzip2 -> /usr/bin/bzip2dnl
+- bzip2recover -> /usr/bin/bzip2recoverdnl
+- bzless -> /usr/bin/bzlessdnl
+- bzmore -> /usr/bin/bzmorednl
+- c++ -> /usr/bin/c++- c++filt -> /usr/bin/c++filtdnl
+- c-index-test-10 -> /usr/bin/c-index-test-10- c-index-test-11 -> /usr/bin/c-index-test-11- c-index-test-12 -> /usr/bin/c-index-test-12- c89 -> /usr/bin/c89dnl
+- c89-gcc -> /usr/bin/c89-gccdnl
+- c99 -> /usr/bin/c99dnl
+- c99-gcc -> /usr/bin/c99-gccdnl
+- c_rehash -> /usr/bin/c_rehashdnl
+- cabal -> /usr/local/.ghcup/bin/cabaldnl
+- cabal-3.6.2.0 -> /usr/local/.ghcup/bin/cabal-3.6.2.0- cache_check -> /usr/sbin/cache_checkdnl
+- cache_dump -> /usr/sbin/cache_dumpdnl
+- cache_metadata_size -> /usr/sbin/cache_metadata_sizednl
+- cache_repair -> /usr/sbin/cache_repairdnl
+- cache_restore -> /usr/sbin/cache_restorednl
+- cache_writeback -> /usr/sbin/cache_writebackdnl
+- cal -> /usr/bin/caldnl
+- calendar -> /usr/bin/calendardnl
+- capsh -> /usr/sbin/capshdnl
+- captoinfo -> /usr/bin/captoinfodnl
+- cargo -> /home/runner/.cargo/bin/cargodnl
+- cargo-audit -> /home/runner/.cargo/bin/cargo-auditdnl
+- cargo-clippy -> /home/runner/.cargo/bin/cargo-clippydnl
+- cargo-fmt -> /home/runner/.cargo/bin/cargo-fmtdnl
+- cargo-miri -> /home/runner/.cargo/bin/cargo-miridnl
+- cargo-outdated -> /home/runner/.cargo/bin/cargo-outdateddnl
+- caspol -> /usr/bin/caspoldnl
+- cat -> /usr/bin/catdnl
+- catchsegv -> /usr/bin/catchsegvdnl
+- catman -> /usr/bin/catmandnl
+- cautious-launcher -> /usr/bin/cautious-launcherdnl
+- cbindgen -> /home/runner/.cargo/bin/cbindgendnl
+- cc -> /usr/bin/ccdnl
+- ccache-swig -> /usr/bin/ccache-swigdnl
+- ccache-swig4.0 -> /usr/bin/ccache-swig4.0- cccheck -> /usr/bin/cccheckdnl
+- ccmake -> /usr/local/bin/ccmakednl
+- ccrewrite -> /usr/bin/ccrewritednl
+- cert-sync -> /usr/bin/cert-syncdnl
+- cert2spc -> /usr/bin/cert2spcdnl
+- certmgr -> /usr/bin/certmgrdnl
+- cfdisk -> /usr/sbin/cfdiskdnl
+- cftp3 -> /usr/bin/cftp3dnl
+- cgclassify -> /usr/bin/cgclassifydnl
+- cgclear -> /usr/sbin/cgcleardnl
+- cgconfigparser -> /usr/sbin/cgconfigparserdnl
+- cgcreate -> /usr/bin/cgcreatednl
+- cgdelete -> /usr/bin/cgdeletednl
+- cgdisk -> /usr/sbin/cgdiskdnl
+- cgexec -> /usr/bin/cgexecdnl
+- cgget -> /usr/bin/cggetdnl
+- cgrulesengd -> /usr/sbin/cgrulesengddnl
+- cgset -> /usr/bin/cgsetdnl
+- cgsnapshot -> /usr/bin/cgsnapshotdnl
+- chacl -> /usr/bin/chacldnl
+- chage -> /usr/bin/chagednl
+- chardet3 -> /usr/bin/chardet3dnl
+- chardetect3 -> /usr/bin/chardetect3dnl
+- chattr -> /usr/bin/chattrdnl
+- chcon -> /usr/bin/chcondnl
+- chcpu -> /usr/sbin/chcpudnl
+- check-language-support -> /usr/bin/check-language-supportdnl
+- check_forensic -> /usr/sbin/check_forensicdnl
+- checkgid -> /usr/bin/checkgiddnl
+- chfn -> /usr/bin/chfndnl
+- chgpasswd -> /usr/sbin/chgpasswddnl
+- chgrp -> /usr/bin/chgrpdnl
+- chktrust -> /usr/bin/chktrustdnl
+- chmem -> /usr/sbin/chmemdnl
+- chmod -> /usr/bin/chmoddnl
+- choom -> /usr/bin/choomdnl
+- chown -> /usr/bin/chowndnl
+- chpasswd -> /usr/sbin/chpasswddnl
+- chromedriver -> /usr/bin/chromedriverdnl
+- chromium -> /usr/bin/chromiumdnl
+- chromium-browser -> /usr/bin/chromium-browserdnl
+- chronyc -> /usr/bin/chronycdnl
+- chronyd -> /usr/sbin/chronyddnl
+- chroot -> /usr/sbin/chrootdnl
+- chrpath -> /usr/bin/chrpathdnl
+- chrt -> /usr/bin/chrtdnl
+- chsh -> /usr/bin/chshdnl
+- chvt -> /usr/bin/chvtdnl
+- cifs.idmap -> /usr/sbin/cifs.idmapdnl
+- cifs.upcall -> /usr/sbin/cifs.upcalldnl
+- cifscreds -> /usr/bin/cifscredsdnl
+- cifsiostat -> /usr/bin/cifsiostatdnl
+- ckbcomp -> /usr/bin/ckbcompdnl
+- ckeygen3 -> /usr/bin/ckeygen3dnl
+- cksum -> /usr/bin/cksumdnl
+- clang -> /usr/bin/clangdnl
+- clang++ -> /usr/bin/clang++- clang++-10 -> /usr/bin/clang++-10- clang++-11 -> /usr/bin/clang++-11- clang++-12 -> /usr/bin/clang++-12- clang-10 -> /usr/bin/clang-10- clang-11 -> /usr/bin/clang-11- clang-12 -> /usr/bin/clang-12- clang-apply-replacements-10 -> /usr/bin/clang-apply-replacements-10- clang-apply-replacements-11 -> /usr/bin/clang-apply-replacements-11- clang-apply-replacements-12 -> /usr/bin/clang-apply-replacements-12- clang-change-namespace-10 -> /usr/bin/clang-change-namespace-10- clang-change-namespace-11 -> /usr/bin/clang-change-namespace-11- clang-change-namespace-12 -> /usr/bin/clang-change-namespace-12- clang-check-10 -> /usr/bin/clang-check-10- clang-check-11 -> /usr/bin/clang-check-11- clang-check-12 -> /usr/bin/clang-check-12- clang-cl-10 -> /usr/bin/clang-cl-10- clang-cl-11 -> /usr/bin/clang-cl-11- clang-cl-12 -> /usr/bin/clang-cl-12- clang-cpp-10 -> /usr/bin/clang-cpp-10- clang-cpp-11 -> /usr/bin/clang-cpp-11- clang-cpp-12 -> /usr/bin/clang-cpp-12- clang-doc-10 -> /usr/bin/clang-doc-10- clang-doc-11 -> /usr/bin/clang-doc-11- clang-doc-12 -> /usr/bin/clang-doc-12- clang-extdef-mapping-10 -> /usr/bin/clang-extdef-mapping-10- clang-extdef-mapping-11 -> /usr/bin/clang-extdef-mapping-11- clang-extdef-mapping-12 -> /usr/bin/clang-extdef-mapping-12- clang-format -> /usr/bin/clang-formatdnl
+- clang-format-10 -> /usr/bin/clang-format-10- clang-format-11 -> /usr/bin/clang-format-11- clang-format-12 -> /usr/bin/clang-format-12- clang-format-diff-10 -> /usr/bin/clang-format-diff-10- clang-format-diff-11 -> /usr/bin/clang-format-diff-11- clang-format-diff-12 -> /usr/bin/clang-format-diff-12- clang-import-test-10 -> /usr/bin/clang-import-test-10- clang-include-fixer-10 -> /usr/bin/clang-include-fixer-10- clang-include-fixer-11 -> /usr/bin/clang-include-fixer-11- clang-include-fixer-12 -> /usr/bin/clang-include-fixer-12- clang-move-10 -> /usr/bin/clang-move-10- clang-move-11 -> /usr/bin/clang-move-11- clang-move-12 -> /usr/bin/clang-move-12- clang-offload-bundler-10 -> /usr/bin/clang-offload-bundler-10- clang-offload-bundler-11 -> /usr/bin/clang-offload-bundler-11- clang-offload-bundler-12 -> /usr/bin/clang-offload-bundler-12- clang-offload-wrapper-10 -> /usr/bin/clang-offload-wrapper-10- clang-offload-wrapper-11 -> /usr/bin/clang-offload-wrapper-11- clang-offload-wrapper-12 -> /usr/bin/clang-offload-wrapper-12- clang-query-10 -> /usr/bin/clang-query-10- clang-query-11 -> /usr/bin/clang-query-11- clang-query-12 -> /usr/bin/clang-query-12- clang-refactor-10 -> /usr/bin/clang-refactor-10- clang-refactor-11 -> /usr/bin/clang-refactor-11- clang-refactor-12 -> /usr/bin/clang-refactor-12- clang-rename-10 -> /usr/bin/clang-rename-10- clang-rename-11 -> /usr/bin/clang-rename-11- clang-rename-12 -> /usr/bin/clang-rename-12- clang-reorder-fields-10 -> /usr/bin/clang-reorder-fields-10- clang-reorder-fields-11 -> /usr/bin/clang-reorder-fields-11- clang-reorder-fields-12 -> /usr/bin/clang-reorder-fields-12- clang-scan-deps-10 -> /usr/bin/clang-scan-deps-10- clang-scan-deps-11 -> /usr/bin/clang-scan-deps-11- clang-scan-deps-12 -> /usr/bin/clang-scan-deps-12- clang-tidy -> /usr/bin/clang-tidydnl
+- clang-tidy-10 -> /usr/bin/clang-tidy-10- clang-tidy-11 -> /usr/bin/clang-tidy-11- clang-tidy-12 -> /usr/bin/clang-tidy-12- clang-tidy-diff-10.py -> /usr/bin/clang-tidy-diff-10.pydnl
+- clang-tidy-diff-11.py -> /usr/bin/clang-tidy-diff-11.pydnl
+- clang-tidy-diff-12.py -> /usr/bin/clang-tidy-diff-12.pydnl
+- clear -> /usr/bin/cleardnl
+- clear_console -> /usr/bin/clear_consolednl
+- clhsdb -> /usr/bin/clhsdbdnl
+- cli -> /usr/bin/clidnl
+- cli-al -> /usr/bin/cli-aldnl
+- cli-csc -> /usr/bin/cli-cscdnl
+- cli-gacutil -> /usr/bin/cli-gacutildnl
+- cli-ildasm -> /usr/bin/cli-ildasmdnl
+- cli-resgen -> /usr/bin/cli-resgendnl
+- cli-sn -> /usr/bin/cli-sndnl
+- clippy-driver -> /home/runner/.cargo/bin/clippy-driverdnl
+- cloud-id -> /usr/bin/cloud-iddnl
+- cloud-init -> /usr/bin/cloud-initdnl
+- cloud-init-per -> /usr/bin/cloud-init-perdnl
+- clusterdb -> /usr/bin/clusterdbdnl
+- cmake -> /usr/local/bin/cmakednl
+- cmake-gui -> /usr/local/bin/cmake-guidnl
+- cmp -> /usr/bin/cmpdnl
+- codepage -> /usr/bin/codepagednl
+- col -> /usr/bin/coldnl
+- col1 -> /usr/bin/col1dnl
+- col2 -> /usr/bin/col2dnl
+- col3 -> /usr/bin/col3dnl
+- col4 -> /usr/bin/col4dnl
+- col5 -> /usr/bin/col5dnl
+- col6 -> /usr/bin/col6dnl
+- col7 -> /usr/bin/col7dnl
+- col8 -> /usr/bin/col8dnl
+- col9 -> /usr/bin/col9dnl
+- colcrt -> /usr/bin/colcrtdnl
+- colrm -> /usr/bin/colrmdnl
+- column -> /usr/bin/columndnl
+- comm -> /usr/bin/commdnl
+- commander -> /usr/local/bin/commanderdnl
+- compare -> /usr/bin/comparednl
+- compare-im6 -> /usr/bin/compare-im6dnl
+- compare-im6.q16 -> /usr/bin/compare-im6.q16dnl
+- compel -> /usr/bin/compeldnl
+- compose -> /usr/bin/composednl
+- composer -> /usr/bin/composerdnl
+- composite -> /usr/bin/compositednl
+- composite-im6 -> /usr/bin/composite-im6dnl
+- composite-im6.q16 -> /usr/bin/composite-im6.q16dnl
+- conch3 -> /usr/bin/conch3dnl
+- conda -> /usr/bin/condadnl
+- conjure -> /usr/bin/conjurednl
+- conjure-im6 -> /usr/bin/conjure-im6dnl
+- conjure-im6.q16 -> /usr/bin/conjure-im6.q16dnl
+- conmon -> /usr/bin/conmondnl
+- containerd -> /usr/bin/containerddnl
+- containerd-shim -> /usr/bin/containerd-shimdnl
+- containerd-shim-runc-v1 -> /usr/bin/containerd-shim-runc-v1dnl
+- containerd-shim-runc-v2 -> /usr/bin/containerd-shim-runc-v2dnl
+- containerd-stress -> /usr/bin/containerd-stressdnl
+- convert -> /usr/bin/convertdnl
+- convert-im6 -> /usr/bin/convert-im6dnl
+- convert-im6.q16 -> /usr/bin/convert-im6.q16dnl
+- corelist -> /usr/bin/corelistdnl
+- corepack -> /usr/local/bin/corepackdnl
+- count-10 -> /usr/bin/count-10- count-11 -> /usr/bin/count-11- count-12 -> /usr/bin/count-12- cp -> /usr/bin/cpdnl
+- cpack -> /usr/local/bin/cpackdnl
+- cpan -> /usr/bin/cpandnl
+- cpan5.30-x86_64-linux-gnu -> /usr/bin/cpan5.30-x86_64-linux-gnudnl
+- cpgr -> /usr/sbin/cpgrdnl
+- cpio -> /usr/bin/cpiodnl
+- cpp -> /usr/bin/cppdnl
+- cpp-10 -> /usr/bin/cpp-10- cpp-9 -> /usr/bin/cpp-9- cppw -> /usr/sbin/cppwdnl
+- cpu_sup -> /usr/bin/cpu_supdnl
+- cpupower -> /usr/bin/cpupowerdnl
+- createdb -> /usr/bin/createdbdnl
+- createlang -> /usr/bin/createlangdnl
+- createuser -> /usr/bin/createuserdnl
+- crit -> /usr/bin/critdnl
+- criu -> /usr/sbin/criudnl
+- criu-ns -> /usr/sbin/criu-nsdnl
+- crlupdate -> /usr/bin/crlupdatednl
+- cron -> /usr/sbin/crondnl
+- crontab -> /usr/bin/crontabdnl
+- crun -> /usr/bin/crundnl
+- cryptdisks_start -> /usr/sbin/cryptdisks_startdnl
+- cryptdisks_stop -> /usr/sbin/cryptdisks_stopdnl
+- cryptsetup -> /usr/sbin/cryptsetupdnl
+- cryptsetup-reencrypt -> /usr/sbin/cryptsetup-reencryptdnl
+- csc -> /usr/bin/cscdnl
+- csharp -> /usr/bin/csharpdnl
+- csi -> /usr/bin/csidnl
+- csplit -> /usr/bin/csplitdnl
+- ct_run -> /usr/bin/ct_rundnl
+- ctail -> /usr/bin/ctaildnl
+- ctest -> /usr/local/bin/ctestdnl
+- ctr -> /usr/bin/ctrdnl
+- ctrlaltdel -> /usr/sbin/ctrlaltdeldnl
+- ctstat -> /usr/bin/ctstatdnl
+- curl -> /usr/bin/curldnl
+- cut -> /usr/bin/cutdnl
+- cvtsudoers -> /usr/bin/cvtsudoersdnl
+- dash -> /usr/bin/dashdnl
+- date -> /usr/bin/datednl
+- dbsessmgr4 -> /usr/bin/dbsessmgr4dnl
+- dbus-cleanup-sockets -> /usr/bin/dbus-cleanup-socketsdnl
+- dbus-daemon -> /usr/bin/dbus-daemondnl
+- dbus-monitor -> /usr/bin/dbus-monitordnl
+- dbus-run-session -> /usr/bin/dbus-run-sessiondnl
+- dbus-send -> /usr/bin/dbus-senddnl
+- dbus-update-activation-environment -> /usr/bin/dbus-update-activation-environmentdnl
+- dbus-uuidgen -> /usr/bin/dbus-uuidgendnl
+- dbxtool -> /usr/bin/dbxtooldnl
+- dd -> /usr/bin/dddnl
+- deallocvt -> /usr/bin/deallocvtdnl
+- deb-systemd-helper -> /usr/bin/deb-systemd-helperdnl
+- deb-systemd-invoke -> /usr/bin/deb-systemd-invokednl
+- debconf -> /usr/bin/debconfdnl
+- debconf-apt-progress -> /usr/bin/debconf-apt-progressdnl
+- debconf-communicate -> /usr/bin/debconf-communicatednl
+- debconf-copydb -> /usr/bin/debconf-copydbdnl
+- debconf-escape -> /usr/bin/debconf-escapednl
+- debconf-set-selections -> /usr/bin/debconf-set-selectionsdnl
+- debconf-show -> /usr/bin/debconf-showdnl
+- debian-distro-info -> /usr/bin/debian-distro-infodnl
+- debugedit -> /usr/bin/debugeditdnl
+- debugfs -> /usr/sbin/debugfsdnl
+- delgroup -> /usr/sbin/delgroupdnl
+- delpart -> /usr/bin/delpartdnl
+- deluser -> /usr/sbin/deluserdnl
+- delv -> /usr/bin/delvdnl
+- depmod -> /usr/sbin/depmoddnl
+- derb -> /usr/bin/derbdnl
+- devlink -> /usr/sbin/devlinkdnl
+- df -> /usr/bin/dfdnl
+- dfu-tool -> /usr/bin/dfu-tooldnl
+- dh_autotools-dev_restoreconfig -> /usr/bin/dh_autotools-dev_restoreconfigdnl
+- dh_autotools-dev_updateconfig -> /usr/bin/dh_autotools-dev_updateconfigdnl
+- dh_bash-completion -> /usr/bin/dh_bash-completiondnl
+- dh_installtex -> /usr/bin/dh_installtexdnl
+- dh_perl_openssl -> /usr/bin/dh_perl_openssldnl
+- dh_python2 -> /usr/bin/dh_python2dnl
+- dhclient -> /usr/sbin/dhclientdnl
+- dhclient-script -> /usr/sbin/dhclient-scriptdnl
+- diagtool-10 -> /usr/bin/diagtool-10- diagtool-11 -> /usr/bin/diagtool-11- diagtool-12 -> /usr/bin/diagtool-12- dialyzer -> /usr/bin/dialyzerdnl
+- diff -> /usr/bin/diffdnl
+- diff3 -> /usr/bin/diff3dnl
+- dig -> /usr/bin/digdnl
+- dir -> /usr/bin/dirdnl
+- dircolors -> /usr/bin/dircolorsdnl
+- dirmngr -> /usr/bin/dirmngrdnl
+- dirmngr-client -> /usr/bin/dirmngr-clientdnl
+- dirname -> /usr/bin/dirnamednl
+- disco -> /usr/bin/discodnl
+- display -> /usr/bin/displaydnl
+- display-im6 -> /usr/bin/display-im6dnl
+- display-im6.q16 -> /usr/bin/display-im6.q16dnl
+- distro-info -> /usr/bin/distro-infodnl
+- dmcs -> /usr/bin/dmcsdnl
+- dmesg -> /usr/bin/dmesgdnl
+- dmeventd -> /usr/sbin/dmeventddnl
+- dmidecode -> /usr/sbin/dmidecodednl
+- dmsetup -> /usr/sbin/dmsetupdnl
+- dmstats -> /usr/sbin/dmstatsdnl
+- dnsdomainname -> /usr/bin/dnsdomainnamednl
+- dnsmasq -> /usr/sbin/dnsmasqdnl
+- do-release-upgrade -> /usr/bin/do-release-upgradednl
+- docker -> /usr/bin/dockerdnl
+- docker-compose -> /usr/local/bin/docker-composednl
+- docker-credential-ecr-login -> /usr/bin/docker-credential-ecr-logindnl
+- docker-credential-gcloud -> /usr/bin/docker-credential-gclouddnl
+- docker-init -> /usr/bin/docker-initdnl
+- docker-proxy -> /usr/bin/docker-proxydnl
+- dockerd -> /usr/bin/dockerddnl
+- domainname -> /usr/bin/domainnamednl
+- dosfsck -> /usr/sbin/dosfsckdnl
+- dosfslabel -> /usr/sbin/dosfslabeldnl
+- dotenv -> /usr/local/bin/dotenvdnl
+- dotnet -> /usr/bin/dotnetdnl
+- dpkg -> /usr/bin/dpkgdnl
+- dpkg-architecture -> /usr/bin/dpkg-architecturednl
+- dpkg-buildflags -> /usr/bin/dpkg-buildflagsdnl
+- dpkg-buildpackage -> /usr/bin/dpkg-buildpackagednl
+- dpkg-checkbuilddeps -> /usr/bin/dpkg-checkbuilddepsdnl
+- dpkg-deb -> /usr/bin/dpkg-debdnl
+- dpkg-distaddfile -> /usr/bin/dpkg-distaddfilednl
+- dpkg-genbuildinfo -> /usr/bin/dpkg-genbuildinfodnl
+- dpkg-genchanges -> /usr/bin/dpkg-genchangesdnl
+- dpkg-gencontrol -> /usr/bin/dpkg-gencontroldnl
+- dpkg-gensymbols -> /usr/bin/dpkg-gensymbolsdnl
+- dpkg-maintscript-helper -> /usr/bin/dpkg-maintscript-helperdnl
+- dpkg-mergechangelogs -> /usr/bin/dpkg-mergechangelogsdnl
+- dpkg-name -> /usr/bin/dpkg-namednl
+- dpkg-parsechangelog -> /usr/bin/dpkg-parsechangelogdnl
+- dpkg-preconfigure -> /usr/sbin/dpkg-preconfigurednl
+- dpkg-query -> /usr/bin/dpkg-querydnl
+- dpkg-reconfigure -> /usr/sbin/dpkg-reconfigurednl
+- dpkg-scanpackages -> /usr/bin/dpkg-scanpackagesdnl
+- dpkg-scansources -> /usr/bin/dpkg-scansourcesdnl
+- dpkg-shlibdeps -> /usr/bin/dpkg-shlibdepsdnl
+- dpkg-source -> /usr/bin/dpkg-sourcednl
+- dpkg-split -> /usr/bin/dpkg-splitdnl
+- dpkg-statoverride -> /usr/bin/dpkg-statoverridednl
+- dpkg-trigger -> /usr/bin/dpkg-triggerdnl
+- dpkg-vendor -> /usr/bin/dpkg-vendordnl
+- dropdb -> /usr/bin/dropdbdnl
+- droplang -> /usr/bin/droplangdnl
+- dropuser -> /usr/bin/dropuserdnl
+- dsymutil-10 -> /usr/bin/dsymutil-10- dsymutil-11 -> /usr/bin/dsymutil-11- dsymutil-12 -> /usr/bin/dsymutil-12- dtd2rng -> /usr/bin/dtd2rngdnl
+- dtd2xsd -> /usr/bin/dtd2xsddnl
+- du -> /usr/bin/dudnl
+- dumpe2fs -> /usr/sbin/dumpe2fsdnl
+- dumpkeys -> /usr/bin/dumpkeysdnl
+- dwp -> /usr/bin/dwpdnl
+- e2freefrag -> /usr/sbin/e2freefragdnl
+- e2fsck -> /usr/sbin/e2fsckdnl
+- e2image -> /usr/sbin/e2imagednl
+- e2label -> /usr/sbin/e2labeldnl
+- e2mmpstatus -> /usr/sbin/e2mmpstatusdnl
+- e2scrub -> /usr/sbin/e2scrubdnl
+- e2scrub_all -> /usr/sbin/e2scrub_alldnl
+- e2undo -> /usr/sbin/e2undodnl
+- e4crypt -> /usr/sbin/e4cryptdnl
+- e4defrag -> /usr/sbin/e4defragdnl
+- eatmydata -> /usr/bin/eatmydatadnl
+- ebtables -> /usr/sbin/ebtablesdnl
+- ebtables-nft -> /usr/sbin/ebtables-nftdnl
+- ebtables-nft-restore -> /usr/sbin/ebtables-nft-restorednl
+- ebtables-nft-save -> /usr/sbin/ebtables-nft-savednl
+- ebtables-restore -> /usr/sbin/ebtables-restorednl
+- ebtables-save -> /usr/sbin/ebtables-savednl
+- ec2metadata -> /usr/bin/ec2metadatadnl
+- echo -> /usr/bin/echodnl
+- ed -> /usr/bin/eddnl
+- edit -> /usr/bin/editdnl
+- editor -> /usr/bin/editordnl
+- editres -> /usr/bin/editresdnl
+- efibootdump -> /usr/bin/efibootdumpdnl
+- efibootmgr -> /usr/bin/efibootmgrdnl
+- egrep -> /usr/bin/egrepdnl
+- eject -> /usr/bin/ejectdnl
+- elfedit -> /usr/bin/elfeditdnl
+- enc2xs -> /usr/bin/enc2xsdnl
+- encguess -> /usr/bin/encguessdnl
+- encode_keychange -> /usr/bin/encode_keychangednl
+- env -> /usr/bin/envdnl
+- env_parallel -> /usr/bin/env_paralleldnl
+- env_parallel.bash -> /usr/bin/env_parallel.bashdnl
+- env_parallel.csh -> /usr/bin/env_parallel.cshdnl
+- env_parallel.fish -> /usr/bin/env_parallel.fishdnl
+- env_parallel.ksh -> /usr/bin/env_parallel.kshdnl
+- env_parallel.pdksh -> /usr/bin/env_parallel.pdkshdnl
+- env_parallel.tcsh -> /usr/bin/env_parallel.tcshdnl
+- env_parallel.zsh -> /usr/bin/env_parallel.zshdnl
+- envsubst -> /usr/bin/envsubstdnl
+- ephemeral-disk-warning -> /usr/sbin/ephemeral-disk-warningdnl
+- epmd -> /usr/bin/epmddnl
+- eqn -> /usr/bin/eqndnl
+- era_check -> /usr/sbin/era_checkdnl
+- era_dump -> /usr/sbin/era_dumpdnl
+- era_invalidate -> /usr/sbin/era_invalidatednl
+- era_restore -> /usr/sbin/era_restorednl
+- erb -> /usr/bin/erbdnl
+- erb2.7 -> /usr/bin/erb2.7- erl -> /usr/bin/erldnl
+- erl_call -> /usr/bin/erl_calldnl
+- erlc -> /usr/bin/erlcdnl
+- escapesrc -> /usr/sbin/escapesrcdnl
+- escript -> /usr/bin/escriptdnl
+- ethtool -> /usr/sbin/ethtooldnl
+- etop -> /usr/bin/etopdnl
+- ex -> /usr/bin/exdnl
+- expand -> /usr/bin/expanddnl
+- expiry -> /usr/bin/expirydnl
+- expr -> /usr/bin/exprdnl
+- extcheck -> /usr/bin/extcheckdnl
+- f77 -> /usr/bin/f77dnl
+- f95 -> /usr/bin/f95dnl
+- factor -> /usr/bin/factordnl
+- faillock -> /usr/sbin/faillockdnl
+- faillog -> /usr/bin/faillogdnl
+- faked-sysv -> /usr/bin/faked-sysvdnl
+- faked-tcp -> /usr/bin/faked-tcpdnl
+- fakeroot -> /usr/bin/fakerootdnl
+- fakeroot-sysv -> /usr/bin/fakeroot-sysvdnl
+- fakeroot-tcp -> /usr/bin/fakeroot-tcpdnl
+- fallocate -> /usr/bin/fallocatednl
+- false -> /usr/bin/falsednl
+- fastlane -> /usr/local/bin/fastlanednl
+- fatlabel -> /usr/sbin/fatlabeldnl
+- fc-cache -> /usr/bin/fc-cachednl
+- fc-cat -> /usr/bin/fc-catdnl
+- fc-conflist -> /usr/bin/fc-conflistdnl
+- fc-list -> /usr/bin/fc-listdnl
+- fc-match -> /usr/bin/fc-matchdnl
+- fc-pattern -> /usr/bin/fc-patterndnl
+- fc-query -> /usr/bin/fc-querydnl
+- fc-scan -> /usr/bin/fc-scandnl
+- fc-validate -> /usr/bin/fc-validatednl
+- fcgistarter -> /usr/bin/fcgistarterdnl
+- fdformat -> /usr/sbin/fdformatdnl
+- fdisk -> /usr/sbin/fdiskdnl
+- fgconsole -> /usr/bin/fgconsolednl
+- fgrep -> /usr/bin/fgrepdnl
+- file -> /usr/bin/filednl
+- filefrag -> /usr/sbin/filefragdnl
+- finalrd -> /usr/bin/finalrddnl
+- fincore -> /usr/bin/fincorednl
+- find -> /usr/bin/finddnl
+- find-all-symbols-10 -> /usr/bin/find-all-symbols-10- find-all-symbols-11 -> /usr/bin/find-all-symbols-11- find-all-symbols-12 -> /usr/bin/find-all-symbols-12- findfs -> /usr/sbin/findfsdnl
+- findmnt -> /usr/bin/findmntdnl
+- firefox -> /usr/bin/firefoxdnl
+- fixparts -> /usr/sbin/fixpartsdnl
+- fixproc -> /usr/bin/fixprocdnl
+- flex -> /usr/bin/flexdnl
+- flex++ -> /usr/bin/flex++- flock -> /usr/bin/flockdnl
+- fmt -> /usr/bin/fmtdnl
+- fold -> /usr/bin/folddnl
+- free -> /usr/bin/freednl
+- from -> /usr/bin/fromdnl
+- fsadm -> /usr/sbin/fsadmdnl
+- fsck -> /usr/sbin/fsckdnl
+- fsck.btrfs -> /usr/sbin/fsck.btrfsdnl
+- fsck.cramfs -> /usr/sbin/fsck.cramfsdnl
+- fsck.ext2 -> /usr/sbin/fsck.ext2dnl
+- fsck.ext3 -> /usr/sbin/fsck.ext3dnl
+- fsck.ext4 -> /usr/sbin/fsck.ext4dnl
+- fsck.fat -> /usr/sbin/fsck.fatdnl
+- fsck.minix -> /usr/sbin/fsck.minixdnl
+- fsck.msdos -> /usr/sbin/fsck.msdosdnl
+- fsck.vfat -> /usr/sbin/fsck.vfatdnl
+- fsck.xfs -> /usr/sbin/fsck.xfsdnl
+- fsfreeze -> /usr/sbin/fsfreezednl
+- fstab-decode -> /usr/sbin/fstab-decodednl
+- fstrim -> /usr/sbin/fstrimdnl
+- ftp -> /usr/bin/ftpdnl
+- funzip -> /usr/bin/funzipdnl
+- fuse-overlayfs -> /usr/bin/fuse-overlayfsdnl
+- fuser -> /usr/bin/fuserdnl
+- fusermount -> /usr/bin/fusermountdnl
+- fusermount3 -> /usr/bin/fusermount3dnl
+- fwupdagent -> /usr/bin/fwupdagentdnl
+- fwupdate -> /usr/bin/fwupdatednl
+- fwupdmgr -> /usr/bin/fwupdmgrdnl
+- fwupdtool -> /usr/bin/fwupdtooldnl
+- g++ -> /usr/bin/g++- g++-10 -> /usr/bin/g++-10- g++-9 -> /usr/bin/g++-9- gacutil -> /usr/bin/gacutildnl
+- gapplication -> /usr/bin/gapplicationdnl
+- gawk -> /usr/bin/gawkdnl
+- gcc -> /usr/bin/gccdnl
+- gcc-10 -> /usr/bin/gcc-10- gcc-9 -> /usr/bin/gcc-9- gcc-ar -> /usr/bin/gcc-ardnl
+- gcc-ar-10 -> /usr/bin/gcc-ar-10- gcc-ar-9 -> /usr/bin/gcc-ar-9- gcc-nm -> /usr/bin/gcc-nmdnl
+- gcc-nm-10 -> /usr/bin/gcc-nm-10- gcc-nm-9 -> /usr/bin/gcc-nm-9- gcc-ranlib -> /usr/bin/gcc-ranlibdnl
+- gcc-ranlib-10 -> /usr/bin/gcc-ranlib-10- gcc-ranlib-9 -> /usr/bin/gcc-ranlib-9- gcloud -> /usr/bin/gclouddnl
+- gcov -> /usr/bin/gcovdnl
+- gcov-10 -> /usr/bin/gcov-10- gcov-9 -> /usr/bin/gcov-9- gcov-dump -> /usr/bin/gcov-dumpdnl
+- gcov-dump-10 -> /usr/bin/gcov-dump-10- gcov-dump-9 -> /usr/bin/gcov-dump-9- gcov-tool -> /usr/bin/gcov-tooldnl
+- gcov-tool-10 -> /usr/bin/gcov-tool-10- gcov-tool-9 -> /usr/bin/gcov-tool-9- gdbus -> /usr/bin/gdbusdnl
+- gdbus-codegen -> /usr/bin/gdbus-codegendnl
+- gdisk -> /usr/sbin/gdiskdnl
+- gdk-pixbuf-csource -> /usr/bin/gdk-pixbuf-csourcednl
+- gdk-pixbuf-pixdata -> /usr/bin/gdk-pixbuf-pixdatadnl
+- gdk-pixbuf-thumbnailer -> /usr/bin/gdk-pixbuf-thumbnailerdnl
+- geckodriver -> /usr/bin/geckodriverdnl
+- gem -> /usr/bin/gemdnl
+- gem2.7 -> /usr/bin/gem2.7- genbrk -> /usr/bin/genbrkdnl
+- gencat -> /usr/bin/gencatdnl
+- genccode -> /usr/sbin/genccodednl
+- gencfu -> /usr/bin/gencfudnl
+- gencmn -> /usr/sbin/gencmndnl
+- gencnval -> /usr/bin/gencnvaldnl
+- gendict -> /usr/bin/gendictdnl
+- gendiff -> /usr/bin/gendiffdnl
+- genl -> /usr/sbin/genldnl
+- gennorm2 -> /usr/sbin/gennorm2dnl
+- genrb -> /usr/bin/genrbdnl
+- gensprep -> /usr/sbin/gensprepdnl
+- genxs -> /usr/bin/genxsdnl
+- geqn -> /usr/bin/geqndnl
+- getcap -> /usr/sbin/getcapdnl
+- getcifsacl -> /usr/bin/getcifsacldnl
+- getconf -> /usr/bin/getconfdnl
+- getent -> /usr/bin/getentdnl
+- getfacl -> /usr/bin/getfacldnl
+- getkeycodes -> /usr/bin/getkeycodesdnl
+- getopt -> /usr/bin/getoptdnl
+- getpcaps -> /usr/sbin/getpcapsdnl
+- gettext -> /usr/bin/gettextdnl
+- gettext.sh -> /usr/bin/gettext.shdnl
+- getty -> /usr/sbin/gettydnl
+- gfortran -> /usr/bin/gfortrandnl
+- gfortran-10 -> /usr/bin/gfortran-10- gfortran-9 -> /usr/bin/gfortran-9- gh -> /usr/bin/ghdnl
+- ghc -> /usr/local/.ghcup/bin/ghcdnl
+- ghc-9.0 -> /usr/local/.ghcup/bin/ghc-9.0- ghc-9.0.2 -> /usr/local/.ghcup/bin/ghc-9.0.2- ghc-9.2 -> /usr/local/.ghcup/bin/ghc-9.2- ghc-9.2.3 -> /usr/local/.ghcup/bin/ghc-9.2.3- ghc-pkg -> /usr/local/.ghcup/bin/ghc-pkgdnl
+- ghc-pkg-9.0 -> /usr/local/.ghcup/bin/ghc-pkg-9.0- ghc-pkg-9.0.2 -> /usr/local/.ghcup/bin/ghc-pkg-9.0.2- ghc-pkg-9.2 -> /usr/local/.ghcup/bin/ghc-pkg-9.2- ghc-pkg-9.2.3 -> /usr/local/.ghcup/bin/ghc-pkg-9.2.3- ghci -> /usr/local/.ghcup/bin/ghcidnl
+- ghci-9.0 -> /usr/local/.ghcup/bin/ghci-9.0- ghci-9.0.2 -> /usr/local/.ghcup/bin/ghci-9.0.2- ghci-9.2 -> /usr/local/.ghcup/bin/ghci-9.2- ghci-9.2.3 -> /usr/local/.ghcup/bin/ghci-9.2.3- ghcup -> /usr/local/.ghcup/bin/ghcupdnl
+- ginstall-info -> /usr/bin/ginstall-infodnl
+- gio -> /usr/bin/giodnl
+- gio-querymodules -> /usr/bin/gio-querymodulesdnl
+- git -> /usr/bin/gitdnl
+- git-clang-format-10 -> /usr/bin/git-clang-format-10- git-clang-format-11 -> /usr/bin/git-clang-format-11- git-clang-format-12 -> /usr/bin/git-clang-format-12- git-credential-gcloud.sh -> /usr/bin/git-credential-gcloud.shdnl
+- git-ftp -> /usr/bin/git-ftpdnl
+- git-lfs -> /usr/bin/git-lfsdnl
+- git-receive-pack -> /usr/bin/git-receive-packdnl
+- git-shell -> /usr/bin/git-shelldnl
+- git-upload-archive -> /usr/bin/git-upload-archivednl
+- git-upload-pack -> /usr/bin/git-upload-packdnl
+- glib-compile-resources -> /usr/bin/glib-compile-resourcesdnl
+- glib-compile-schemas -> /usr/bin/glib-compile-schemasdnl
+- glib-genmarshal -> /usr/bin/glib-genmarshaldnl
+- glib-gettextize -> /usr/bin/glib-gettextizednl
+- glib-mkenums -> /usr/bin/glib-mkenumsdnl
+- gnome-www-browser -> /usr/bin/gnome-www-browserdnl
+- go -> /usr/bin/godnl
+- gobject-query -> /usr/bin/gobject-querydnl
+- gofmt -> /usr/bin/gofmtdnl
+- gold -> /usr/bin/golddnl
+- google-chrome -> /usr/bin/google-chromednl
+- google-chrome-stable -> /usr/bin/google-chrome-stablednl
+- gpasswd -> /usr/bin/gpasswddnl
+- gpg -> /usr/bin/gpgdnl
+- gpg-agent -> /usr/bin/gpg-agentdnl
+- gpg-connect-agent -> /usr/bin/gpg-connect-agentdnl
+- gpg-wks-server -> /usr/bin/gpg-wks-serverdnl
+- gpg-zip -> /usr/bin/gpg-zipdnl
+- gpg2 -> /usr/bin/gpg2dnl
+- gpgcompose -> /usr/bin/gpgcomposednl
+- gpgconf -> /usr/bin/gpgconfdnl
+- gpgparsemail -> /usr/bin/gpgparsemaildnl
+- gpgsm -> /usr/bin/gpgsmdnl
+- gpgsplit -> /usr/bin/gpgsplitdnl
+- gpgtar -> /usr/bin/gpgtardnl
+- gpgv -> /usr/bin/gpgvdnl
+- gpic -> /usr/bin/gpicdnl
+- gprof -> /usr/bin/gprofdnl
+- gradle -> /usr/bin/gradlednl
+- grep -> /usr/bin/grepdnl
+- gresource -> /usr/bin/gresourcednl
+- groff -> /usr/bin/groffdnl
+- grog -> /usr/bin/grogdnl
+- grops -> /usr/bin/gropsdnl
+- grotty -> /usr/bin/grottydnl
+- groupadd -> /usr/sbin/groupadddnl
+- groupdel -> /usr/sbin/groupdeldnl
+- groupmems -> /usr/sbin/groupmemsdnl
+- groupmod -> /usr/sbin/groupmoddnl
+- groups -> /usr/bin/groupsdnl
+- growpart -> /usr/bin/growpartdnl
+- grpck -> /usr/sbin/grpckdnl
+- grpconv -> /usr/sbin/grpconvdnl
+- grpunconv -> /usr/sbin/grpunconvdnl
+- grub-bios-setup -> /usr/sbin/grub-bios-setupdnl
+- grub-editenv -> /usr/bin/grub-editenvdnl
+- grub-file -> /usr/bin/grub-filednl
+- grub-fstest -> /usr/bin/grub-fstestdnl
+- grub-glue-efi -> /usr/bin/grub-glue-efidnl
+- grub-install -> /usr/sbin/grub-installdnl
+- grub-kbdcomp -> /usr/bin/grub-kbdcompdnl
+- grub-macbless -> /usr/sbin/grub-macblessdnl
+- grub-menulst2cfg -> /usr/bin/grub-menulst2cfgdnl
+- grub-mkconfig -> /usr/sbin/grub-mkconfigdnl
+- grub-mkdevicemap -> /usr/sbin/grub-mkdevicemapdnl
+- grub-mkfont -> /usr/bin/grub-mkfontdnl
+- grub-mkimage -> /usr/bin/grub-mkimagednl
+- grub-mklayout -> /usr/bin/grub-mklayoutdnl
+- grub-mknetdir -> /usr/bin/grub-mknetdirdnl
+- grub-mkpasswd-pbkdf2 -> /usr/bin/grub-mkpasswd-pbkdf2dnl
+- grub-mkrelpath -> /usr/bin/grub-mkrelpathdnl
+- grub-mkrescue -> /usr/bin/grub-mkrescuednl
+- grub-mkstandalone -> /usr/bin/grub-mkstandalonednl
+- grub-mount -> /usr/bin/grub-mountdnl
+- grub-ntldr-img -> /usr/bin/grub-ntldr-imgdnl
+- grub-probe -> /usr/sbin/grub-probednl
+- grub-reboot -> /usr/sbin/grub-rebootdnl
+- grub-render-label -> /usr/bin/grub-render-labeldnl
+- grub-script-check -> /usr/bin/grub-script-checkdnl
+- grub-set-default -> /usr/sbin/grub-set-defaultdnl
+- grub-syslinux2cfg -> /usr/bin/grub-syslinux2cfgdnl
+- grunt -> /usr/local/bin/gruntdnl
+- gsettings -> /usr/bin/gsettingsdnl
+- gsl-config -> /usr/bin/gsl-configdnl
+- gsutil -> /usr/bin/gsutildnl
+- gtbl -> /usr/bin/gtbldnl
+- gtester -> /usr/bin/gtesterdnl
+- gtester-report -> /usr/bin/gtester-reportdnl
+- gtk-update-icon-cache -> /usr/bin/gtk-update-icon-cachednl
+- gulp -> /usr/local/bin/gulpdnl
+- gunzip -> /usr/bin/gunzipdnl
+- gzexe -> /usr/bin/gzexednl
+- gzip -> /usr/bin/gzipdnl
+- h2ph -> /usr/bin/h2phdnl
+- h2xs -> /usr/bin/h2xsdnl
+- hackfmt -> /usr/bin/hackfmtdnl
+- haddock -> /usr/local/.ghcup/bin/haddockdnl
+- haddock-9.0 -> /usr/local/.ghcup/bin/haddock-9.0- haddock-9.0.2 -> /usr/local/.ghcup/bin/haddock-9.0.2- haddock-9.2 -> /usr/local/.ghcup/bin/haddock-9.2- haddock-9.2.3 -> /usr/local/.ghcup/bin/haddock-9.2.3- halt -> /usr/sbin/haltdnl
+- haveged -> /usr/sbin/havegeddnl
+- hd -> /usr/bin/hddnl
+- hdparm -> /usr/sbin/hdparmdnl
+- head -> /usr/bin/headdnl
+- heart -> /usr/bin/heartdnl
+- helm -> /usr/local/bin/helmdnl
+- helpztags -> /usr/bin/helpztagsdnl
+- heroku -> /usr/local/bin/herokudnl
+- hexdump -> /usr/bin/hexdumpdnl
+- hg -> /usr/bin/hgdnl
+- hg-ssh -> /usr/bin/hg-sshdnl
+- hh_client -> /usr/bin/hh_clientdnl
+- hh_parse -> /usr/bin/hh_parsednl
+- hh_server -> /usr/bin/hh_serverdnl
+- hhvm -> /usr/bin/hhvmdnl
+- hmaptool-10 -> /usr/bin/hmaptool-10- hmaptool-11 -> /usr/bin/hmaptool-11- hmaptool-12 -> /usr/bin/hmaptool-12- host -> /usr/bin/hostdnl
+- hostid -> /usr/bin/hostiddnl
+- hostname -> /usr/bin/hostnamednl
+- hostnamectl -> /usr/bin/hostnamectldnl
+- hp2ps -> /usr/local/.ghcup/bin/hp2psdnl
+- hp2ps-9.0 -> /usr/local/.ghcup/bin/hp2ps-9.0- hp2ps-9.0.2 -> /usr/local/.ghcup/bin/hp2ps-9.0.2- hp2ps-9.2 -> /usr/local/.ghcup/bin/hp2ps-9.2- hp2ps-9.2.3 -> /usr/local/.ghcup/bin/hp2ps-9.2.3- hpc -> /usr/local/.ghcup/bin/hpcdnl
+- hpc-9.0 -> /usr/local/.ghcup/bin/hpc-9.0- hpc-9.0.2 -> /usr/local/.ghcup/bin/hpc-9.0.2- hpc-9.2 -> /usr/local/.ghcup/bin/hpc-9.2- hpc-9.2.3 -> /usr/local/.ghcup/bin/hpc-9.2.3- hsc2hs -> /usr/local/.ghcup/bin/hsc2hsdnl
+- hsc2hs-9.0 -> /usr/local/.ghcup/bin/hsc2hs-9.0- hsc2hs-9.0.2 -> /usr/local/.ghcup/bin/hsc2hs-9.0.2- hsc2hs-9.2 -> /usr/local/.ghcup/bin/hsc2hs-9.2- hsc2hs-9.2.3 -> /usr/local/.ghcup/bin/hsc2hs-9.2.3- hsdb -> /usr/bin/hsdbdnl
+- htcacheclean -> /usr/bin/htcachecleandnl
+- htdbm -> /usr/bin/htdbmdnl
+- htdigest -> /usr/bin/htdigestdnl
+- htop -> /usr/bin/htopdnl
+- htpasswd -> /usr/bin/htpasswddnl
+- httpcfg -> /usr/bin/httpcfgdnl
+- httpclient -> /usr/local/bin/httpclientdnl
+- httxt2dbm -> /usr/sbin/httxt2dbmdnl
+- hub -> /usr/local/bin/hubdnl
+- hv_fcopy_daemon -> /usr/sbin/hv_fcopy_daemondnl
+- hv_get_dhcp_info -> /usr/sbin/hv_get_dhcp_infodnl
+- hv_get_dns_info -> /usr/sbin/hv_get_dns_infodnl
+- hv_kvp_daemon -> /usr/sbin/hv_kvp_daemondnl
+- hv_set_ifconfig -> /usr/sbin/hv_set_ifconfigdnl
+- hv_vss_daemon -> /usr/sbin/hv_vss_daemondnl
+- hwasan_symbolize-10 -> /usr/bin/hwasan_symbolize-10- hwasan_symbolize-11 -> /usr/bin/hwasan_symbolize-11- hwasan_symbolize-12 -> /usr/bin/hwasan_symbolize-12- hwclock -> /usr/sbin/hwclockdnl
+- hwe-support-status -> /usr/bin/hwe-support-statusdnl
+- i386 -> /usr/bin/i386dnl
+- ibd2sdi -> /usr/bin/ibd2sdidnl
+- iceauth -> /usr/bin/iceauthdnl
+- iconv -> /usr/bin/iconvdnl
+- iconvconfig -> /usr/sbin/iconvconfigdnl
+- icuinfo -> /usr/bin/icuinfodnl
+- icupkg -> /usr/sbin/icupkgdnl
+- id -> /usr/bin/iddnl
+- identify -> /usr/bin/identifydnl
+- identify-im6 -> /usr/bin/identify-im6dnl
+- identify-im6.q16 -> /usr/bin/identify-im6.q16dnl
+- idlj -> /usr/bin/idljdnl
+- ifconfig -> /usr/sbin/ifconfigdnl
+- ifnames -> /usr/bin/ifnamesdnl
+- ikdasm -> /usr/bin/ikdasmdnl
+- ilasm -> /usr/bin/ilasmdnl
+- illinkanalyzer -> /usr/bin/illinkanalyzerdnl
+- import -> /usr/bin/importdnl
+- import-im6 -> /usr/bin/import-im6dnl
+- import-im6.q16 -> /usr/bin/import-im6.q16dnl
+- indexer -> /usr/bin/indexerdnl
+- indextool -> /usr/bin/indextooldnl
+- info -> /usr/bin/infodnl
+- infobrowser -> /usr/bin/infobrowserdnl
+- infocmp -> /usr/bin/infocmpdnl
+- infotocap -> /usr/bin/infotocapdnl
+- init -> /usr/sbin/initdnl
+- innochecksum -> /usr/bin/innochecksumdnl
+- insmod -> /usr/sbin/insmoddnl
+- install -> /usr/bin/installdnl
+- install-info -> /usr/bin/install-infodnl
+- install_compass -> /usr/bin/install_compassdnl
+- installkernel -> /usr/sbin/installkerneldnl
+- installvst -> /usr/bin/installvstdnl
+- instmodsh -> /usr/bin/instmodshdnl
+- integritysetup -> /usr/sbin/integritysetupdnl
+- invoke-rc.d -> /usr/sbin/invoke-rc.ddnl
+- ionice -> /usr/bin/ionicednl
+- iostat -> /usr/bin/iostatdnl
+- ip -> /usr/sbin/ipdnl
+- ip6tables -> /usr/sbin/ip6tablesdnl
+- ip6tables-apply -> /usr/sbin/ip6tables-applydnl
+- ip6tables-legacy -> /usr/sbin/ip6tables-legacydnl
+- ip6tables-legacy-restore -> /usr/sbin/ip6tables-legacy-restorednl
+- ip6tables-legacy-save -> /usr/sbin/ip6tables-legacy-savednl
+- ip6tables-nft -> /usr/sbin/ip6tables-nftdnl
+- ip6tables-nft-restore -> /usr/sbin/ip6tables-nft-restorednl
+- ip6tables-nft-save -> /usr/sbin/ip6tables-nft-savednl
+- ip6tables-restore -> /usr/sbin/ip6tables-restorednl
+- ip6tables-restore-translate -> /usr/sbin/ip6tables-restore-translatednl
+- ip6tables-save -> /usr/sbin/ip6tables-savednl
+- ip6tables-translate -> /usr/sbin/ip6tables-translatednl
+- ipcmk -> /usr/bin/ipcmkdnl
+- ipcrm -> /usr/bin/ipcrmdnl
+- ipcs -> /usr/bin/ipcsdnl
+- ipmaddr -> /usr/sbin/ipmaddrdnl
+- iptables -> /usr/sbin/iptablesdnl
+- iptables-apply -> /usr/sbin/iptables-applydnl
+- iptables-legacy -> /usr/sbin/iptables-legacydnl
+- iptables-legacy-restore -> /usr/sbin/iptables-legacy-restorednl
+- iptables-legacy-save -> /usr/sbin/iptables-legacy-savednl
+- iptables-nft -> /usr/sbin/iptables-nftdnl
+- iptables-nft-restore -> /usr/sbin/iptables-nft-restorednl
+- iptables-nft-save -> /usr/sbin/iptables-nft-savednl
+- iptables-restore -> /usr/sbin/iptables-restorednl
+- iptables-restore-translate -> /usr/sbin/iptables-restore-translatednl
+- iptables-save -> /usr/sbin/iptables-savednl
+- iptables-translate -> /usr/sbin/iptables-translatednl
+- iptables-xml -> /usr/bin/iptables-xmldnl
+- iptunnel -> /usr/sbin/iptunneldnl
+- irb -> /usr/bin/irbdnl
+- irb2.7 -> /usr/bin/irb2.7- irqbalance -> /usr/sbin/irqbalancednl
+- irqbalance-ui -> /usr/sbin/irqbalance-uidnl
+- ischroot -> /usr/bin/ischrootdnl
+- iscsi-iname -> /usr/sbin/iscsi-inamednl
+- iscsi_discovery -> /usr/sbin/iscsi_discoverydnl
+- iscsiadm -> /usr/sbin/iscsiadmdnl
+- iscsid -> /usr/sbin/iscsiddnl
+- iscsistart -> /usr/sbin/iscsistartdnl
+- isosize -> /usr/sbin/isosizednl
+- ispell-autobuildhash -> /usr/sbin/ispell-autobuildhashdnl
+- ispell-wrapper -> /usr/bin/ispell-wrapperdnl
+- isql -> /usr/bin/isqldnl
+- iusql -> /usr/bin/iusqldnl
+- jaotc -> /usr/bin/jaotcdnl
+- jar -> /usr/bin/jardnl
+- jarsigner -> /usr/bin/jarsignerdnl
+- java -> /usr/bin/javadnl
+- javac -> /usr/bin/javacdnl
+- javadoc -> /usr/bin/javadocdnl
+- javah -> /usr/bin/javahdnl
+- javap -> /usr/bin/javapdnl
+- jcmd -> /usr/bin/jcmddnl
+- jconsole -> /usr/bin/jconsolednl
+- jdb -> /usr/bin/jdbdnl
+- jdeprscan -> /usr/bin/jdeprscandnl
+- jdeps -> /usr/bin/jdepsdnl
+- jexec -> /usr/bin/jexecdnl
+- jfr -> /usr/bin/jfrdnl
+- jhat -> /usr/bin/jhatdnl
+- jhsdb -> /usr/bin/jhsdbdnl
+- jimage -> /usr/bin/jimagednl
+- jinfo -> /usr/bin/jinfodnl
+- jjs -> /usr/bin/jjsdnl
+- jlink -> /usr/bin/jlinkdnl
+- jmap -> /usr/bin/jmapdnl
+- jmod -> /usr/bin/jmoddnl
+- join -> /usr/bin/joindnl
+- journalctl -> /usr/bin/journalctldnl
+- jpackage -> /usr/bin/jpackagednl
+- jps -> /usr/bin/jpsdnl
+- jq -> /usr/bin/jqdnl
+- jrunscript -> /usr/bin/jrunscriptdnl
+- jsadebugd -> /usr/bin/jsadebugddnl
+- jshell -> /usr/bin/jshelldnl
+- json_pp -> /usr/bin/json_ppdnl
+- json_xs -> /usr/bin/json_xsdnl
+- jsondiff -> /usr/bin/jsondiffdnl
+- jsonpatch -> /usr/bin/jsonpatchdnl
+- jsonpatch-jsondiff -> /usr/bin/jsonpatch-jsondiffdnl
+- jsonpointer -> /usr/bin/jsonpointerdnl
+- jsonschema -> /usr/bin/jsonschemadnl
+- jspawnhelper -> /usr/bin/jspawnhelperdnl
+- jstack -> /usr/bin/jstackdnl
+- jstat -> /usr/bin/jstatdnl
+- jstatd -> /usr/bin/jstatddnl
+- julia -> /usr/bin/juliadnl
+- kapt -> /usr/bin/kaptdnl
+- kbd_mode -> /usr/bin/kbd_modednl
+- kbdinfo -> /usr/bin/kbdinfodnl
+- kbdrate -> /usr/sbin/kbdratednl
+- kbxutil -> /usr/bin/kbxutildnl
+- keep-one-running -> /usr/bin/keep-one-runningdnl
+- kernel-install -> /usr/bin/kernel-installdnl
+- key.dns_resolver -> /usr/sbin/key.dns_resolverdnl
+- keyctl -> /usr/bin/keyctldnl
+- keyring -> /usr/bin/keyringdnl
+- keytool -> /usr/bin/keytooldnl
+- kill -> /usr/bin/killdnl
+- killall -> /usr/bin/killalldnl
+- killall5 -> /usr/sbin/killall5dnl
+- kind -> /usr/local/bin/kinddnl
+- kmod -> /usr/bin/kmoddnl
+- kmodsign -> /usr/bin/kmodsigndnl
+- kotlin -> /usr/bin/kotlindnl
+- kotlin-dce-js -> /usr/bin/kotlin-dce-jsdnl
+- kotlinc -> /usr/bin/kotlincdnl
+- kotlinc-js -> /usr/bin/kotlinc-jsdnl
+- kotlinc-jvm -> /usr/bin/kotlinc-jvmdnl
+- kpartx -> /usr/sbin/kpartxdnl
+- kubectl -> /usr/local/bin/kubectldnl
+- kustomize -> /usr/local/bin/kustomizednl
+- landscape-sysinfo -> /usr/bin/landscape-sysinfodnl
+- last -> /usr/bin/lastdnl
+- lastb -> /usr/bin/lastbdnl
+- lastlog -> /usr/bin/lastlogdnl
+- lc -> /usr/bin/lcdnl
+- lcf -> /usr/bin/lcfdnl
+- ld -> /usr/bin/lddnl
+- ld.bfd -> /usr/bin/ld.bfddnl
+- ld.gold -> /usr/bin/ld.golddnl
+- ld.lld-10 -> /usr/bin/ld.lld-10- ld.lld-11 -> /usr/bin/ld.lld-11- ld.lld-12 -> /usr/bin/ld.lld-12- ld64.lld-10 -> /usr/bin/ld64.lld-10- ld64.lld-11 -> /usr/bin/ld64.lld-11- ld64.lld-12 -> /usr/bin/ld64.lld-12- ld64.lld.darwinnew-12 -> /usr/bin/ld64.lld.darwinnew-12- ldattach -> /usr/sbin/ldattachdnl
+- ldconfig -> /usr/sbin/ldconfigdnl
+- ldconfig.real -> /usr/sbin/ldconfig.realdnl
+- ldd -> /usr/bin/ldddnl
+- lein -> /usr/local/bin/leindnl
+- lerna -> /usr/local/bin/lernadnl
+- less -> /usr/bin/lessdnl
+- lessecho -> /usr/bin/lessechodnl
+- lessfile -> /usr/bin/lessfilednl
+- lesskey -> /usr/bin/lesskeydnl
+- lesspipe -> /usr/bin/lesspipednl
+- lex -> /usr/bin/lexdnl
+- lexgrog -> /usr/bin/lexgrogdnl
+- libnetcfg -> /usr/bin/libnetcfgdnl
+- libpng-config -> /usr/bin/libpng-configdnl
+- libpng16-config -> /usr/bin/libpng16-configdnl
+- libtoolize -> /usr/bin/libtoolizednl
+- libwmf-config -> /usr/bin/libwmf-configdnl
+- link -> /usr/bin/linkdnl
+- linux-boot-prober -> /usr/bin/linux-boot-proberdnl
+- linux-check-removal -> /usr/bin/linux-check-removaldnl
+- linux-update-symlinks -> /usr/bin/linux-update-symlinksdnl
+- linux-version -> /usr/bin/linux-versiondnl
+- linux32 -> /usr/bin/linux32dnl
+- linux64 -> /usr/bin/linux64dnl
+- listres -> /usr/bin/listresdnl
+- llc-10 -> /usr/bin/llc-10- llc-11 -> /usr/bin/llc-11- llc-12 -> /usr/bin/llc-12- lld-10 -> /usr/bin/lld-10- lld-11 -> /usr/bin/lld-11- lld-12 -> /usr/bin/lld-12- lld-link-10 -> /usr/bin/lld-link-10- lld-link-11 -> /usr/bin/lld-link-11- lld-link-12 -> /usr/bin/lld-link-12- lldb-11 -> /usr/bin/lldb-11- lldb-argdumper-11 -> /usr/bin/lldb-argdumper-11- lldb-instr-11 -> /usr/bin/lldb-instr-11- lldb-server-11 -> /usr/bin/lldb-server-11- lldb-vscode-11 -> /usr/bin/lldb-vscode-11- lli-10 -> /usr/bin/lli-10- lli-11 -> /usr/bin/lli-11- lli-12 -> /usr/bin/lli-12- lli-child-target-10 -> /usr/bin/lli-child-target-10- lli-child-target-11 -> /usr/bin/lli-child-target-11- lli-child-target-12 -> /usr/bin/lli-child-target-12- llvm-PerfectShuffle-10 -> /usr/bin/llvm-PerfectShuffle-10- llvm-PerfectShuffle-11 -> /usr/bin/llvm-PerfectShuffle-11- llvm-PerfectShuffle-12 -> /usr/bin/llvm-PerfectShuffle-12- llvm-addr2line-10 -> /usr/bin/llvm-addr2line-10- llvm-addr2line-11 -> /usr/bin/llvm-addr2line-11- llvm-addr2line-12 -> /usr/bin/llvm-addr2line-12- llvm-ar-10 -> /usr/bin/llvm-ar-10- llvm-ar-11 -> /usr/bin/llvm-ar-11- llvm-ar-12 -> /usr/bin/llvm-ar-12- llvm-as-10 -> /usr/bin/llvm-as-10- llvm-as-11 -> /usr/bin/llvm-as-11- llvm-as-12 -> /usr/bin/llvm-as-12- llvm-bcanalyzer-10 -> /usr/bin/llvm-bcanalyzer-10- llvm-bcanalyzer-11 -> /usr/bin/llvm-bcanalyzer-11- llvm-bcanalyzer-12 -> /usr/bin/llvm-bcanalyzer-12- llvm-bitcode-strip-12 -> /usr/bin/llvm-bitcode-strip-12- llvm-c-test-10 -> /usr/bin/llvm-c-test-10- llvm-c-test-11 -> /usr/bin/llvm-c-test-11- llvm-c-test-12 -> /usr/bin/llvm-c-test-12- llvm-cat-10 -> /usr/bin/llvm-cat-10- llvm-cat-11 -> /usr/bin/llvm-cat-11- llvm-cat-12 -> /usr/bin/llvm-cat-12- llvm-cfi-verify-10 -> /usr/bin/llvm-cfi-verify-10- llvm-cfi-verify-11 -> /usr/bin/llvm-cfi-verify-11- llvm-cfi-verify-12 -> /usr/bin/llvm-cfi-verify-12- llvm-config-10 -> /usr/bin/llvm-config-10- llvm-config-11 -> /usr/bin/llvm-config-11- llvm-config-12 -> /usr/bin/llvm-config-12- llvm-cov-10 -> /usr/bin/llvm-cov-10- llvm-cov-11 -> /usr/bin/llvm-cov-11- llvm-cov-12 -> /usr/bin/llvm-cov-12- llvm-cvtres-10 -> /usr/bin/llvm-cvtres-10- llvm-cvtres-11 -> /usr/bin/llvm-cvtres-11- llvm-cvtres-12 -> /usr/bin/llvm-cvtres-12- llvm-cxxdump-10 -> /usr/bin/llvm-cxxdump-10- llvm-cxxdump-11 -> /usr/bin/llvm-cxxdump-11- llvm-cxxdump-12 -> /usr/bin/llvm-cxxdump-12- llvm-cxxfilt-10 -> /usr/bin/llvm-cxxfilt-10- llvm-cxxfilt-11 -> /usr/bin/llvm-cxxfilt-11- llvm-cxxfilt-12 -> /usr/bin/llvm-cxxfilt-12- llvm-cxxmap-10 -> /usr/bin/llvm-cxxmap-10- llvm-cxxmap-11 -> /usr/bin/llvm-cxxmap-11- llvm-cxxmap-12 -> /usr/bin/llvm-cxxmap-12- llvm-diff-10 -> /usr/bin/llvm-diff-10- llvm-diff-11 -> /usr/bin/llvm-diff-11- llvm-diff-12 -> /usr/bin/llvm-diff-12- llvm-dis-10 -> /usr/bin/llvm-dis-10- llvm-dis-11 -> /usr/bin/llvm-dis-11- llvm-dis-12 -> /usr/bin/llvm-dis-12- llvm-dlltool-10 -> /usr/bin/llvm-dlltool-10- llvm-dlltool-11 -> /usr/bin/llvm-dlltool-11- llvm-dlltool-12 -> /usr/bin/llvm-dlltool-12- llvm-dwarfdump-10 -> /usr/bin/llvm-dwarfdump-10- llvm-dwarfdump-11 -> /usr/bin/llvm-dwarfdump-11- llvm-dwarfdump-12 -> /usr/bin/llvm-dwarfdump-12- llvm-dwp-10 -> /usr/bin/llvm-dwp-10- llvm-dwp-11 -> /usr/bin/llvm-dwp-11- llvm-dwp-12 -> /usr/bin/llvm-dwp-12- llvm-elfabi-10 -> /usr/bin/llvm-elfabi-10- llvm-elfabi-11 -> /usr/bin/llvm-elfabi-11- llvm-elfabi-12 -> /usr/bin/llvm-elfabi-12- llvm-exegesis-10 -> /usr/bin/llvm-exegesis-10- llvm-exegesis-11 -> /usr/bin/llvm-exegesis-11- llvm-exegesis-12 -> /usr/bin/llvm-exegesis-12- llvm-extract-10 -> /usr/bin/llvm-extract-10- llvm-extract-11 -> /usr/bin/llvm-extract-11- llvm-extract-12 -> /usr/bin/llvm-extract-12- llvm-gsymutil-11 -> /usr/bin/llvm-gsymutil-11- llvm-gsymutil-12 -> /usr/bin/llvm-gsymutil-12- llvm-ifs-10 -> /usr/bin/llvm-ifs-10- llvm-ifs-11 -> /usr/bin/llvm-ifs-11- llvm-ifs-12 -> /usr/bin/llvm-ifs-12- llvm-install-name-tool-10 -> /usr/bin/llvm-install-name-tool-10- llvm-install-name-tool-11 -> /usr/bin/llvm-install-name-tool-11- llvm-install-name-tool-12 -> /usr/bin/llvm-install-name-tool-12- llvm-jitlink-10 -> /usr/bin/llvm-jitlink-10- llvm-jitlink-11 -> /usr/bin/llvm-jitlink-11- llvm-jitlink-12 -> /usr/bin/llvm-jitlink-12- llvm-jitlink-executor-12 -> /usr/bin/llvm-jitlink-executor-12- llvm-lib-10 -> /usr/bin/llvm-lib-10- llvm-lib-11 -> /usr/bin/llvm-lib-11- llvm-lib-12 -> /usr/bin/llvm-lib-12- llvm-libtool-darwin-12 -> /usr/bin/llvm-libtool-darwin-12- llvm-link-10 -> /usr/bin/llvm-link-10- llvm-link-11 -> /usr/bin/llvm-link-11- llvm-link-12 -> /usr/bin/llvm-link-12- llvm-lipo-10 -> /usr/bin/llvm-lipo-10- llvm-lipo-11 -> /usr/bin/llvm-lipo-11- llvm-lipo-12 -> /usr/bin/llvm-lipo-12- llvm-lto-10 -> /usr/bin/llvm-lto-10- llvm-lto-11 -> /usr/bin/llvm-lto-11- llvm-lto-12 -> /usr/bin/llvm-lto-12- llvm-lto2-10 -> /usr/bin/llvm-lto2-10- llvm-lto2-11 -> /usr/bin/llvm-lto2-11- llvm-lto2-12 -> /usr/bin/llvm-lto2-12- llvm-mc-10 -> /usr/bin/llvm-mc-10- llvm-mc-11 -> /usr/bin/llvm-mc-11- llvm-mc-12 -> /usr/bin/llvm-mc-12- llvm-mca-10 -> /usr/bin/llvm-mca-10- llvm-mca-11 -> /usr/bin/llvm-mca-11- llvm-mca-12 -> /usr/bin/llvm-mca-12- llvm-ml-11 -> /usr/bin/llvm-ml-11- llvm-ml-12 -> /usr/bin/llvm-ml-12- llvm-modextract-10 -> /usr/bin/llvm-modextract-10- llvm-modextract-11 -> /usr/bin/llvm-modextract-11- llvm-modextract-12 -> /usr/bin/llvm-modextract-12- llvm-mt-10 -> /usr/bin/llvm-mt-10- llvm-mt-11 -> /usr/bin/llvm-mt-11- llvm-mt-12 -> /usr/bin/llvm-mt-12- llvm-nm-10 -> /usr/bin/llvm-nm-10- llvm-nm-11 -> /usr/bin/llvm-nm-11- llvm-nm-12 -> /usr/bin/llvm-nm-12- llvm-objcopy-10 -> /usr/bin/llvm-objcopy-10- llvm-objcopy-11 -> /usr/bin/llvm-objcopy-11- llvm-objcopy-12 -> /usr/bin/llvm-objcopy-12- llvm-objdump-10 -> /usr/bin/llvm-objdump-10- llvm-objdump-11 -> /usr/bin/llvm-objdump-11- llvm-objdump-12 -> /usr/bin/llvm-objdump-12- llvm-opt-report-10 -> /usr/bin/llvm-opt-report-10- llvm-opt-report-11 -> /usr/bin/llvm-opt-report-11- llvm-opt-report-12 -> /usr/bin/llvm-opt-report-12- llvm-pdbutil-10 -> /usr/bin/llvm-pdbutil-10- llvm-pdbutil-11 -> /usr/bin/llvm-pdbutil-11- llvm-pdbutil-12 -> /usr/bin/llvm-pdbutil-12- llvm-profdata-10 -> /usr/bin/llvm-profdata-10- llvm-profdata-11 -> /usr/bin/llvm-profdata-11- llvm-profdata-12 -> /usr/bin/llvm-profdata-12- llvm-profgen-12 -> /usr/bin/llvm-profgen-12- llvm-ranlib-10 -> /usr/bin/llvm-ranlib-10- llvm-ranlib-11 -> /usr/bin/llvm-ranlib-11- llvm-ranlib-12 -> /usr/bin/llvm-ranlib-12- llvm-rc-10 -> /usr/bin/llvm-rc-10- llvm-rc-11 -> /usr/bin/llvm-rc-11- llvm-rc-12 -> /usr/bin/llvm-rc-12- llvm-readelf-10 -> /usr/bin/llvm-readelf-10- llvm-readelf-11 -> /usr/bin/llvm-readelf-11- llvm-readelf-12 -> /usr/bin/llvm-readelf-12- llvm-readobj-10 -> /usr/bin/llvm-readobj-10- llvm-readobj-11 -> /usr/bin/llvm-readobj-11- llvm-readobj-12 -> /usr/bin/llvm-readobj-12- llvm-reduce-10 -> /usr/bin/llvm-reduce-10- llvm-reduce-11 -> /usr/bin/llvm-reduce-11- llvm-reduce-12 -> /usr/bin/llvm-reduce-12- llvm-rtdyld-10 -> /usr/bin/llvm-rtdyld-10- llvm-rtdyld-11 -> /usr/bin/llvm-rtdyld-11- llvm-rtdyld-12 -> /usr/bin/llvm-rtdyld-12- llvm-size-10 -> /usr/bin/llvm-size-10- llvm-size-11 -> /usr/bin/llvm-size-11- llvm-size-12 -> /usr/bin/llvm-size-12- llvm-split-10 -> /usr/bin/llvm-split-10- llvm-split-11 -> /usr/bin/llvm-split-11- llvm-split-12 -> /usr/bin/llvm-split-12- llvm-stress-10 -> /usr/bin/llvm-stress-10- llvm-stress-11 -> /usr/bin/llvm-stress-11- llvm-stress-12 -> /usr/bin/llvm-stress-12- llvm-strings-10 -> /usr/bin/llvm-strings-10- llvm-strings-11 -> /usr/bin/llvm-strings-11- llvm-strings-12 -> /usr/bin/llvm-strings-12- llvm-strip-10 -> /usr/bin/llvm-strip-10- llvm-strip-11 -> /usr/bin/llvm-strip-11- llvm-strip-12 -> /usr/bin/llvm-strip-12- llvm-symbolizer-10 -> /usr/bin/llvm-symbolizer-10- llvm-symbolizer-11 -> /usr/bin/llvm-symbolizer-11- llvm-symbolizer-12 -> /usr/bin/llvm-symbolizer-12- llvm-tblgen-10 -> /usr/bin/llvm-tblgen-10- llvm-tblgen-11 -> /usr/bin/llvm-tblgen-11- llvm-tblgen-12 -> /usr/bin/llvm-tblgen-12- llvm-undname-10 -> /usr/bin/llvm-undname-10- llvm-undname-11 -> /usr/bin/llvm-undname-11- llvm-undname-12 -> /usr/bin/llvm-undname-12- llvm-xray-10 -> /usr/bin/llvm-xray-10- llvm-xray-11 -> /usr/bin/llvm-xray-11- llvm-xray-12 -> /usr/bin/llvm-xray-12- ln -> /usr/bin/lndnl
+- lnstat -> /usr/bin/lnstatdnl
+- loadkeys -> /usr/bin/loadkeysdnl
+- loadunimap -> /usr/bin/loadunimapdnl
+- locale -> /usr/bin/localednl
+- locale-check -> /usr/bin/locale-checkdnl
+- locale-gen -> /usr/sbin/locale-gendnl
+- localectl -> /usr/bin/localectldnl
+- localedef -> /usr/bin/localedefdnl
+- logger -> /usr/bin/loggerdnl
+- login -> /usr/bin/logindnl
+- loginctl -> /usr/bin/loginctldnl
+- logname -> /usr/bin/lognamednl
+- logresolve -> /usr/bin/logresolvednl
+- logrotate -> /usr/sbin/logrotatednl
+- logsave -> /usr/sbin/logsavednl
+- look -> /usr/bin/lookdnl
+- lorder -> /usr/bin/lorderdnl
+- losetup -> /usr/sbin/losetupdnl
+- lowntfs-3g -> /usr/bin/lowntfs-3gdnl
+- ls -> /usr/bin/lsdnl
+- lsattr -> /usr/bin/lsattrdnl
+- lsb_release -> /usr/bin/lsb_releasednl
+- lsblk -> /usr/bin/lsblkdnl
+- lscgroup -> /usr/bin/lscgroupdnl
+- lscpu -> /usr/bin/lscpudnl
+- lshw -> /usr/bin/lshwdnl
+- lsinitramfs -> /usr/bin/lsinitramfsdnl
+- lsipc -> /usr/bin/lsipcdnl
+- lslocks -> /usr/bin/lslocksdnl
+- lslogins -> /usr/bin/lsloginsdnl
+- lsmem -> /usr/bin/lsmemdnl
+- lsmod -> /usr/sbin/lsmoddnl
+- lsns -> /usr/bin/lsnsdnl
+- lsof -> /usr/bin/lsofdnl
+- lspci -> /usr/bin/lspcidnl
+- lspgpot -> /usr/bin/lspgpotdnl
+- lsscsi -> /usr/bin/lsscsidnl
+- lssubsys -> /usr/bin/lssubsysdnl
+- lsusb -> /usr/bin/lsusbdnl
+- lsvmbus -> /usr/sbin/lsvmbusdnl
+- lto-dump-10 -> /usr/bin/lto-dump-10- ltrace -> /usr/bin/ltracednl
+- luit -> /usr/bin/luitdnl
+- luksformat -> /usr/sbin/luksformatdnl
+- lvchange -> /usr/sbin/lvchangednl
+- lvconvert -> /usr/sbin/lvconvertdnl
+- lvcreate -> /usr/sbin/lvcreatednl
+- lvdisplay -> /usr/sbin/lvdisplaydnl
+- lvextend -> /usr/sbin/lvextenddnl
+- lvm -> /usr/sbin/lvmdnl
+- lvmconfig -> /usr/sbin/lvmconfigdnl
+- lvmdiskscan -> /usr/sbin/lvmdiskscandnl
+- lvmdump -> /usr/sbin/lvmdumpdnl
+- lvmpolld -> /usr/sbin/lvmpollddnl
+- lvmsadc -> /usr/sbin/lvmsadcdnl
+- lvmsar -> /usr/sbin/lvmsardnl
+- lvreduce -> /usr/sbin/lvreducednl
+- lvremove -> /usr/sbin/lvremovednl
+- lvrename -> /usr/sbin/lvrenamednl
+- lvresize -> /usr/sbin/lvresizednl
+- lvs -> /usr/sbin/lvsdnl
+- lvscan -> /usr/sbin/lvscandnl
+- lwp-download -> /usr/bin/lwp-downloaddnl
+- lwp-dump -> /usr/bin/lwp-dumpdnl
+- lwp-mirror -> /usr/bin/lwp-mirrordnl
+- lwp-request -> /usr/bin/lwp-requestdnl
+- lxc -> /snap/bin/lxcdnl
+- lxd -> /snap/bin/lxddnl
+- lxd.benchmark -> /snap/bin/lxd.benchmarkdnl
+- lxd.buginfo -> /snap/bin/lxd.buginfodnl
+- lxd.check-kernel -> /snap/bin/lxd.check-kerneldnl
+- lxd.lxc -> /snap/bin/lxd.lxcdnl
+- lxd.lxc-to-lxd -> /snap/bin/lxd.lxc-to-lxddnl
+- lxd.migrate -> /snap/bin/lxd.migratednl
+- lz4 -> /usr/bin/lz4dnl
+- lz4c -> /usr/bin/lz4cdnl
+- lz4cat -> /usr/bin/lz4catdnl
+- lzcat -> /usr/bin/lzcatdnl
+- lzcmp -> /usr/bin/lzcmpdnl
+- lzdiff -> /usr/bin/lzdiffdnl
+- lzegrep -> /usr/bin/lzegrepdnl
+- lzfgrep -> /usr/bin/lzfgrepdnl
+- lzgrep -> /usr/bin/lzgrepdnl
+- lzless -> /usr/bin/lzlessdnl
+- lzma -> /usr/bin/lzmadnl
+- lzmainfo -> /usr/bin/lzmainfodnl
+- lzmore -> /usr/bin/lzmorednl
+- m4 -> /usr/bin/m4dnl
+- macpack -> /usr/bin/macpackdnl
+- mailmail3 -> /usr/bin/mailmail3dnl
+- make -> /usr/bin/makednl
+- make-bcache -> /usr/sbin/make-bcachednl
+- make-first-existing-target -> /usr/bin/make-first-existing-targetdnl
+- make-ssl-cert -> /usr/sbin/make-ssl-certdnl
+- makecert -> /usr/bin/makecertdnl
+- makeconv -> /usr/bin/makeconvdnl
+- makeinfo -> /usr/bin/makeinfodnl
+- man -> /usr/bin/mandnl
+- man-recode -> /usr/bin/man-recodednl
+- mandb -> /usr/bin/mandbdnl
+- manifest -> /usr/bin/manifestdnl
+- manpath -> /usr/bin/manpathdnl
+- mapscrn -> /usr/bin/mapscrndnl
+- mawk -> /usr/bin/mawkdnl
+- mconfig -> /usr/bin/mconfigdnl
+- mcookie -> /usr/bin/mcookiednl
+- mcs -> /usr/bin/mcsdnl
+- md5sum -> /usr/bin/md5sumdnl
+- md5sum.textutils -> /usr/bin/md5sum.textutilsdnl
+- mdadm -> /usr/sbin/mdadmdnl
+- mdassembler -> /usr/bin/mdassemblerdnl
+- mdbrebase -> /usr/bin/mdbrebasednl
+- mdig -> /usr/bin/mdigdnl
+- mdmon -> /usr/sbin/mdmondnl
+- mdoc -> /usr/bin/mdocdnl
+- mdoc-assemble -> /usr/bin/mdoc-assemblednl
+- mdoc-export-html -> /usr/bin/mdoc-export-htmldnl
+- mdoc-export-msxdoc -> /usr/bin/mdoc-export-msxdocdnl
+- mdoc-update -> /usr/bin/mdoc-updatednl
+- mdoc-validate -> /usr/bin/mdoc-validatednl
+- mdvalidater -> /usr/bin/mdvalidaterdnl
+- mediainfo -> /usr/bin/mediainfodnl
+- memsup -> /usr/bin/memsupdnl
+- mesg -> /usr/bin/mesgdnl
+- migrate-pubring-from-classic-gpg -> /usr/bin/migrate-pubring-from-classic-gpgdnl
+- mii-tool -> /usr/sbin/mii-tooldnl
+- mimeopen -> /usr/bin/mimeopendnl
+- mimetype -> /usr/bin/mimetypednl
+- minikube -> /usr/local/bin/minikubednl
+- miniterm -> /usr/bin/minitermdnl
+- mk_modmap -> /usr/bin/mk_modmapdnl
+- mkbundle -> /usr/bin/mkbundlednl
+- mkdir -> /usr/bin/mkdirdnl
+- mkdosfs -> /usr/sbin/mkdosfsdnl
+- mke2fs -> /usr/sbin/mke2fsdnl
+- mkfifo -> /usr/bin/mkfifodnl
+- mkfs -> /usr/sbin/mkfsdnl
+- mkfs.bfs -> /usr/sbin/mkfs.bfsdnl
+- mkfs.btrfs -> /usr/sbin/mkfs.btrfsdnl
+- mkfs.cramfs -> /usr/sbin/mkfs.cramfsdnl
+- mkfs.ext2 -> /usr/sbin/mkfs.ext2dnl
+- mkfs.ext3 -> /usr/sbin/mkfs.ext3dnl
+- mkfs.ext4 -> /usr/sbin/mkfs.ext4dnl
+- mkfs.fat -> /usr/sbin/mkfs.fatdnl
+- mkfs.minix -> /usr/sbin/mkfs.minixdnl
+- mkfs.msdos -> /usr/sbin/mkfs.msdosdnl
+- mkfs.ntfs -> /usr/sbin/mkfs.ntfsdnl
+- mkfs.vfat -> /usr/sbin/mkfs.vfatdnl
+- mkfs.xfs -> /usr/sbin/mkfs.xfsdnl
+- mkhomedir_helper -> /usr/sbin/mkhomedir_helperdnl
+- mkinitramfs -> /usr/sbin/mkinitramfsdnl
+- mklost+found -> /usr/sbin/mklost+founddnl
+- mknod -> /usr/bin/mknoddnl
+- mkntfs -> /usr/sbin/mkntfsdnl
+- mksquashfs -> /usr/bin/mksquashfsdnl
+- mkswap -> /usr/sbin/mkswapdnl
+- mktemp -> /usr/bin/mktempdnl
+- mlock -> /usr/bin/mlockdnl
+- mmcli -> /usr/bin/mmclidnl
+- mod -> /usr/bin/moddnl
+- modinfo -> /usr/sbin/modinfodnl
+- modprobe -> /usr/sbin/modprobednl
+- modularize-10 -> /usr/bin/modularize-10- modularize-11 -> /usr/bin/modularize-11- modularize-12 -> /usr/bin/modularize-12- mogrify -> /usr/bin/mogrifydnl
+- mogrify-im6 -> /usr/bin/mogrify-im6dnl
+- mogrify-im6.q16 -> /usr/bin/mogrify-im6.q16dnl
+- mokutil -> /usr/bin/mokutildnl
+- mongo -> /usr/bin/mongodnl
+- mongod -> /usr/bin/mongoddnl
+- mongodump -> /usr/bin/mongodumpdnl
+- mongoexport -> /usr/bin/mongoexportdnl
+- mongofiles -> /usr/bin/mongofilesdnl
+- mongoimport -> /usr/bin/mongoimportdnl
+- mongorestore -> /usr/bin/mongorestorednl
+- mongos -> /usr/bin/mongosdnl
+- mongosh -> /usr/bin/mongoshdnl
+- mongostat -> /usr/bin/mongostatdnl
+- mongotop -> /usr/bin/mongotopdnl
+- mono -> /usr/bin/monodnl
+- mono-api-check -> /usr/bin/mono-api-checkdnl
+- mono-api-html -> /usr/bin/mono-api-htmldnl
+- mono-api-info -> /usr/bin/mono-api-infodnl
+- mono-cil-strip -> /usr/bin/mono-cil-stripdnl
+- mono-configuration-crypto -> /usr/bin/mono-configuration-cryptodnl
+- mono-csc -> /usr/bin/mono-cscdnl
+- mono-find-provides -> /usr/bin/mono-find-providesdnl
+- mono-find-requires -> /usr/bin/mono-find-requiresdnl
+- mono-hang-watchdog -> /usr/bin/mono-hang-watchdogdnl
+- mono-heapviz -> /usr/bin/mono-heapvizdnl
+- mono-service -> /usr/bin/mono-servicednl
+- mono-sgen -> /usr/bin/mono-sgendnl
+- mono-shlib-cop -> /usr/bin/mono-shlib-copdnl
+- mono-symbolicate -> /usr/bin/mono-symbolicatednl
+- mono-test-install -> /usr/bin/mono-test-installdnl
+- mono-xmltool -> /usr/bin/mono-xmltooldnl
+- mono-xsp4-admin -> /usr/sbin/mono-xsp4-admindnl
+- mono-xsp4-update -> /usr/sbin/mono-xsp4-updatednl
+- monodis -> /usr/bin/monodisdnl
+- monodoc-http -> /usr/bin/monodoc-httpdnl
+- monodocer -> /usr/bin/monodocerdnl
+- monodocs2html -> /usr/bin/monodocs2htmldnl
+- monodocs2slashdoc -> /usr/bin/monodocs2slashdocdnl
+- monolinker -> /usr/bin/monolinkerdnl
+- monop -> /usr/bin/monopdnl
+- monop2 -> /usr/bin/monop2dnl
+- montage -> /usr/bin/montagednl
+- montage-im6 -> /usr/bin/montage-im6dnl
+- montage-im6.q16 -> /usr/bin/montage-im6.q16dnl
+- more -> /usr/bin/morednl
+- mount -> /usr/bin/mountdnl
+- mount.cifs -> /usr/sbin/mount.cifsdnl
+- mount.fuse -> /usr/sbin/mount.fusednl
+- mount.fuse3 -> /usr/sbin/mount.fuse3dnl
+- mount.lowntfs-3g -> /usr/sbin/mount.lowntfs-3gdnl
+- mount.ntfs -> /usr/sbin/mount.ntfsdnl
+- mount.ntfs-3g -> /usr/sbin/mount.ntfs-3gdnl
+- mount.vmhgfs -> /usr/sbin/mount.vmhgfsdnl
+- mountpoint -> /usr/bin/mountpointdnl
+- mozroots -> /usr/bin/mozrootsdnl
+- mpathpersist -> /usr/sbin/mpathpersistdnl
+- mprof-report -> /usr/bin/mprof-reportdnl
+- mpstat -> /usr/bin/mpstatdnl
+- msbuild -> /usr/bin/msbuilddnl
+- mt -> /usr/bin/mtdnl
+- mt-gnu -> /usr/bin/mt-gnudnl
+- mtr -> /usr/bin/mtrdnl
+- mtr-packet -> /usr/bin/mtr-packetdnl
+- mtrace -> /usr/bin/mtracednl
+- multipath -> /usr/sbin/multipathdnl
+- multipathd -> /usr/sbin/multipathddnl
+- mv -> /usr/bin/mvdnl
+- mvn -> /usr/bin/mvndnl
+- my_print_defaults -> /usr/bin/my_print_defaultsdnl
+- myisam_ftdump -> /usr/bin/myisam_ftdumpdnl
+- myisamchk -> /usr/bin/myisamchkdnl
+- myisamlog -> /usr/bin/myisamlogdnl
+- myisampack -> /usr/bin/myisampackdnl
+- mysql -> /usr/bin/mysqldnl
+- mysql_config -> /usr/bin/mysql_configdnl
+- mysql_config_editor -> /usr/bin/mysql_config_editordnl
+- mysql_migrate_keyring -> /usr/bin/mysql_migrate_keyringdnl
+- mysql_secure_installation -> /usr/bin/mysql_secure_installationdnl
+- mysql_ssl_rsa_setup -> /usr/bin/mysql_ssl_rsa_setupdnl
+- mysql_tzinfo_to_sql -> /usr/bin/mysql_tzinfo_to_sqldnl
+- mysql_upgrade -> /usr/bin/mysql_upgradednl
+- mysqladmin -> /usr/bin/mysqladmindnl
+- mysqlanalyze -> /usr/bin/mysqlanalyzednl
+- mysqlbinlog -> /usr/bin/mysqlbinlogdnl
+- mysqlcheck -> /usr/bin/mysqlcheckdnl
+- mysqld -> /usr/sbin/mysqlddnl
+- mysqld_multi -> /usr/bin/mysqld_multidnl
+- mysqld_safe -> /usr/bin/mysqld_safednl
+- mysqldump -> /usr/bin/mysqldumpdnl
+- mysqldumpslow -> /usr/bin/mysqldumpslowdnl
+- mysqlimport -> /usr/bin/mysqlimportdnl
+- mysqloptimize -> /usr/bin/mysqloptimizednl
+- mysqlpump -> /usr/bin/mysqlpumpdnl
+- mysqlrepair -> /usr/bin/mysqlrepairdnl
+- mysqlreport -> /usr/bin/mysqlreportdnl
+- mysqlshow -> /usr/bin/mysqlshowdnl
+- mysqlslap -> /usr/bin/mysqlslapdnl
+- n -> /usr/local/bin/ndnl
+- namei -> /usr/bin/nameidnl
+- nameif -> /usr/sbin/nameifdnl
+- nano -> /usr/bin/nanodnl
+- native2ascii -> /usr/bin/native2asciidnl
+- nawk -> /usr/bin/nawkdnl
+- nbgv -> /home/runner/.dotnet/tools/nbgvdnl
+- nc -> /usr/bin/ncdnl
+- nc.openbsd -> /usr/bin/nc.openbsddnl
+- ncal -> /usr/bin/ncaldnl
+- ncurses5-config -> /usr/bin/ncurses5-configdnl
+- ncurses6-config -> /usr/bin/ncurses6-configdnl
+- ncursesw5-config -> /usr/bin/ncursesw5-configdnl
+- ncursesw6-config -> /usr/bin/ncursesw6-configdnl
+- neqn -> /usr/bin/neqndnl
+- netcat -> /usr/bin/netcatdnl
+- netkit-ftp -> /usr/bin/netkit-ftpdnl
+- netlify -> /usr/local/bin/netlifydnl
+- netplan -> /usr/sbin/netplandnl
+- netstat -> /usr/bin/netstatdnl
+- networkctl -> /usr/bin/networkctldnl
+- networkd-dispatcher -> /usr/bin/networkd-dispatcherdnl
+- newgidmap -> /usr/bin/newgidmapdnl
+- newgrp -> /usr/bin/newgrpdnl
+- newman -> /usr/local/bin/newmandnl
+- newuidmap -> /usr/bin/newuidmapdnl
+- newusers -> /usr/sbin/newusersdnl
+- nfnl_osf -> /usr/sbin/nfnl_osfdnl
+- ngettext -> /usr/bin/ngettextdnl
+- nginx -> /usr/sbin/nginxdnl
+- nice -> /usr/bin/nicednl
+- niceload -> /usr/bin/niceloaddnl
+- nisdomainname -> /usr/bin/nisdomainnamednl
+- nl -> /usr/bin/nldnl
+- nm -> /usr/bin/nmdnl
+- node -> /usr/local/bin/nodednl
+- nohup -> /usr/bin/nohupdnl
+- nologin -> /usr/sbin/nologindnl
+- not-10 -> /usr/bin/not-10- not-11 -> /usr/bin/not-11- not-12 -> /usr/bin/not-12- now -> /usr/local/bin/nowdnl
+- npm -> /usr/local/bin/npmdnl
+- nproc -> /usr/bin/nprocdnl
+- npx -> /usr/local/bin/npxdnl
+- nroff -> /usr/bin/nroffdnl
+- nsenter -> /usr/bin/nsenterdnl
+- nslookup -> /usr/bin/nslookupdnl
+- nstat -> /usr/bin/nstatdnl
+- nsupdate -> /usr/bin/nsupdatednl
+- ntfs-3g -> /usr/bin/ntfs-3gdnl
+- ntfs-3g.probe -> /usr/bin/ntfs-3g.probednl
+- ntfscat -> /usr/bin/ntfscatdnl
+- ntfsclone -> /usr/sbin/ntfsclonednl
+- ntfscluster -> /usr/bin/ntfsclusterdnl
+- ntfscmp -> /usr/bin/ntfscmpdnl
+- ntfscp -> /usr/sbin/ntfscpdnl
+- ntfsdecrypt -> /usr/bin/ntfsdecryptdnl
+- ntfsfallocate -> /usr/bin/ntfsfallocatednl
+- ntfsfix -> /usr/bin/ntfsfixdnl
+- ntfsinfo -> /usr/bin/ntfsinfodnl
+- ntfslabel -> /usr/sbin/ntfslabeldnl
+- ntfsls -> /usr/bin/ntfslsdnl
+- ntfsmove -> /usr/bin/ntfsmovednl
+- ntfsrecover -> /usr/bin/ntfsrecoverdnl
+- ntfsresize -> /usr/sbin/ntfsresizednl
+- ntfssecaudit -> /usr/bin/ntfssecauditdnl
+- ntfstruncate -> /usr/bin/ntfstruncatednl
+- ntfsundelete -> /usr/sbin/ntfsundeletednl
+- ntfsusermap -> /usr/bin/ntfsusermapdnl
+- ntfswipe -> /usr/bin/ntfswipednl
+- ntl -> /usr/local/bin/ntldnl
+- nuget -> /usr/bin/nugetdnl
+- numfmt -> /usr/bin/numfmtdnl
+- obj2yaml-10 -> /usr/bin/obj2yaml-10- obj2yaml-11 -> /usr/bin/obj2yaml-11- obj2yaml-12 -> /usr/bin/obj2yaml-12- objcopy -> /usr/bin/objcopydnl
+- objdump -> /usr/bin/objdumpdnl
+- oc -> /usr/local/bin/ocdnl
+- od -> /usr/bin/oddnl
+- odbcinst -> /usr/bin/odbcinstdnl
+- oem-getlogs -> /usr/bin/oem-getlogsdnl
+- on_ac_power -> /usr/sbin/on_ac_powerdnl
+- openssl -> /usr/bin/openssldnl
+- openvt -> /usr/bin/openvtdnl
+- opt-10 -> /usr/bin/opt-10- opt-11 -> /usr/bin/opt-11- opt-12 -> /usr/bin/opt-12- oras -> /usr/local/bin/orasdnl
+- orbd -> /usr/bin/orbddnl
+- os-prober -> /usr/bin/os-proberdnl
+- osirrox -> /usr/bin/osirroxdnl
+- overlayroot-chroot -> /usr/sbin/overlayroot-chrootdnl
+- ownership -> /usr/sbin/ownershipdnl
+- p11-kit -> /usr/bin/p11-kitdnl
+- p7zip -> /usr/bin/p7zipdnl
+- pack200 -> /usr/bin/pack200dnl
+- packer -> /usr/local/bin/packerdnl
+- pager -> /usr/bin/pagerdnl
+- pam-auth-update -> /usr/sbin/pam-auth-updatednl
+- pam_extrausers_chkpwd -> /usr/sbin/pam_extrausers_chkpwddnl
+- pam_extrausers_update -> /usr/sbin/pam_extrausers_updatednl
+- pam_getenv -> /usr/sbin/pam_getenvdnl
+- pam_tally -> /usr/sbin/pam_tallydnl
+- pam_tally2 -> /usr/sbin/pam_tally2dnl
+- pam_timestamp_check -> /usr/sbin/pam_timestamp_checkdnl
+- paperconf -> /usr/bin/paperconfdnl
+- paperconfig -> /usr/sbin/paperconfigdnl
+- parallel -> /usr/bin/paralleldnl
+- parcat -> /usr/bin/parcatdnl
+- parcel -> /usr/local/bin/parceldnl
+- parted -> /usr/sbin/parteddnl
+- partprobe -> /usr/sbin/partprobednl
+- partx -> /usr/bin/partxdnl
+- pass -> /usr/bin/passdnl
+- passwd -> /usr/bin/passwddnl
+- paste -> /usr/bin/pastednl
+- pastebinit -> /usr/bin/pastebinitdnl
+- patch -> /usr/bin/patchdnl
+- patchelf -> /usr/bin/patchelfdnl
+- pathchk -> /usr/bin/pathchkdnl
+- pbget -> /usr/bin/pbgetdnl
+- pbput -> /usr/bin/pbputdnl
+- pbputs -> /usr/bin/pbputsdnl
+- pcre-config -> /usr/bin/pcre-configdnl
+- pcre2-config -> /usr/bin/pcre2-configdnl
+- pdata_tools -> /usr/sbin/pdata_toolsdnl
+- pdb2 -> /usr/bin/pdb2dnl
+- pdb2.7 -> /usr/bin/pdb2.7- pdb2mdb -> /usr/bin/pdb2mdbdnl
+- pdb3 -> /usr/bin/pdb3dnl
+- pdb3.8 -> /usr/bin/pdb3.8- pdftexi2dvi -> /usr/bin/pdftexi2dvidnl
+- pear -> /usr/bin/peardnl
+- peardev -> /usr/bin/peardevdnl
+- pecl -> /usr/bin/pecldnl
+- pedump -> /usr/bin/pedumpdnl
+- peekfd -> /usr/bin/peekfddnl
+- perf -> /usr/bin/perfdnl
+- perl -> /usr/bin/perldnl
+- perl5.30-x86_64-linux-gnu -> /usr/bin/perl5.30-x86_64-linux-gnudnl
+- perl5.30.0 -> /usr/bin/perl5.30.0- perlbug -> /usr/bin/perlbugdnl
+- perldoc -> /usr/bin/perldocdnl
+- perlivp -> /usr/bin/perlivpdnl
+- perlthanks -> /usr/bin/perlthanksdnl
+- permview -> /usr/bin/permviewdnl
+- perror -> /usr/bin/perrordnl
+- peverify -> /usr/bin/peverifydnl
+- pftp -> /usr/bin/pftpdnl
+- pg_archivecleanup -> /usr/bin/pg_archivecleanupdnl
+- pg_backupcluster -> /usr/bin/pg_backupclusterdnl
+- pg_basebackup -> /usr/bin/pg_basebackupdnl
+- pg_buildext -> /usr/bin/pg_buildextdnl
+- pg_config -> /usr/bin/pg_configdnl
+- pg_config.libpq-dev -> /usr/bin/pg_config.libpq-devdnl
+- pg_conftool -> /usr/bin/pg_conftooldnl
+- pg_createcluster -> /usr/bin/pg_createclusterdnl
+- pg_ctlcluster -> /usr/bin/pg_ctlclusterdnl
+- pg_dropcluster -> /usr/bin/pg_dropclusterdnl
+- pg_dump -> /usr/bin/pg_dumpdnl
+- pg_dumpall -> /usr/bin/pg_dumpalldnl
+- pg_isready -> /usr/bin/pg_isreadydnl
+- pg_lsclusters -> /usr/bin/pg_lsclustersdnl
+- pg_receivewal -> /usr/bin/pg_receivewaldnl
+- pg_receivexlog -> /usr/bin/pg_receivexlogdnl
+- pg_recvlogical -> /usr/bin/pg_recvlogicaldnl
+- pg_renamecluster -> /usr/bin/pg_renameclusterdnl
+- pg_restore -> /usr/bin/pg_restorednl
+- pg_restorecluster -> /usr/bin/pg_restoreclusterdnl
+- pg_updatedicts -> /usr/sbin/pg_updatedictsdnl
+- pg_upgradecluster -> /usr/bin/pg_upgradeclusterdnl
+- pg_virtualenv -> /usr/bin/pg_virtualenvdnl
+- pgbench -> /usr/bin/pgbenchdnl
+- pgrep -> /usr/bin/pgrepdnl
+- phantomjs -> /usr/local/bin/phantomjsdnl
+- phar -> /usr/bin/phardnl
+- phar.phar -> /usr/bin/phar.phardnl
+- phar.phar7.4 -> /usr/bin/phar.phar7.4- phar.phar8.0 -> /usr/bin/phar.phar8.0- phar.phar8.1 -> /usr/bin/phar.phar8.1- phar7.4 -> /usr/bin/phar7.4- phar7.4.phar -> /usr/bin/phar7.4.phardnl
+- phar8.0 -> /usr/bin/phar8.0- phar8.0.phar -> /usr/bin/phar8.0.phardnl
+- phar8.1 -> /usr/bin/phar8.1- phar8.1.phar -> /usr/bin/phar8.1.phardnl
+- php -> /usr/bin/phpdnl
+- php-cgi -> /usr/bin/php-cgidnl
+- php-cgi7.4 -> /usr/bin/php-cgi7.4- php-cgi8.0 -> /usr/bin/php-cgi8.0- php-cgi8.1 -> /usr/bin/php-cgi8.1- php-config -> /usr/bin/php-configdnl
+- php-config7.4 -> /usr/bin/php-config7.4- php-config8.0 -> /usr/bin/php-config8.0- php-config8.1 -> /usr/bin/php-config8.1- php-fpm7.4 -> /usr/sbin/php-fpm7.4- php-fpm8.0 -> /usr/sbin/php-fpm8.0- php-fpm8.1 -> /usr/sbin/php-fpm8.1- php7.4 -> /usr/bin/php7.4- php8.0 -> /usr/bin/php8.0- php8.1 -> /usr/bin/php8.1- phpdbg -> /usr/bin/phpdbgdnl
+- phpdbg7.4 -> /usr/bin/phpdbg7.4- phpdbg8.0 -> /usr/bin/phpdbg8.0- phpdbg8.1 -> /usr/bin/phpdbg8.1- phpdismod -> /usr/sbin/phpdismoddnl
+- phpenmod -> /usr/sbin/phpenmoddnl
+- phpize -> /usr/bin/phpizednl
+- phpize7.4 -> /usr/bin/phpize7.4- phpize8.0 -> /usr/bin/phpize8.0- phpize8.1 -> /usr/bin/phpize8.1- phpquery -> /usr/sbin/phpquerydnl
+- phpunit -> /usr/local/bin/phpunitdnl
+- pic -> /usr/bin/picdnl
+- pico -> /usr/bin/picodnl
+- piconv -> /usr/bin/piconvdnl
+- pidof -> /usr/bin/pidofdnl
+- pidstat -> /usr/bin/pidstatdnl
+- pigz -> /usr/bin/pigzdnl
+- pinentry -> /usr/bin/pinentrydnl
+- pinentry-curses -> /usr/bin/pinentry-cursesdnl
+- ping -> /usr/bin/pingdnl
+- ping4 -> /usr/bin/ping4dnl
+- ping6 -> /usr/bin/ping6dnl
+- pinky -> /usr/bin/pinkydnl
+- pip -> /usr/bin/pipdnl
+- pip3 -> /usr/bin/pip3dnl
+- pipx -> /usr/local/bin/pipxdnl
+- pivot_root -> /usr/sbin/pivot_rootdnl
+- pkaction -> /usr/bin/pkactiondnl
+- pkcheck -> /usr/bin/pkcheckdnl
+- pkcon -> /usr/bin/pkcondnl
+- pkexec -> /usr/bin/pkexecdnl
+- pkg-config -> /usr/bin/pkg-configdnl
+- pkgdata -> /usr/bin/pkgdatadnl
+- pkill -> /usr/bin/pkilldnl
+- pkmon -> /usr/bin/pkmondnl
+- pkttyagent -> /usr/bin/pkttyagentdnl
+- pl2pm -> /usr/bin/pl2pmdnl
+- pldd -> /usr/bin/pldddnl
+- plipconfig -> /usr/sbin/plipconfigdnl
+- plymouth -> /usr/bin/plymouthdnl
+- plymouthd -> /usr/sbin/plymouthddnl
+- pmap -> /usr/bin/pmapdnl
+- pod2html -> /usr/bin/pod2htmldnl
+- pod2man -> /usr/bin/pod2mandnl
+- pod2texi -> /usr/bin/pod2texidnl
+- pod2text -> /usr/bin/pod2textdnl
+- pod2usage -> /usr/bin/pod2usagednl
+- podchecker -> /usr/bin/podcheckerdnl
+- podman -> /usr/bin/podmandnl
+- podman-remote -> /usr/bin/podman-remotednl
+- podselect -> /usr/bin/podselectdnl
+- policytool -> /usr/bin/policytooldnl
+- pollinate -> /usr/bin/pollinatednl
+- popcon-largest-unused -> /usr/sbin/popcon-largest-unuseddnl
+- popularity-contest -> /usr/sbin/popularity-contestdnl
+- poweroff -> /usr/sbin/poweroffdnl
+- pp-trace-10 -> /usr/bin/pp-trace-10- pp-trace-11 -> /usr/bin/pp-trace-11- pp-trace-12 -> /usr/bin/pp-trace-12- pr -> /usr/bin/prdnl
+- preconv -> /usr/bin/preconvdnl
+- print -> /usr/bin/printdnl
+- printenv -> /usr/bin/printenvdnl
+- printerbanner -> /usr/bin/printerbannerdnl
+- printf -> /usr/bin/printfdnl
+- prlimit -> /usr/bin/prlimitdnl
+- prove -> /usr/bin/provednl
+- prtstat -> /usr/bin/prtstatdnl
+- ps -> /usr/bin/psdnl
+- psfaddtable -> /usr/bin/psfaddtablednl
+- psfgettable -> /usr/bin/psfgettablednl
+- psfstriptable -> /usr/bin/psfstriptablednl
+- psfxtable -> /usr/bin/psfxtablednl
+- pslog -> /usr/bin/pslogdnl
+- psql -> /usr/bin/psqldnl
+- pstree -> /usr/bin/pstreednl
+- pstree.x11 -> /usr/bin/pstree.x11dnl
+- ptar -> /usr/bin/ptardnl
+- ptardiff -> /usr/bin/ptardiffdnl
+- ptargrep -> /usr/bin/ptargrepdnl
+- ptx -> /usr/bin/ptxdnl
+- pulumi -> /usr/local/bin/pulumidnl
+- pulumi-analyzer-policy -> /usr/local/bin/pulumi-analyzer-policydnl
+- pulumi-analyzer-policy-python -> /usr/local/bin/pulumi-analyzer-policy-pythondnl
+- pulumi-language-dotnet -> /usr/local/bin/pulumi-language-dotnetdnl
+- pulumi-language-go -> /usr/local/bin/pulumi-language-godnl
+- pulumi-language-java -> /usr/local/bin/pulumi-language-javadnl
+- pulumi-language-nodejs -> /usr/local/bin/pulumi-language-nodejsdnl
+- pulumi-language-python -> /usr/local/bin/pulumi-language-pythondnl
+- pulumi-language-python-exec -> /usr/local/bin/pulumi-language-python-execdnl
+- pulumi-language-yaml -> /usr/local/bin/pulumi-language-yamldnl
+- pulumi-resource-pulumi-nodejs -> /usr/local/bin/pulumi-resource-pulumi-nodejsdnl
+- pulumi-resource-pulumi-python -> /usr/local/bin/pulumi-resource-pulumi-pythondnl
+- purge-old-kernels -> /usr/bin/purge-old-kernelsdnl
+- pvchange -> /usr/sbin/pvchangednl
+- pvck -> /usr/sbin/pvckdnl
+- pvcreate -> /usr/sbin/pvcreatednl
+- pvdisplay -> /usr/sbin/pvdisplaydnl
+- pvmove -> /usr/sbin/pvmovednl
+- pvremove -> /usr/sbin/pvremovednl
+- pvresize -> /usr/sbin/pvresizednl
+- pvs -> /usr/sbin/pvsdnl
+- pvscan -> /usr/sbin/pvscandnl
+- pwck -> /usr/sbin/pwckdnl
+- pwconv -> /usr/sbin/pwconvdnl
+- pwd -> /usr/bin/pwddnl
+- pwdx -> /usr/bin/pwdxdnl
+- pwsh -> /usr/bin/pwshdnl
+- pwunconv -> /usr/sbin/pwunconvdnl
+- py3clean -> /usr/bin/py3cleandnl
+- py3compile -> /usr/bin/py3compilednl
+- py3versions -> /usr/bin/py3versionsdnl
+- pyclean -> /usr/bin/pycleandnl
+- pycompile -> /usr/bin/pycompilednl
+- pydoc2 -> /usr/bin/pydoc2dnl
+- pydoc2.7 -> /usr/bin/pydoc2.7- pydoc3 -> /usr/bin/pydoc3dnl
+- pydoc3.8 -> /usr/bin/pydoc3.8- pygettext2 -> /usr/bin/pygettext2dnl
+- pygettext2.7 -> /usr/bin/pygettext2.7- pygettext3 -> /usr/bin/pygettext3dnl
+- pygettext3.8 -> /usr/bin/pygettext3.8- pygmentize -> /usr/bin/pygmentizednl
+- pyhtmlizer3 -> /usr/bin/pyhtmlizer3dnl
+- pyjwt3 -> /usr/bin/pyjwt3dnl
+- python -> /usr/bin/pythondnl
+- python-argcomplete-check-easy-install-script -> /usr/local/bin/python-argcomplete-check-easy-install-scriptdnl
+- python-argcomplete-tcsh -> /usr/local/bin/python-argcomplete-tcshdnl
+- python2 -> /usr/bin/python2dnl
+- python2.7 -> /usr/bin/python2.7- python3 -> /usr/bin/python3dnl
+- python3-config -> /usr/bin/python3-configdnl
+- python3.8 -> /usr/bin/python3.8- python3.8-config -> /usr/bin/python3.8-configdnl
+- pyversions -> /usr/bin/pyversionsdnl
+- pzstd -> /home/linuxbrew/.linuxbrew/bin/pzstddnl
+- racc2.7 -> /usr/bin/racc2.7- racc2y2.7 -> /usr/bin/racc2y2.7- rake -> /usr/bin/rakednl
+- ranlib -> /usr/bin/ranlibdnl
+- rarp -> /usr/sbin/rarpdnl
+- raw -> /usr/sbin/rawdnl
+- rbash -> /usr/bin/rbashdnl
+- rcp -> /usr/bin/rcpdnl
+- rdma -> /usr/bin/rdmadnl
+- rdoc -> /usr/bin/rdocdnl
+- rdoc2.7 -> /usr/bin/rdoc2.7- readelf -> /usr/bin/readelfdnl
+- readlink -> /usr/bin/readlinkdnl
+- readprofile -> /usr/sbin/readprofilednl
+- realpath -> /usr/bin/realpathdnl
+- rebar3 -> /usr/local/bin/rebar3dnl
+- reboot -> /usr/sbin/rebootdnl
+- red -> /usr/bin/reddnl
+- register-python-argcomplete -> /usr/local/bin/register-python-argcompletednl
+- reindexdb -> /usr/bin/reindexdbdnl
+- remove-default-ispell -> /usr/sbin/remove-default-ispelldnl
+- remove-default-wordlist -> /usr/sbin/remove-default-wordlistdnl
+- remove-shell -> /usr/sbin/remove-shelldnl
+- rename.ul -> /usr/bin/rename.uldnl
+- renice -> /usr/bin/renicednl
+- request-key -> /usr/sbin/request-keydnl
+- rescan-scsi-bus.sh -> /usr/bin/rescan-scsi-bus.shdnl
+- reset -> /usr/bin/resetdnl
+- resgen -> /usr/bin/resgendnl
+- resgen2 -> /usr/bin/resgen2dnl
+- resize2fs -> /usr/sbin/resize2fsdnl
+- resizecons -> /usr/bin/resizeconsdnl
+- resizepart -> /usr/bin/resizepartdnl
+- resolvectl -> /usr/bin/resolvectldnl
+- rev -> /usr/bin/revdnl
+- rgrep -> /usr/bin/rgrepdnl
+- ri -> /usr/bin/ridnl
+- ri2.7 -> /usr/bin/ri2.7- rlogin -> /usr/bin/rlogindnl
+- rls -> /home/runner/.cargo/bin/rlsdnl
+- rm -> /usr/bin/rmdnl
+- rmdir -> /usr/bin/rmdirdnl
+- rmic -> /usr/bin/rmicdnl
+- rmid -> /usr/bin/rmiddnl
+- rmiregistry -> /usr/bin/rmiregistrydnl
+- rmmod -> /usr/sbin/rmmoddnl
+- rmt -> /usr/sbin/rmtdnl
+- rmt-tar -> /usr/sbin/rmt-tardnl
+- rnano -> /usr/bin/rnanodnl
+- rotatelogs -> /usr/bin/rotatelogsdnl
+- rougify -> /usr/local/bin/rougifydnl
+- route -> /usr/sbin/routednl
+- routef -> /usr/bin/routefdnl
+- routel -> /usr/bin/routeldnl
+- rpcgen -> /usr/bin/rpcgendnl
+- rpm -> /usr/bin/rpmdnl
+- rpm2archive -> /usr/bin/rpm2archivednl
+- rpm2cpio -> /usr/bin/rpm2cpiodnl
+- rpmbuild -> /usr/bin/rpmbuilddnl
+- rpmdb -> /usr/bin/rpmdbdnl
+- rpmgraph -> /usr/bin/rpmgraphdnl
+- rpmkeys -> /usr/bin/rpmkeysdnl
+- rpmquery -> /usr/bin/rpmquerydnl
+- rpmsign -> /usr/bin/rpmsigndnl
+- rpmspec -> /usr/bin/rpmspecdnl
+- rpmverify -> /usr/bin/rpmverifydnl
+- rrsync -> /usr/bin/rrsyncdnl
+- rsh -> /usr/bin/rshdnl
+- rsync -> /usr/bin/rsyncdnl
+- rsyslogd -> /usr/sbin/rsyslogddnl
+- rtacct -> /usr/sbin/rtacctdnl
+- rtcwake -> /usr/sbin/rtcwakednl
+- rtmon -> /usr/sbin/rtmondnl
+- rtstat -> /usr/bin/rtstatdnl
+- ruby -> /usr/bin/rubydnl
+- ruby2.7 -> /usr/bin/ruby2.7- run-clang-tidy -> /usr/bin/run-clang-tidydnl
+- run-clang-tidy-10 -> /usr/bin/run-clang-tidy-10- run-clang-tidy-10.py -> /usr/bin/run-clang-tidy-10.pydnl
+- run-clang-tidy-11 -> /usr/bin/run-clang-tidy-11- run-clang-tidy-11.py -> /usr/bin/run-clang-tidy-11.pydnl
+- run-clang-tidy-12 -> /usr/bin/run-clang-tidy-12- run-clang-tidy-12.py -> /usr/bin/run-clang-tidy-12.pydnl
+- run-mailcap -> /usr/bin/run-mailcapdnl
+- run-one -> /usr/bin/run-onednl
+- run-one-constantly -> /usr/bin/run-one-constantlydnl
+- run-one-until-failure -> /usr/bin/run-one-until-failurednl
+- run-one-until-success -> /usr/bin/run-one-until-successdnl
+- run-parts -> /usr/bin/run-partsdnl
+- run-this-one -> /usr/bin/run-this-onednl
+- run_erl -> /usr/bin/run_erldnl
+- runc -> /usr/bin/runcdnl
+- runcon -> /usr/bin/runcondnl
+- runghc -> /usr/local/.ghcup/bin/runghcdnl
+- runghc-9.0 -> /usr/local/.ghcup/bin/runghc-9.0- runghc-9.0.2 -> /usr/local/.ghcup/bin/runghc-9.0.2- runghc-9.2 -> /usr/local/.ghcup/bin/runghc-9.2- runghc-9.2.3 -> /usr/local/.ghcup/bin/runghc-9.2.3- runhaskell -> /usr/local/.ghcup/bin/runhaskelldnl
+- runhaskell-9.0 -> /usr/local/.ghcup/bin/runhaskell-9.0- runhaskell-9.0.2 -> /usr/local/.ghcup/bin/runhaskell-9.0.2- runhaskell-9.2 -> /usr/local/.ghcup/bin/runhaskell-9.2- runhaskell-9.2.3 -> /usr/local/.ghcup/bin/runhaskell-9.2.3- runlevel -> /usr/sbin/runleveldnl
+- runuser -> /usr/sbin/runuserdnl
+- rust-gdb -> /home/runner/.cargo/bin/rust-gdbdnl
+- rust-lldb -> /home/runner/.cargo/bin/rust-lldbdnl
+- rustc -> /home/runner/.cargo/bin/rustcdnl
+- rustdoc -> /home/runner/.cargo/bin/rustdocdnl
+- rustfmt -> /home/runner/.cargo/bin/rustfmtdnl
+- rustup -> /home/runner/.cargo/bin/rustupdnl
+- rview -> /usr/bin/rviewdnl
+- rvim -> /usr/bin/rvimdnl
+- sadf -> /usr/bin/sadfdnl
+- sam -> /usr/local/bin/samdnl
+- sancov-10 -> /usr/bin/sancov-10- sancov-11 -> /usr/bin/sancov-11- sancov-12 -> /usr/bin/sancov-12- sanstats-10 -> /usr/bin/sanstats-10- sanstats-11 -> /usr/bin/sanstats-11- sanstats-12 -> /usr/bin/sanstats-12- sar -> /usr/bin/sardnl
+- sar.sysstat -> /usr/bin/sar.sysstatdnl
+- savelog -> /usr/bin/savelogdnl
+- sbattach -> /usr/bin/sbattachdnl
+- sbkeysync -> /usr/bin/sbkeysyncdnl
+- sbsiglist -> /usr/bin/sbsiglistdnl
+- sbsign -> /usr/bin/sbsigndnl
+- sbt -> /usr/bin/sbtdnl
+- sbvarsign -> /usr/bin/sbvarsigndnl
+- sbverify -> /usr/bin/sbverifydnl
+- scan-build-10 -> /usr/bin/scan-build-10- scan-build-11 -> /usr/bin/scan-build-11- scan-build-12 -> /usr/bin/scan-build-12- scan-build-py-10 -> /usr/bin/scan-build-py-10- scan-build-py-11 -> /usr/bin/scan-build-py-11- scan-build-py-12 -> /usr/bin/scan-build-py-12- scan-view-10 -> /usr/bin/scan-view-10- scan-view-11 -> /usr/bin/scan-view-11- scan-view-12 -> /usr/bin/scan-view-12- schemagen -> /usr/bin/schemagendnl
+- scp -> /usr/bin/scpdnl
+- screen -> /usr/bin/screendnl
+- screendump -> /usr/bin/screendumpdnl
+- script -> /usr/bin/scriptdnl
+- scriptreplay -> /usr/bin/scriptreplaydnl
+- scsi_logging_level -> /usr/bin/scsi_logging_leveldnl
+- scsi_mandat -> /usr/bin/scsi_mandatdnl
+- scsi_readcap -> /usr/bin/scsi_readcapdnl
+- scsi_ready -> /usr/bin/scsi_readydnl
+- scsi_satl -> /usr/bin/scsi_satldnl
+- scsi_start -> /usr/bin/scsi_startdnl
+- scsi_stop -> /usr/bin/scsi_stopdnl
+- scsi_temperature -> /usr/bin/scsi_temperaturednl
+- sdiff -> /usr/bin/sdiffdnl
+- searchd -> /usr/bin/searchddnl
+- secutil -> /usr/bin/secutildnl
+- sed -> /usr/bin/seddnl
+- see -> /usr/bin/seednl
+- select-default-ispell -> /usr/sbin/select-default-ispelldnl
+- select-default-iwrap -> /usr/bin/select-default-iwrapdnl
+- select-default-wordlist -> /usr/sbin/select-default-wordlistdnl
+- select-editor -> /usr/bin/select-editordnl
+- sem -> /usr/bin/semdnl
+- sensible-browser -> /usr/bin/sensible-browserdnl
+- sensible-editor -> /usr/bin/sensible-editordnl
+- sensible-pager -> /usr/bin/sensible-pagerdnl
+- seq -> /usr/bin/seqdnl
+- serialver -> /usr/bin/serialverdnl
+- servertool -> /usr/bin/servertooldnl
+- service -> /usr/sbin/servicednl
+- session-manager-plugin -> /usr/local/bin/session-manager-plugindnl
+- sessreg -> /usr/bin/sessregdnl
+- setarch -> /usr/bin/setarchdnl
+- setcap -> /usr/sbin/setcapdnl
+- setcifsacl -> /usr/bin/setcifsacldnl
+- setfacl -> /usr/bin/setfacldnl
+- setfont -> /usr/bin/setfontdnl
+- setkeycodes -> /usr/bin/setkeycodesdnl
+- setleds -> /usr/bin/setledsdnl
+- setlogcons -> /usr/bin/setlogconsdnl
+- setmetamode -> /usr/bin/setmetamodednl
+- setpci -> /usr/bin/setpcidnl
+- setpriv -> /usr/bin/setprivdnl
+- setreg -> /usr/bin/setregdnl
+- setsid -> /usr/bin/setsiddnl
+- setterm -> /usr/bin/settermdnl
+- setupcon -> /usr/bin/setupcondnl
+- setvesablank -> /usr/sbin/setvesablankdnl
+- setvtrgb -> /usr/sbin/setvtrgbdnl
+- setxkbmap -> /usr/bin/setxkbmapdnl
+- sfdisk -> /usr/sbin/sfdiskdnl
+- sftp -> /usr/bin/sftpdnl
+- sg -> /usr/bin/sgdnl
+- sg_bg_ctl -> /usr/bin/sg_bg_ctldnl
+- sg_compare_and_write -> /usr/bin/sg_compare_and_writednl
+- sg_copy_results -> /usr/bin/sg_copy_resultsdnl
+- sg_dd -> /usr/bin/sg_dddnl
+- sg_decode_sense -> /usr/bin/sg_decode_sensednl
+- sg_emc_trespass -> /usr/bin/sg_emc_trespassdnl
+- sg_format -> /usr/bin/sg_formatdnl
+- sg_get_config -> /usr/bin/sg_get_configdnl
+- sg_get_lba_status -> /usr/bin/sg_get_lba_statusdnl
+- sg_ident -> /usr/bin/sg_identdnl
+- sg_inq -> /usr/bin/sg_inqdnl
+- sg_logs -> /usr/bin/sg_logsdnl
+- sg_luns -> /usr/bin/sg_lunsdnl
+- sg_map -> /usr/bin/sg_mapdnl
+- sg_map26 -> /usr/bin/sg_map26dnl
+- sg_modes -> /usr/bin/sg_modesdnl
+- sg_opcodes -> /usr/bin/sg_opcodesdnl
+- sg_persist -> /usr/bin/sg_persistdnl
+- sg_prevent -> /usr/bin/sg_preventdnl
+- sg_raw -> /usr/bin/sg_rawdnl
+- sg_rbuf -> /usr/bin/sg_rbufdnl
+- sg_rdac -> /usr/bin/sg_rdacdnl
+- sg_read -> /usr/bin/sg_readdnl
+- sg_read_attr -> /usr/bin/sg_read_attrdnl
+- sg_read_block_limits -> /usr/bin/sg_read_block_limitsdnl
+- sg_read_buffer -> /usr/bin/sg_read_bufferdnl
+- sg_read_long -> /usr/bin/sg_read_longdnl
+- sg_readcap -> /usr/bin/sg_readcapdnl
+- sg_reassign -> /usr/bin/sg_reassigndnl
+- sg_referrals -> /usr/bin/sg_referralsdnl
+- sg_rep_zones -> /usr/bin/sg_rep_zonesdnl
+- sg_requests -> /usr/bin/sg_requestsdnl
+- sg_reset -> /usr/bin/sg_resetdnl
+- sg_reset_wp -> /usr/bin/sg_reset_wpdnl
+- sg_rmsn -> /usr/bin/sg_rmsndnl
+- sg_rtpg -> /usr/bin/sg_rtpgdnl
+- sg_safte -> /usr/bin/sg_saftednl
+- sg_sanitize -> /usr/bin/sg_sanitizednl
+- sg_sat_identify -> /usr/bin/sg_sat_identifydnl
+- sg_sat_phy_event -> /usr/bin/sg_sat_phy_eventdnl
+- sg_sat_read_gplog -> /usr/bin/sg_sat_read_gplogdnl
+- sg_sat_set_features -> /usr/bin/sg_sat_set_featuresdnl
+- sg_scan -> /usr/bin/sg_scandnl
+- sg_seek -> /usr/bin/sg_seekdnl
+- sg_senddiag -> /usr/bin/sg_senddiagdnl
+- sg_ses -> /usr/bin/sg_sesdnl
+- sg_ses_microcode -> /usr/bin/sg_ses_microcodednl
+- sg_start -> /usr/bin/sg_startdnl
+- sg_stpg -> /usr/bin/sg_stpgdnl
+- sg_stream_ctl -> /usr/bin/sg_stream_ctldnl
+- sg_sync -> /usr/bin/sg_syncdnl
+- sg_test_rwbuf -> /usr/bin/sg_test_rwbufdnl
+- sg_timestamp -> /usr/bin/sg_timestampdnl
+- sg_turs -> /usr/bin/sg_tursdnl
+- sg_unmap -> /usr/bin/sg_unmapdnl
+- sg_verify -> /usr/bin/sg_verifydnl
+- sg_vpd -> /usr/bin/sg_vpddnl
+- sg_wr_mode -> /usr/bin/sg_wr_modednl
+- sg_write_buffer -> /usr/bin/sg_write_bufferdnl
+- sg_write_long -> /usr/bin/sg_write_longdnl
+- sg_write_same -> /usr/bin/sg_write_samednl
+- sg_write_verify -> /usr/bin/sg_write_verifydnl
+- sg_write_x -> /usr/bin/sg_write_xdnl
+- sg_xcopy -> /usr/bin/sg_xcopydnl
+- sg_zone -> /usr/bin/sg_zonednl
+- sgdisk -> /usr/sbin/sgdiskdnl
+- sgen -> /usr/bin/sgendnl
+- sginfo -> /usr/bin/sginfodnl
+- sgm_dd -> /usr/bin/sgm_dddnl
+- sgp_dd -> /usr/bin/sgp_dddnl
+- sh -> /usr/bin/shdnl
+- sha1sum -> /usr/bin/sha1sumdnl
+- sha224sum -> /usr/bin/sha224sumdnl
+- sha256sum -> /usr/bin/sha256sumdnl
+- sha384sum -> /usr/bin/sha384sumdnl
+- sha512sum -> /usr/bin/sha512sumdnl
+- shadowconfig -> /usr/sbin/shadowconfigdnl
+- shasum -> /usr/bin/shasumdnl
+- shellcheck -> /usr/bin/shellcheckdnl
+- showconsolefont -> /usr/bin/showconsolefontdnl
+- showkey -> /usr/bin/showkeydnl
+- showrgb -> /usr/bin/showrgbdnl
+- shred -> /usr/bin/shreddnl
+- shtool -> /usr/bin/shtooldnl
+- shtoolize -> /usr/bin/shtoolizednl
+- shuf -> /usr/bin/shufdnl
+- shutdown -> /usr/sbin/shutdowndnl
+- signcode -> /usr/bin/signcodednl
+- size -> /usr/bin/sizednl
+- skill -> /usr/bin/skilldnl
+- skopeo -> /usr/bin/skopeodnl
+- slabtop -> /usr/bin/slabtopdnl
+- slattach -> /usr/sbin/slattachdnl
+- sleep -> /usr/bin/sleepdnl
+- slirp4netns -> /usr/bin/slirp4netnsdnl
+- slogin -> /usr/bin/slogindnl
+- smbinfo -> /usr/bin/smbinfodnl
+- sn -> /usr/bin/sndnl
+- snap -> /usr/bin/snapdnl
+- snapctl -> /usr/bin/snapctldnl
+- snapfuse -> /usr/bin/snapfusednl
+- snice -> /usr/bin/snicednl
+- snmp-bridge-mib -> /usr/bin/snmp-bridge-mibdnl
+- snmpbulkget -> /usr/bin/snmpbulkgetdnl
+- snmpbulkwalk -> /usr/bin/snmpbulkwalkdnl
+- snmpcheck -> /usr/bin/snmpcheckdnl
+- snmpconf -> /usr/bin/snmpconfdnl
+- snmpdelta -> /usr/bin/snmpdeltadnl
+- snmpdf -> /usr/bin/snmpdfdnl
+- snmpget -> /usr/bin/snmpgetdnl
+- snmpgetnext -> /usr/bin/snmpgetnextdnl
+- snmpinform -> /usr/bin/snmpinformdnl
+- snmpnetstat -> /usr/bin/snmpnetstatdnl
+- snmpping -> /usr/bin/snmppingdnl
+- snmpps -> /usr/bin/snmppsdnl
+- snmpset -> /usr/bin/snmpsetdnl
+- snmpstatus -> /usr/bin/snmpstatusdnl
+- snmptable -> /usr/bin/snmptablednl
+- snmptest -> /usr/bin/snmptestdnl
+- snmptop -> /usr/bin/snmptopdnl
+- snmptranslate -> /usr/bin/snmptranslatednl
+- snmptrap -> /usr/bin/snmptrapdnl
+- snmpusm -> /usr/bin/snmpusmdnl
+- snmpvacm -> /usr/bin/snmpvacmdnl
+- snmpwalk -> /usr/bin/snmpwalkdnl
+- soapsuds -> /usr/bin/soapsudsdnl
+- soelim -> /usr/bin/soelimdnl
+- sort -> /usr/bin/sortdnl
+- sos -> /usr/bin/sosdnl
+- sos-collector -> /usr/bin/sos-collectordnl
+- sosreport -> /usr/bin/sosreportdnl
+- sotruss -> /usr/bin/sotrussdnl
+- spelldump -> /usr/bin/spelldumpdnl
+- splain -> /usr/bin/splaindnl
+- split -> /usr/bin/splitdnl
+- split-file-12 -> /usr/bin/split-file-12- split-logfile -> /usr/sbin/split-logfilednl
+- splitfont -> /usr/bin/splitfontdnl
+- sprof -> /usr/bin/sprofdnl
+- sql -> /usr/bin/sqldnl
+- sqlcmd -> /usr/local/bin/sqlcmddnl
+- sqldiff -> /usr/bin/sqldiffdnl
+- sqlite3 -> /usr/bin/sqlite3dnl
+- sqlmetal -> /usr/bin/sqlmetaldnl
+- sqlpackage -> /usr/local/bin/sqlpackagednl
+- sqlsharp -> /usr/bin/sqlsharpdnl
+- ss -> /usr/bin/ssdnl
+- ssh -> /usr/bin/sshdnl
+- ssh-add -> /usr/bin/ssh-adddnl
+- ssh-agent -> /usr/bin/ssh-agentdnl
+- ssh-argv0 -> /usr/bin/ssh-argv0dnl
+- ssh-copy-id -> /usr/bin/ssh-copy-iddnl
+- ssh-import-id -> /usr/bin/ssh-import-iddnl
+- ssh-import-id-gh -> /usr/bin/ssh-import-id-ghdnl
+- ssh-import-id-lp -> /usr/bin/ssh-import-id-lpdnl
+- ssh-keygen -> /usr/bin/ssh-keygendnl
+- ssh-keyscan -> /usr/bin/ssh-keyscandnl
+- sshd -> /usr/sbin/sshddnl
+- sshpass -> /usr/bin/sshpassdnl
+- stack -> /usr/local/bin/stackdnl
+- start-stop-daemon -> /usr/sbin/start-stop-daemondnl
+- start_erl -> /usr/bin/start_erldnl
+- stat -> /usr/bin/statdnl
+- static-sh -> /usr/bin/static-shdnl
+- stdbuf -> /usr/bin/stdbufdnl
+- strace -> /usr/bin/stracednl
+- strace-log-merge -> /usr/bin/strace-log-mergednl
+- stream -> /usr/bin/streamdnl
+- stream-im6 -> /usr/bin/stream-im6dnl
+- stream-im6.q16 -> /usr/bin/stream-im6.q16dnl
+- strings -> /usr/bin/stringsdnl
+- strip -> /usr/bin/stripdnl
+- stty -> /usr/bin/sttydnl
+- su -> /usr/bin/sudnl
+- sudo -> /usr/bin/sudodnl
+- sudoedit -> /usr/bin/sudoeditdnl
+- sudoreplay -> /usr/bin/sudoreplaydnl
+- sulogin -> /usr/sbin/sulogindnl
+- sum -> /usr/bin/sumdnl
+- svcutil -> /usr/bin/svcutildnl
+- svn -> /usr/bin/svndnl
+- svnadmin -> /usr/bin/svnadmindnl
+- svnauthz -> /usr/bin/svnauthzdnl
+- svnauthz-validate -> /usr/bin/svnauthz-validatednl
+- svnbench -> /usr/bin/svnbenchdnl
+- svndumpfilter -> /usr/bin/svndumpfilterdnl
+- svnfsfs -> /usr/bin/svnfsfsdnl
+- svnlook -> /usr/bin/svnlookdnl
+- svnmucc -> /usr/bin/svnmuccdnl
+- svnrdump -> /usr/bin/svnrdumpdnl
+- svnserve -> /usr/bin/svnservednl
+- svnsync -> /usr/bin/svnsyncdnl
+- svnversion -> /usr/bin/svnversiondnl
+- swaplabel -> /usr/sbin/swaplabeldnl
+- swapoff -> /usr/sbin/swapoffdnl
+- swapon -> /usr/sbin/swapondnl
+- swift -> /usr/local/bin/swiftdnl
+- swiftc -> /usr/local/bin/swiftcdnl
+- swig -> /usr/bin/swigdnl
+- swig4.0 -> /usr/bin/swig4.0- switch_root -> /usr/sbin/switch_rootdnl
+- symcryptrun -> /usr/bin/symcryptrundnl
+- sync -> /usr/bin/syncdnl
+- sysctl -> /usr/sbin/sysctldnl
+- systemctl -> /usr/bin/systemctldnl
+- systemd -> /usr/bin/systemddnl
+- systemd-analyze -> /usr/bin/systemd-analyzednl
+- systemd-ask-password -> /usr/bin/systemd-ask-passworddnl
+- systemd-cat -> /usr/bin/systemd-catdnl
+- systemd-cgls -> /usr/bin/systemd-cglsdnl
+- systemd-cgtop -> /usr/bin/systemd-cgtopdnl
+- systemd-delta -> /usr/bin/systemd-deltadnl
+- systemd-detect-virt -> /usr/bin/systemd-detect-virtdnl
+- systemd-escape -> /usr/bin/systemd-escapednl
+- systemd-hwdb -> /usr/bin/systemd-hwdbdnl
+- systemd-id128 -> /usr/bin/systemd-id128dnl
+- systemd-inhibit -> /usr/bin/systemd-inhibitdnl
+- systemd-machine-id-setup -> /usr/bin/systemd-machine-id-setupdnl
+- systemd-mount -> /usr/bin/systemd-mountdnl
+- systemd-notify -> /usr/bin/systemd-notifydnl
+- systemd-path -> /usr/bin/systemd-pathdnl
+- systemd-resolve -> /usr/bin/systemd-resolvednl
+- systemd-run -> /usr/bin/systemd-rundnl
+- systemd-socket-activate -> /usr/bin/systemd-socket-activatednl
+- systemd-stdio-bridge -> /usr/bin/systemd-stdio-bridgednl
+- systemd-sysusers -> /usr/bin/systemd-sysusersdnl
+- systemd-tmpfiles -> /usr/bin/systemd-tmpfilesdnl
+- systemd-tty-ask-password-agent -> /usr/bin/systemd-tty-ask-password-agentdnl
+- systemd-umount -> /usr/bin/systemd-umountdnl
+- tabs -> /usr/bin/tabsdnl
+- tac -> /usr/bin/tacdnl
+- tail -> /usr/bin/taildnl
+- tapestat -> /usr/bin/tapestatdnl
+- tar -> /usr/bin/tardnl
+- tarcat -> /usr/sbin/tarcatdnl
+- taskset -> /usr/bin/tasksetdnl
+- tbl -> /usr/bin/tbldnl
+- tc -> /usr/sbin/tcdnl
+- tclsh -> /usr/bin/tclshdnl
+- tclsh8.6 -> /usr/bin/tclsh8.6- tcpdump -> /usr/sbin/tcpdumpdnl
+- tee -> /usr/bin/teednl
+- telinit -> /usr/sbin/telinitdnl
+- telnet -> /usr/bin/telnetdnl
+- telnet.netkit -> /usr/bin/telnet.netkitdnl
+- tempfile -> /usr/bin/tempfilednl
+- terminal-notifier -> /usr/local/bin/terminal-notifierdnl
+- terraform -> /usr/local/bin/terraformdnl
+- test -> /usr/bin/testdnl
+- texi2any -> /usr/bin/texi2anydnl
+- texi2dvi -> /usr/bin/texi2dvidnl
+- texi2pdf -> /usr/bin/texi2pdfdnl
+- texindex -> /usr/bin/texindexdnl
+- thin_check -> /usr/sbin/thin_checkdnl
+- thin_delta -> /usr/sbin/thin_deltadnl
+- thin_dump -> /usr/sbin/thin_dumpdnl
+- thin_ls -> /usr/sbin/thin_lsdnl
+- thin_metadata_size -> /usr/sbin/thin_metadata_sizednl
+- thin_repair -> /usr/sbin/thin_repairdnl
+- thin_restore -> /usr/sbin/thin_restorednl
+- thin_rmap -> /usr/sbin/thin_rmapdnl
+- thin_trim -> /usr/sbin/thin_trimdnl
+- tic -> /usr/bin/ticdnl
+- time -> /usr/bin/timednl
+- timedatectl -> /usr/bin/timedatectldnl
+- timeout -> /usr/bin/timeoutdnl
+- tipc -> /usr/sbin/tipcdnl
+- tkconch3 -> /usr/bin/tkconch3dnl
+- tload -> /usr/bin/tloaddnl
+- tmux -> /usr/bin/tmuxdnl
+- tnameserv -> /usr/bin/tnameservdnl
+- to_erl -> /usr/bin/to_erldnl
+- toe -> /usr/bin/toednl
+- top -> /usr/bin/topdnl
+- touch -> /usr/bin/touchdnl
+- tput -> /usr/bin/tputdnl
+- tr -> /usr/bin/trdnl
+- tracepath -> /usr/bin/tracepathdnl
+- traceroute6 -> /usr/bin/traceroute6dnl
+- traceroute6.iputils -> /usr/bin/traceroute6.iputilsdnl
+- tree -> /usr/bin/treednl
+- trial3 -> /usr/bin/trial3dnl
+- troff -> /usr/bin/troffdnl
+- true -> /usr/bin/truednl
+- truncate -> /usr/bin/truncatednl
+- trust -> /usr/bin/trustdnl
+- tsc -> /usr/local/bin/tscdnl
+- tset -> /usr/bin/tsetdnl
+- tsort -> /usr/bin/tsortdnl
+- tsserver -> /usr/local/bin/tsserverdnl
+- tty -> /usr/bin/ttydnl
+- tune2fs -> /usr/sbin/tune2fsdnl
+- turbostat -> /usr/bin/turbostatdnl
+- twist3 -> /usr/bin/twist3dnl
+- twistd3 -> /usr/bin/twistd3dnl
+- txixml2texi -> /usr/bin/txixml2texidnl
+- typer -> /usr/bin/typerdnl
+- tzconfig -> /usr/sbin/tzconfigdnl
+- tzselect -> /usr/bin/tzselectdnl
+- ua -> /usr/bin/uadnl
+- ubuntu-advantage -> /usr/bin/ubuntu-advantagednl
+- ubuntu-bug -> /usr/bin/ubuntu-bugdnl
+- ubuntu-core-launcher -> /usr/bin/ubuntu-core-launcherdnl
+- ubuntu-distro-info -> /usr/bin/ubuntu-distro-infodnl
+- ubuntu-security-status -> /usr/bin/ubuntu-security-statusdnl
+- ucf -> /usr/bin/ucfdnl
+- ucfq -> /usr/bin/ucfqdnl
+- ucfr -> /usr/bin/ucfrdnl
+- uconv -> /usr/bin/uconvdnl
+- udevadm -> /usr/bin/udevadmdnl
+- udisksctl -> /usr/bin/udisksctldnl
+- ufw -> /usr/sbin/ufwdnl
+- ul -> /usr/bin/uldnl
+- umount -> /usr/bin/umountdnl
+- umount.udisks2 -> /usr/sbin/umount.udisks2dnl
+- uname -> /usr/bin/unamednl
+- uncompress -> /usr/bin/uncompressdnl
+- unexpand -> /usr/bin/unexpanddnl
+- unicode_start -> /usr/bin/unicode_startdnl
+- unicode_stop -> /usr/bin/unicode_stopdnl
+- uniq -> /usr/bin/uniqdnl
+- unix_chkpwd -> /usr/sbin/unix_chkpwddnl
+- unix_update -> /usr/sbin/unix_updatednl
+- unlink -> /usr/bin/unlinkdnl
+- unlz4 -> /usr/bin/unlz4dnl
+- unlzma -> /usr/bin/unlzmadnl
+- unmkinitramfs -> /usr/bin/unmkinitramfsdnl
+- unpack200 -> /usr/bin/unpack200dnl
+- unpigz -> /usr/bin/unpigzdnl
+- unshare -> /usr/bin/unsharednl
+- unsquashfs -> /usr/bin/unsquashfsdnl
+- unxz -> /usr/bin/unxzdnl
+- unzip -> /usr/bin/unzipdnl
+- unzipsfx -> /usr/bin/unzipsfxdnl
+- unzstd -> /home/linuxbrew/.linuxbrew/bin/unzstddnl
+- update-alternatives -> /usr/bin/update-alternativesdnl
+- update-binfmts -> /usr/sbin/update-binfmtsdnl
+- update-ca-certificates -> /usr/sbin/update-ca-certificatesdnl
+- update-default-aspell -> /usr/sbin/update-default-aspelldnl
+- update-default-ispell -> /usr/sbin/update-default-ispelldnl
+- update-default-wordlist -> /usr/sbin/update-default-wordlistdnl
+- update-dictcommon-aspell -> /usr/sbin/update-dictcommon-aspelldnl
+- update-dictcommon-hunspell -> /usr/sbin/update-dictcommon-hunspelldnl
+- update-fmtutil -> /usr/sbin/update-fmtutildnl
+- update-grub -> /usr/sbin/update-grubdnl
+- update-grub-gfxpayload -> /usr/sbin/update-grub-gfxpayloaddnl
+- update-grub2 -> /usr/sbin/update-grub2dnl
+- update-icon-caches -> /usr/sbin/update-icon-cachesdnl
+- update-info-dir -> /usr/sbin/update-info-dirdnl
+- update-initramfs -> /usr/sbin/update-initramfsdnl
+- update-java-alternatives -> /usr/sbin/update-java-alternativesdnl
+- update-language -> /usr/sbin/update-languagednl
+- update-language-dat -> /usr/sbin/update-language-datdnl
+- update-language-def -> /usr/sbin/update-language-defdnl
+- update-language-lua -> /usr/sbin/update-language-luadnl
+- update-locale -> /usr/sbin/update-localednl
+- update-mime -> /usr/sbin/update-mimednl
+- update-mime-database -> /usr/bin/update-mime-databasednl
+- update-passwd -> /usr/sbin/update-passwddnl
+- update-pciids -> /usr/sbin/update-pciidsdnl
+- update-perl-sax-parsers -> /usr/bin/update-perl-sax-parsersdnl
+- update-rc.d -> /usr/sbin/update-rc.ddnl
+- update-secureboot-policy -> /usr/sbin/update-secureboot-policydnl
+- update-texmf -> /usr/sbin/update-texmfdnl
+- update-texmf-config -> /usr/sbin/update-texmf-configdnl
+- update-tl-stacked-conffile -> /usr/sbin/update-tl-stacked-conffilednl
+- update-updmap -> /usr/sbin/update-updmapdnl
+- upgrade-from-grub-legacy -> /usr/sbin/upgrade-from-grub-legacydnl
+- uptime -> /usr/bin/uptimednl
+- upx -> /usr/bin/upxdnl
+- upx-ucl -> /usr/bin/upx-ucldnl
+- usb-devices -> /usr/bin/usb-devicesdnl
+- usb_modeswitch -> /usr/sbin/usb_modeswitchdnl
+- usb_modeswitch_dispatcher -> /usr/sbin/usb_modeswitch_dispatcherdnl
+- usbhid-dump -> /usr/bin/usbhid-dumpdnl
+- usbip -> /usr/bin/usbipdnl
+- usbipd -> /usr/bin/usbipddnl
+- usbreset -> /usr/bin/usbresetdnl
+- useradd -> /usr/sbin/useradddnl
+- userdel -> /usr/sbin/userdeldnl
+- usermod -> /usr/sbin/usermoddnl
+- userpath -> /usr/local/bin/userpathdnl
+- users -> /usr/bin/usersdnl
+- utmpdump -> /usr/bin/utmpdumpdnl
+- uuidd -> /usr/sbin/uuidddnl
+- uuidgen -> /usr/bin/uuidgendnl
+- uuidparse -> /usr/bin/uuidparsednl
+- vacuumdb -> /usr/bin/vacuumdbdnl
+- vacuumlo -> /usr/bin/vacuumlodnl
+- validlocale -> /usr/sbin/validlocalednl
+- vbc -> /usr/bin/vbcdnl
+- vc -> /usr/local/bin/vcdnl
+- vcpkg -> /usr/local/bin/vcpkgdnl
+- vcs-run -> /usr/bin/vcs-rundnl
+- vcstime -> /usr/sbin/vcstimednl
+- vdir -> /usr/bin/vdirdnl
+- vercel -> /usr/local/bin/verceldnl
+- verify-uselistorder-10 -> /usr/bin/verify-uselistorder-10- verify-uselistorder-11 -> /usr/bin/verify-uselistorder-11- verify-uselistorder-12 -> /usr/bin/verify-uselistorder-12- veritysetup -> /usr/sbin/veritysetupdnl
+- vgcfgbackup -> /usr/sbin/vgcfgbackupdnl
+- vgcfgrestore -> /usr/sbin/vgcfgrestorednl
+- vgchange -> /usr/sbin/vgchangednl
+- vgck -> /usr/sbin/vgckdnl
+- vgconvert -> /usr/sbin/vgconvertdnl
+- vgcreate -> /usr/sbin/vgcreatednl
+- vgdisplay -> /usr/sbin/vgdisplaydnl
+- vgexport -> /usr/sbin/vgexportdnl
+- vgextend -> /usr/sbin/vgextenddnl
+- vgimport -> /usr/sbin/vgimportdnl
+- vgimportclone -> /usr/sbin/vgimportclonednl
+- vgmerge -> /usr/sbin/vgmergednl
+- vgmknodes -> /usr/sbin/vgmknodesdnl
+- vgreduce -> /usr/sbin/vgreducednl
+- vgremove -> /usr/sbin/vgremovednl
+- vgrename -> /usr/sbin/vgrenamednl
+- vgs -> /usr/sbin/vgsdnl
+- vgscan -> /usr/sbin/vgscandnl
+- vgsplit -> /usr/sbin/vgsplitdnl
+- vi -> /usr/bin/vidnl
+- view -> /usr/bin/viewdnl
+- viewres -> /usr/bin/viewresdnl
+- vigpg -> /usr/bin/vigpgdnl
+- vigr -> /usr/sbin/vigrdnl
+- vim -> /usr/bin/vimdnl
+- vim.basic -> /usr/bin/vim.basicdnl
+- vim.tiny -> /usr/bin/vim.tinydnl
+- vimdiff -> /usr/bin/vimdiffdnl
+- vimtutor -> /usr/bin/vimtutordnl
+- vipw -> /usr/sbin/vipwdnl
+- visudo -> /usr/sbin/visudodnl
+- vm-support -> /usr/bin/vm-supportdnl
+- vmhgfs-fuse -> /usr/bin/vmhgfs-fusednl
+- vmstat -> /usr/bin/vmstatdnl
+- vmtoolsd -> /usr/bin/vmtoolsddnl
+- vmware-alias-import -> /usr/bin/vmware-alias-importdnl
+- vmware-checkvm -> /usr/bin/vmware-checkvmdnl
+- vmware-hgfsclient -> /usr/bin/vmware-hgfsclientdnl
+- vmware-namespace-cmd -> /usr/bin/vmware-namespace-cmddnl
+- vmware-rpctool -> /usr/bin/vmware-rpctooldnl
+- vmware-toolbox-cmd -> /usr/bin/vmware-toolbox-cmddnl
+- vmware-vgauth-cmd -> /usr/bin/vmware-vgauth-cmddnl
+- vmware-vmblock-fuse -> /usr/bin/vmware-vmblock-fusednl
+- vmware-xferlogs -> /usr/bin/vmware-xferlogsdnl
+- volname -> /usr/bin/volnamednl
+- vpddecode -> /usr/sbin/vpddecodednl
+- w -> /usr/bin/wdnl
+- w.procps -> /usr/bin/w.procpsdnl
+- waagent -> /usr/sbin/waagentdnl
+- waagent2.0 -> /usr/sbin/waagent2.0- wall -> /usr/bin/walldnl
+- wasm-ld-10 -> /usr/bin/wasm-ld-10- wasm-ld-11 -> /usr/bin/wasm-ld-11- wasm-ld-12 -> /usr/bin/wasm-ld-12- watch -> /usr/bin/watchdnl
+- watchgnupg -> /usr/bin/watchgnupgdnl
+- wc -> /usr/bin/wcdnl
+- wdctl -> /usr/bin/wdctldnl
+- webpack -> /usr/local/bin/webpackdnl
+- webpack-cli -> /usr/local/bin/webpack-clidnl
+- wget -> /usr/bin/wgetdnl
+- whatis -> /usr/bin/whatisdnl
+- whereis -> /usr/bin/whereisdnl
+- which -> /usr/bin/whichdnl
+- whiptail -> /usr/bin/whiptaildnl
+- who -> /usr/bin/whodnl
+- whoami -> /usr/bin/whoamidnl
+- wifi-status -> /usr/bin/wifi-statusdnl
+- wipefs -> /usr/sbin/wipefsdnl
+- wish -> /usr/bin/wishdnl
+- wish8.6 -> /usr/bin/wish8.6- wordbreaker -> /usr/bin/wordbreakerdnl
+- write -> /usr/bin/writednl
+- wsdl -> /usr/bin/wsdldnl
+- wsdl2 -> /usr/bin/wsdl2dnl
+- wsgen -> /usr/bin/wsgendnl
+- wsimport -> /usr/bin/wsimportdnl
+- ww -> /usr/local/bin/wwdnl
+- x-www-browser -> /usr/bin/x-www-browserdnl
+- x86_64 -> /usr/bin/x86_64dnl
+- x86_64-linux-gnu-addr2line -> /usr/bin/x86_64-linux-gnu-addr2linednl
+- x86_64-linux-gnu-ar -> /usr/bin/x86_64-linux-gnu-ardnl
+- x86_64-linux-gnu-as -> /usr/bin/x86_64-linux-gnu-asdnl
+- x86_64-linux-gnu-c++filt -> /usr/bin/x86_64-linux-gnu-c++filtdnl
+- x86_64-linux-gnu-cpp -> /usr/bin/x86_64-linux-gnu-cppdnl
+- x86_64-linux-gnu-cpp-10 -> /usr/bin/x86_64-linux-gnu-cpp-10- x86_64-linux-gnu-cpp-9 -> /usr/bin/x86_64-linux-gnu-cpp-9- x86_64-linux-gnu-dwp -> /usr/bin/x86_64-linux-gnu-dwpdnl
+- x86_64-linux-gnu-elfedit -> /usr/bin/x86_64-linux-gnu-elfeditdnl
+- x86_64-linux-gnu-g++ -> /usr/bin/x86_64-linux-gnu-g++- x86_64-linux-gnu-g++-10 -> /usr/bin/x86_64-linux-gnu-g++-10- x86_64-linux-gnu-g++-9 -> /usr/bin/x86_64-linux-gnu-g++-9- x86_64-linux-gnu-gcc -> /usr/bin/x86_64-linux-gnu-gccdnl
+- x86_64-linux-gnu-gcc-10 -> /usr/bin/x86_64-linux-gnu-gcc-10- x86_64-linux-gnu-gcc-9 -> /usr/bin/x86_64-linux-gnu-gcc-9- x86_64-linux-gnu-gcc-ar -> /usr/bin/x86_64-linux-gnu-gcc-ardnl
+- x86_64-linux-gnu-gcc-ar-10 -> /usr/bin/x86_64-linux-gnu-gcc-ar-10- x86_64-linux-gnu-gcc-ar-9 -> /usr/bin/x86_64-linux-gnu-gcc-ar-9- x86_64-linux-gnu-gcc-nm -> /usr/bin/x86_64-linux-gnu-gcc-nmdnl
+- x86_64-linux-gnu-gcc-nm-10 -> /usr/bin/x86_64-linux-gnu-gcc-nm-10- x86_64-linux-gnu-gcc-nm-9 -> /usr/bin/x86_64-linux-gnu-gcc-nm-9- x86_64-linux-gnu-gcc-ranlib -> /usr/bin/x86_64-linux-gnu-gcc-ranlibdnl
+- x86_64-linux-gnu-gcc-ranlib-10 -> /usr/bin/x86_64-linux-gnu-gcc-ranlib-10- x86_64-linux-gnu-gcc-ranlib-9 -> /usr/bin/x86_64-linux-gnu-gcc-ranlib-9- x86_64-linux-gnu-gcov -> /usr/bin/x86_64-linux-gnu-gcovdnl
+- x86_64-linux-gnu-gcov-10 -> /usr/bin/x86_64-linux-gnu-gcov-10- x86_64-linux-gnu-gcov-9 -> /usr/bin/x86_64-linux-gnu-gcov-9- x86_64-linux-gnu-gcov-dump -> /usr/bin/x86_64-linux-gnu-gcov-dumpdnl
+- x86_64-linux-gnu-gcov-dump-10 -> /usr/bin/x86_64-linux-gnu-gcov-dump-10- x86_64-linux-gnu-gcov-dump-9 -> /usr/bin/x86_64-linux-gnu-gcov-dump-9- x86_64-linux-gnu-gcov-tool -> /usr/bin/x86_64-linux-gnu-gcov-tooldnl
+- x86_64-linux-gnu-gcov-tool-10 -> /usr/bin/x86_64-linux-gnu-gcov-tool-10- x86_64-linux-gnu-gcov-tool-9 -> /usr/bin/x86_64-linux-gnu-gcov-tool-9- x86_64-linux-gnu-gfortran -> /usr/bin/x86_64-linux-gnu-gfortrandnl
+- x86_64-linux-gnu-gfortran-10 -> /usr/bin/x86_64-linux-gnu-gfortran-10- x86_64-linux-gnu-gfortran-9 -> /usr/bin/x86_64-linux-gnu-gfortran-9- x86_64-linux-gnu-gold -> /usr/bin/x86_64-linux-gnu-golddnl
+- x86_64-linux-gnu-gprof -> /usr/bin/x86_64-linux-gnu-gprofdnl
+- x86_64-linux-gnu-ld -> /usr/bin/x86_64-linux-gnu-lddnl
+- x86_64-linux-gnu-ld.bfd -> /usr/bin/x86_64-linux-gnu-ld.bfddnl
+- x86_64-linux-gnu-ld.gold -> /usr/bin/x86_64-linux-gnu-ld.golddnl
+- x86_64-linux-gnu-lto-dump-10 -> /usr/bin/x86_64-linux-gnu-lto-dump-10- x86_64-linux-gnu-nm -> /usr/bin/x86_64-linux-gnu-nmdnl
+- x86_64-linux-gnu-objcopy -> /usr/bin/x86_64-linux-gnu-objcopydnl
+- x86_64-linux-gnu-objdump -> /usr/bin/x86_64-linux-gnu-objdumpdnl
+- x86_64-linux-gnu-pkg-config -> /usr/bin/x86_64-linux-gnu-pkg-configdnl
+- x86_64-linux-gnu-python3-config -> /usr/bin/x86_64-linux-gnu-python3-configdnl
+- x86_64-linux-gnu-python3.8-config -> /usr/bin/x86_64-linux-gnu-python3.8-configdnl
+- x86_64-linux-gnu-ranlib -> /usr/bin/x86_64-linux-gnu-ranlibdnl
+- x86_64-linux-gnu-readelf -> /usr/bin/x86_64-linux-gnu-readelfdnl
+- x86_64-linux-gnu-size -> /usr/bin/x86_64-linux-gnu-sizednl
+- x86_64-linux-gnu-strings -> /usr/bin/x86_64-linux-gnu-stringsdnl
+- x86_64-linux-gnu-strip -> /usr/bin/x86_64-linux-gnu-stripdnl
+- x86_64-pc-linux-gnu-pkg-config -> /usr/bin/x86_64-pc-linux-gnu-pkg-configdnl
+- x86_energy_perf_policy -> /usr/bin/x86_energy_perf_policydnl
+- xargs -> /usr/bin/xargsdnl
+- xauth -> /usr/bin/xauthdnl
+- xbuild -> /usr/bin/xbuilddnl
+- xcmsdb -> /usr/bin/xcmsdbdnl
+- xcodeproj -> /usr/local/bin/xcodeprojdnl
+- xcpretty -> /usr/local/bin/xcprettydnl
+- xcpretty-travis-formatter -> /usr/local/bin/xcpretty-travis-formatterdnl
+- xdg-desktop-icon -> /usr/bin/xdg-desktop-icondnl
+- xdg-desktop-menu -> /usr/bin/xdg-desktop-menudnl
+- xdg-email -> /usr/bin/xdg-emaildnl
+- xdg-icon-resource -> /usr/bin/xdg-icon-resourcednl
+- xdg-mime -> /usr/bin/xdg-mimednl
+- xdg-open -> /usr/bin/xdg-opendnl
+- xdg-screensaver -> /usr/bin/xdg-screensaverdnl
+- xdg-settings -> /usr/bin/xdg-settingsdnl
+- xdg-user-dir -> /usr/bin/xdg-user-dirdnl
+- xdg-user-dirs-update -> /usr/bin/xdg-user-dirs-updatednl
+- xdpyinfo -> /usr/bin/xdpyinfodnl
+- xdriinfo -> /usr/bin/xdriinfodnl
+- xev -> /usr/bin/xevdnl
+- xfd -> /usr/bin/xfddnl
+- xfontsel -> /usr/bin/xfontseldnl
+- xfs_admin -> /usr/sbin/xfs_admindnl
+- xfs_bmap -> /usr/sbin/xfs_bmapdnl
+- xfs_copy -> /usr/sbin/xfs_copydnl
+- xfs_db -> /usr/sbin/xfs_dbdnl
+- xfs_estimate -> /usr/sbin/xfs_estimatednl
+- xfs_freeze -> /usr/sbin/xfs_freezednl
+- xfs_fsr -> /usr/sbin/xfs_fsrdnl
+- xfs_growfs -> /usr/sbin/xfs_growfsdnl
+- xfs_info -> /usr/sbin/xfs_infodnl
+- xfs_io -> /usr/sbin/xfs_iodnl
+- xfs_logprint -> /usr/sbin/xfs_logprintdnl
+- xfs_mdrestore -> /usr/sbin/xfs_mdrestorednl
+- xfs_metadump -> /usr/sbin/xfs_metadumpdnl
+- xfs_mkfile -> /usr/sbin/xfs_mkfilednl
+- xfs_ncheck -> /usr/sbin/xfs_ncheckdnl
+- xfs_quota -> /usr/sbin/xfs_quotadnl
+- xfs_repair -> /usr/sbin/xfs_repairdnl
+- xfs_rtcp -> /usr/sbin/xfs_rtcpdnl
+- xfs_scrub -> /usr/sbin/xfs_scrubdnl
+- xfs_scrub_all -> /usr/sbin/xfs_scrub_alldnl
+- xfs_spaceman -> /usr/sbin/xfs_spacemandnl
+- xgamma -> /usr/bin/xgammadnl
+- xhost -> /usr/bin/xhostdnl
+- xjc -> /usr/bin/xjcdnl
+- xkbbell -> /usr/bin/xkbbelldnl
+- xkbcomp -> /usr/bin/xkbcompdnl
+- xkbevd -> /usr/bin/xkbevddnl
+- xkbprint -> /usr/bin/xkbprintdnl
+- xkbvleds -> /usr/bin/xkbvledsdnl
+- xkbwatch -> /usr/bin/xkbwatchdnl
+- xkeystone -> /usr/bin/xkeystonednl
+- xkill -> /usr/bin/xkilldnl
+- xlsatoms -> /usr/bin/xlsatomsdnl
+- xlsclients -> /usr/bin/xlsclientsdnl
+- xlsfonts -> /usr/bin/xlsfontsdnl
+- xmessage -> /usr/bin/xmessagednl
+- xml2-config -> /usr/bin/xml2-configdnl
+- xmodmap -> /usr/bin/xmodmapdnl
+- xorrecord -> /usr/bin/xorrecorddnl
+- xorriso -> /usr/bin/xorrisodnl
+- xorrisofs -> /usr/bin/xorrisofsdnl
+- xprop -> /usr/bin/xpropdnl
+- xrandr -> /usr/bin/xrandrdnl
+- xrdb -> /usr/bin/xrdbdnl
+- xrefresh -> /usr/bin/xrefreshdnl
+- xsd -> /usr/bin/xsddnl
+- xset -> /usr/bin/xsetdnl
+- xsetmode -> /usr/bin/xsetmodednl
+- xsetpointer -> /usr/bin/xsetpointerdnl
+- xsetroot -> /usr/bin/xsetrootdnl
+- xsp4 -> /usr/bin/xsp4dnl
+- xstdcmap -> /usr/bin/xstdcmapdnl
+- xsubpp -> /usr/bin/xsubppdnl
+- xtables-legacy-multi -> /usr/sbin/xtables-legacy-multidnl
+- xtables-monitor -> /usr/sbin/xtables-monitordnl
+- xtables-nft-multi -> /usr/sbin/xtables-nft-multidnl
+- xvfb-run -> /usr/bin/xvfb-rundnl
+- xvidtune -> /usr/bin/xvidtunednl
+- xvinfo -> /usr/bin/xvinfodnl
+- xwininfo -> /usr/bin/xwininfodnl
+- xxd -> /usr/bin/xxddnl
+- xz -> /usr/bin/xzdnl
+- xzcat -> /usr/bin/xzcatdnl
+- xzcmp -> /usr/bin/xzcmpdnl
+- xzdiff -> /usr/bin/xzdiffdnl
+- xzegrep -> /usr/bin/xzegrepdnl
+- xzfgrep -> /usr/bin/xzfgrepdnl
+- xzgrep -> /usr/bin/xzgrepdnl
+- xzless -> /usr/bin/xzlessdnl
+- xzmore -> /usr/bin/xzmorednl
+- y2racc2.7 -> /usr/bin/y2racc2.7- yacc -> /usr/bin/yaccdnl
+- yaml-bench-10 -> /usr/bin/yaml-bench-10- yaml-bench-11 -> /usr/bin/yaml-bench-11- yaml-bench-12 -> /usr/bin/yaml-bench-12- yaml2obj-10 -> /usr/bin/yaml2obj-10- yaml2obj-11 -> /usr/bin/yaml2obj-11- yaml2obj-12 -> /usr/bin/yaml2obj-12- yamllint -> /opt/pipx_bin/yamllintdnl
+- yarn -> /usr/local/bin/yarndnl
+- yarnpkg -> /usr/local/bin/yarnpkgdnl
+- yes -> /usr/bin/yesdnl
+- ypdomainname -> /usr/bin/ypdomainnamednl
+- yq -> /usr/bin/yqdnl
+- zcat -> /usr/bin/zcatdnl
+- zcmp -> /usr/bin/zcmpdnl
+- zdiff -> /usr/bin/zdiffdnl
+- zdump -> /usr/bin/zdumpdnl
+- zegrep -> /usr/bin/zegrepdnl
+- zerofree -> /usr/sbin/zerofreednl
+- zfgrep -> /usr/bin/zfgrepdnl
+- zforce -> /usr/bin/zforcednl
+- zgrep -> /usr/bin/zgrepdnl
+- zic -> /usr/sbin/zicdnl
+- zip -> /usr/bin/zipdnl
+- zipcloak -> /usr/bin/zipcloakdnl
+- zipdetails -> /usr/bin/zipdetailsdnl
+- zipgrep -> /usr/bin/zipgrepdnl
+- zipinfo -> /usr/bin/zipinfodnl
+- zipnote -> /usr/bin/zipnotednl
+- zipsplit -> /usr/bin/zipsplitdnl
+- zless -> /usr/bin/zlessdnl
+- zmore -> /usr/bin/zmorednl
+- znew -> /usr/bin/znewdnl
+- zramctl -> /usr/sbin/zramctldnl
+- zstd -> /home/linuxbrew/.linuxbrew/bin/zstddnl
+- zstdcat -> /home/linuxbrew/.linuxbrew/bin/zstdcatdnl
+- zstdgrep -> /home/linuxbrew/.linuxbrew/bin/zstdgrepdnl
+- zstdless -> /home/linuxbrew/.linuxbrew/bin/zstdlessdnl
+- zstdmt -> /home/linuxbrew/.linuxbrew/bin/zstdmtdnl
+- zsync -> /usr/bin/zsyncdnl
+- zsyncmake -> /usr/bin/zsyncmakednl
